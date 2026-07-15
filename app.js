@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const targetNav = document.querySelector(`.nav-item[data-target="${targetId}"]`);
         if(targetNav) targetNav.classList.add('active');
 
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.scrollTo(0, 0);
     }
 
     navItems.forEach(item => {

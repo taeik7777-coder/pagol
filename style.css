@@ -421,7 +421,7 @@ button, input {
 }
 
 .map-svg-path {
-    fill: #f3f4f6; /* Gray by default */
+    fill: #d1d5db; /* Visible gray by default */
     stroke: #ffffff;
     stroke-width: 2;
     cursor: pointer;
@@ -429,7 +429,7 @@ button, input {
 }
 
 .map-svg-path:hover {
-    fill: #dbeafe;
+    fill: #9ca3af;
 }
 
 .map-svg-path.active {
@@ -439,19 +439,18 @@ button, input {
 /* Floating Label for selected region */
 .region-label-overlay {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #111827;
+    bottom: 12px;
+    right: 12px;
+    background: rgba(17, 24, 39, 0.85);
     color: white;
-    padding: 8px 16px;
-    border-radius: 12px;
-    font-size: 18px;
-    font-weight: 800;
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
     pointer-events: none;
     opacity: 0;
     transition: opacity 0.2s;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     z-index: 10;
 }
 .region-label-overlay.show {
