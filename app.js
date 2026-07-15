@@ -116,13 +116,25 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     function deg2rad(deg) { return deg * (Math.PI/180); }
 
+    let currentRegion = '';
+    let currentTag = '';
+    let isNearMe = false;
+
     const btnNearMe = document.getElementById('btn-near-me');
     if (btnNearMe) {
         btnNearMe.addEventListener('click', () => {
+            if (isNearMe) {
+                // Toggle off
+                isNearMe = false;
+                btnNearMe.classList.remove('active');
+                renderCourseList();
+                return;
+            }
+
             if (navigator.geolocation) {
+                const originalText = btnNearMe.innerHTML;
                 btnNearMe.innerHTML = '<i class="fas fa-spinner fa-spin"></i> 탐색중...';
                 
-                // Use a default coordinate if blocked, but typically asks permission
                 navigator.geolocation.getCurrentPosition(position => {
                     const myLat = position.coords.latitude;
                     const myLng = position.coords.longitude;
@@ -131,21 +143,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         c.distance = getDistanceFromLatLonInKm(myLat, myLng, c.lat, c.lng);
                     });
                     
-                    courses.sort((a, b) => a.distance - b.distance);
-                    
-                    updateRegionTiles(null);
-                    updateMapActive(null);
-                    updatePillTags(null);
-                    searchInput.value = '';
-                    
-                    document.querySelectorAll('#search-region-tiles .pill-btn').forEach(b => b.classList.remove('active'));
+                    isNearMe = true;
                     btnNearMe.classList.add('active');
                     btnNearMe.innerHTML = '<i class="fas fa-map-marker-alt"></i> 내 주변';
                     
-                    renderCourseList('NEAR_ME');
+                    renderCourseList();
                 }, error => {
                     alert('위치 정보를 가져올 수 없습니다. 브라우저 설정을 확인해주세요.');
-                    btnNearMe.innerHTML = '<i class="fas fa-map-marker-alt"></i> 내 주변';
+                    btnNearMe.innerHTML = originalText;
                 }, { timeout: 10000 });
             } else {
                 alert('위치 정보를 지원하지 않는 브라우저입니다.');
@@ -153,46 +158,60 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    function renderCourseList(query = '') {
+    function renderCourseList() {
         courseListContainer.innerHTML = '';
         homeCourseListContainer.innerHTML = '';
         
         let filteredCourses = [...courses];
         
-        if (query === 'NEAR_ME') {
-            // Already sorted by distance
-        } else if (query) {
-            const q = query.toLowerCase().replace(/\s+/g, '');
-            const regionSynonyms = {
-                '충북': ['충북', '충청북도'], '충남': ['충남', '충청남도'],
-                '전북': ['전북', '전라북도'], '전남': ['전남', '전라남도'],
-                '경북': ['경북', '경상북도'], '경남': ['경남', '경상남도'],
-                '서울': ['서울', '서울특별시'], '부산': ['부산', '부산광역시'],
-                '대구': ['대구', '대구광역시'], '인천': ['인천', '인천광역시'],
-                '광주': ['광주', '광주광역시'], '대전': ['대전', '대전광역시'],
-                '울산': ['울산', '울산광역시'], '세종': ['세종', '세종특별자치시'],
-                '제주': ['제주', '제주특별자치도'], '경기': ['경기', '경기도'],
-                '강원': ['강원', '강원특별자치도', '강원도']
-            };
+        // 1. Text Search Filter
+        const q = searchInput.value.trim().toLowerCase().replace(/\s+/g, '');
+        
+        filteredCourses = filteredCourses.filter(course => {
+            let match = true;
             
-            const targetRegions = regionSynonyms[query] || [q];
-
-            filteredCourses = courses.filter(course => {
+            // Text Search
+            if (q) {
                 const nameMatch = course.name.toLowerCase().replace(/\s+/g, '').includes(q);
-                let addressMatch = false;
-                for (let r of targetRegions) {
+                const addressMatch = course.address.toLowerCase().replace(/\s+/g, '').includes(q);
+                if (!nameMatch && !addressMatch) match = false;
+            }
+            
+            // Region Filter
+            if (currentRegion) {
+                const regionSynonyms = {
+                    '충북': ['충북', '충청북도'], '충남': ['충남', '충청남도'],
+                    '전북': ['전북', '전라북도'], '전남': ['전남', '전라남도'],
+                    '경북': ['경북', '경상북도'], '경남': ['경남', '경상남도'],
+                    '서울': ['서울', '서울특별시'], '부산': ['부산', '부산광역시'],
+                    '대구': ['대구', '대구광역시'], '인천': ['인천', '인천광역시'],
+                    '광주': ['광주', '광주광역시'], '대전': ['대전', '대전광역시'],
+                    '울산': ['울산', '울산광역시'], '세종': ['세종', '세종특별자치시'],
+                    '제주': ['제주', '제주특별자치도'], '경기': ['경기', '경기도'],
+                    '강원': ['강원', '강원특별자치도', '강원도']
+                };
+                const targets = regionSynonyms[currentRegion] || [currentRegion];
+                let rMatch = false;
+                for (let r of targets) {
                     if (course.address.toLowerCase().replace(/\s+/g, '').includes(r)) {
-                        addressMatch = true;
-                        break;
+                        rMatch = true; break;
                     }
                 }
-                
-                if (q === '36홀') return course.holes >= 36;
-                if (q === '18홀') return course.holes === 18;
-                if (q === '무료') return course.name.includes('무료') || course.fee === '무료';
-                
-                return nameMatch || addressMatch;
-            });
+                if (!rMatch) match = false;
+            }
+            
+            // Tag Filter
+            if (currentTag) {
+                if (currentTag === '36홀' && course.holes < 36) match = false;
+                if (currentTag === '18홀' && course.holes !== 18) match = false;
+                if (currentTag === '무료' && !course.name.includes('무료') && course.fee !== '무료') match = false;
+            }
+            
+            return match;
+        });
+        
+        if (isNearMe) {
+            filteredCourses.sort((a, b) => a.distance - b.distance);
         }
 
         courseCount.textContent = filteredCourses.length;
@@ -256,15 +275,14 @@ document.addEventListener('DOMContentLoaded', () => {
         homeCourseListContainer.appendChild(fragmentHome);
     }
 
-    function updatePillTags(activeTag) {
+    function updatePillTags() {
         pillBtns.forEach(btn => {
-            if(btn.getAttribute('data-tag') === activeTag) {
+            if(btn.getAttribute('data-tag') === currentTag) {
                 btn.classList.add('active');
-            } else {
+            } else if (btn.hasAttribute('data-tag')) {
                 btn.classList.remove('active');
             }
         });
-        if (!activeTag) pillBtns[0].classList.add('active');
     }
 
     function updateMapActive(region) {
@@ -290,20 +308,20 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     searchInput.addEventListener('input', (e) => {
-        const query = e.target.value;
-        updatePillTags(null);
-        updateMapActive(null);
-        if (query === '') updatePillTags('');
-        renderCourseList(query);
+        // Typing overrides region/tag selection visually but we keep them unless clear?
+        // Let's just render.
+        renderCourseList();
     });
 
     searchTabBtn.addEventListener('click', () => {
-        renderCourseList(searchInput.value.trim());
+        renderCourseList();
     });
 
-    function updateRegionTiles(region) {
+    function updateRegionTiles() {
         document.querySelectorAll('#search-region-tiles .pill-btn').forEach(btn => {
-            if(btn.getAttribute('data-region') === (region || '')) {
+            if (!btn.hasAttribute('data-region')) return;
+            
+            if(btn.getAttribute('data-region') === currentRegion) {
                 btn.classList.add('active');
             } else {
                 btn.classList.remove('active');
@@ -317,17 +335,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const regionText = e.target.getAttribute('data-region');
             
             if (tagText !== null) {
-                updatePillTags(tagText);
-                updateMapActive(null);
-                updateRegionTiles(null);
-                searchInput.value = tagText;
-                renderCourseList(tagText);
+                currentTag = currentTag === tagText ? '' : tagText;
+                updatePillTags();
+                renderCourseList();
             } else if (regionText !== null) {
-                updateRegionTiles(regionText);
-                updateMapActive(regionText);
-                updatePillTags(null);
-                searchInput.value = regionText;
-                renderCourseList(regionText);
+                currentRegion = regionText; // Region click is absolute
+                updateRegionTiles();
+                updateMapActive(currentRegion);
+                renderCourseList();
             }
         });
     });
@@ -337,20 +352,19 @@ document.addEventListener('DOMContentLoaded', () => {
             let region = e.target.getAttribute('data-region');
             if(!region) return;
             
-            // Toggle off if already active
-            if(e.target.classList.contains('active')) {
-                region = '';
+            if(currentRegion === region) {
+                currentRegion = '';
+            } else {
+                currentRegion = region;
             }
             
-            updateMapActive(region);
-            updateRegionTiles(region);
-            updatePillTags(null);
-            searchInput.value = region;
-            renderCourseList(region);
+            updateMapActive(currentRegion);
+            updateRegionTiles();
+            renderCourseList();
         });
     });
 
-    renderCourseList('');
+    renderCourseList();
 
     // ----------------------------------------
     // 5. Course Detail Modal & Reviews
