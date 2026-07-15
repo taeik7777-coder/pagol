@@ -1,52 +1,175 @@
-// DOM이 완전히 로드된 후 실행
 document.addEventListener('DOMContentLoaded', () => {
     
-    // 1. 추천 태그 클릭 시 검색창에 입력
-    const tagButtons = document.querySelectorAll('.tag-btn');
-    const searchInput = document.getElementById('main-search');
+    // ----------------------------------------
+    // 1. Tab Navigation Logic
+    // ----------------------------------------
+    const navItems = document.querySelectorAll('.nav-item');
+    const tabContents = document.querySelectorAll('.tab-content');
 
-    tagButtons.forEach(btn => {
-        btn.addEventListener('click', (e) => {
-            const tagText = e.target.getAttribute('data-tag');
-            searchInput.value = tagText;
-            searchInput.focus();
-            
-            // 약간의 애니메이션 효과 (선택적)
-            btn.style.transform = 'scale(0.95)';
-            setTimeout(() => {
-                btn.style.transform = 'translateY(-1px)';
-            }, 100);
+    function switchTab(targetId) {
+        // Hide all tabs
+        tabContents.forEach(tab => tab.classList.remove('active'));
+        // Deactivate all nav items
+        navItems.forEach(nav => nav.classList.remove('active'));
+
+        // Show target tab
+        document.getElementById(targetId).classList.add('active');
+        // Activate target nav item
+        const targetNav = document.querySelector(`.nav-item[data-target="${targetId}"]`);
+        if(targetNav) targetNav.classList.add('active');
+
+        // Reset scroll position
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    navItems.forEach(item => {
+        item.addEventListener('click', (e) => {
+            e.preventDefault();
+            const targetId = item.getAttribute('data-target');
+            if(targetId) {
+                switchTab(targetId);
+            }
         });
     });
 
-    // 2. 검색 버튼 클릭 또는 엔터 키 입력 시 동작 (임시 Alert)
-    const searchBtn = document.querySelector('.search-btn');
-    
-    const performSearch = () => {
-        const query = searchInput.value.trim();
-        if(query) {
-            alert(`"${query}" (으)로 검색을 수행합니다.\n(추후 백엔드/API 연동 필요)`);
-        } else {
-            searchInput.focus();
-        }
-    };
+    // Logo click goes to home
+    document.getElementById('logo-btn').addEventListener('click', (e) => {
+        e.preventDefault();
+        switchTab('tab-home');
+    });
 
-    searchBtn.addEventListener('click', performSearch);
-    
-    searchInput.addEventListener('keydown', (e) => {
+    // Header search icon goes to search tab
+    document.querySelector('.search-trigger').addEventListener('click', () => {
+        switchTab('tab-search');
+        document.getElementById('course-search-input').focus();
+    });
+
+    // ----------------------------------------
+    // 2. Home Tab Logic
+    // ----------------------------------------
+    const homeSearchBtn = document.querySelector('.search-btn');
+    const homeSearchInput = document.getElementById('main-search');
+    const tagButtons = document.querySelectorAll('.tag-btn');
+
+    tagButtons.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            const tagText = e.target.getAttribute('data-tag').replace('#', '');
+            homeSearchInput.value = tagText;
+            
+            // Switch to search tab and perform search
+            switchTab('tab-search');
+            searchInput.value = tagText;
+            renderCourseList(tagText);
+        });
+    });
+
+    homeSearchBtn.addEventListener('click', () => {
+        const query = homeSearchInput.value.trim();
+        switchTab('tab-search');
+        searchInput.value = query;
+        renderCourseList(query);
+    });
+
+    homeSearchInput.addEventListener('keydown', (e) => {
         if(e.key === 'Enter') {
-            performSearch();
+            const query = homeSearchInput.value.trim();
+            switchTab('tab-search');
+            searchInput.value = query;
+            renderCourseList(query);
         }
     });
 
-    // 3. 북마크 버튼 토글
+    // ----------------------------------------
+    // 3. Search Tab Logic (Course Data Rendering)
+    // ----------------------------------------
+    const courseListContainer = document.getElementById('course-list');
+    const searchInput = document.getElementById('course-search-input');
+    const clearBtn = document.getElementById('clear-search');
+    const courseCount = document.getElementById('course-count');
+
+    // Data from data.js (courseData array)
+    let courses = typeof courseData !== 'undefined' ? courseData : [];
+
+    function renderCourseList(query = '') {
+        courseListContainer.innerHTML = '';
+        
+        let filteredCourses = courses;
+        
+        if (query) {
+            const q = query.toLowerCase().replace(/\s+/g, '');
+            filteredCourses = courses.filter(course => {
+                const nameMatch = course.name.toLowerCase().replace(/\s+/g, '').includes(q);
+                const addressMatch = course.address.toLowerCase().replace(/\s+/g, '').includes(q);
+                return nameMatch || addressMatch;
+            });
+        }
+
+        courseCount.textContent = filteredCourses.length;
+
+        if (filteredCourses.length === 0) {
+            courseListContainer.innerHTML = `
+                <div style="text-align:center; padding: 40px 20px; color: #9ca3af;">
+                    <i class="fas fa-exclamation-circle" style="font-size: 32px; margin-bottom: 12px; color:#d1d5db;"></i>
+                    <p>검색 결과가 없습니다.</p>
+                </div>
+            `;
+            return;
+        }
+
+        const fragment = document.createDocumentFragment();
+
+        // For performance on mobile, just render top 100 if empty query, 
+        // or all if filtered
+        const limit = query ? filteredCourses.length : Math.min(filteredCourses.length, 100);
+
+        for (let i = 0; i < limit; i++) {
+            const course = filteredCourses[i];
+            const div = document.createElement('div');
+            div.className = 'list-item-card';
+            
+            const holesText = course.holes ? `${course.holes}홀` : '정보없음';
+            
+            div.innerHTML = `
+                <div class="list-item-header">
+                    <div class="list-item-title">${course.name}</div>
+                    <div class="list-item-holes">${holesText}</div>
+                </div>
+                <div class="list-item-address">
+                    <i class="fas fa-map-marker-alt"></i> ${course.address}
+                </div>
+            `;
+            fragment.appendChild(div);
+        }
+
+        courseListContainer.appendChild(fragment);
+    }
+
+    searchInput.addEventListener('input', (e) => {
+        const query = e.target.value;
+        if(query.length > 0) {
+            clearBtn.style.display = 'block';
+        } else {
+            clearBtn.style.display = 'none';
+        }
+        // Debounce render if necessary, but array filter is fast enough for <1000 items
+        renderCourseList(query);
+    });
+
+    clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        clearBtn.style.display = 'none';
+        searchInput.focus();
+        renderCourseList('');
+    });
+
+    // ----------------------------------------
+    // 4. Utilities
+    // ----------------------------------------
     const bookmarkBtns = document.querySelectorAll('.bookmark-btn');
-    
     bookmarkBtns.forEach(btn => {
         btn.addEventListener('click', (e) => {
-            e.preventDefault(); // a 태그의 기본 이동 방지
+            e.preventDefault(); 
             e.stopPropagation();
-            
             const icon = btn.querySelector('i');
             
             if (btn.classList.contains('active')) {
@@ -57,27 +180,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 btn.classList.add('active');
                 icon.classList.remove('far');
                 icon.classList.add('fas');
-                
-                // 북마크 추가 애니메이션 효과
                 btn.style.transform = 'scale(1.2)';
-                setTimeout(() => {
-                    btn.style.transform = '';
-                }, 200);
+                setTimeout(() => { btn.style.transform = ''; }, 200);
             }
         });
     });
 
-    // 4. 하단 네비게이션 활성화 처리 (퍼블리싱용 임시)
-    const navItems = document.querySelectorAll('.nav-item');
-    
-    navItems.forEach(item => {
-        item.addEventListener('click', (e) => {
-            e.preventDefault();
-            // 모든 항목에서 active 제거
-            navItems.forEach(nav => nav.classList.remove('active'));
-            // 클릭된 항목에 active 추가
-            item.classList.add('active');
-        });
-    });
-
+    // Initial render of search list
+    renderCourseList('');
 });

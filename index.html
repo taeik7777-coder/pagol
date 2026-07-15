@@ -17,7 +17,7 @@
     <!-- Header -->
     <header class="glass-header">
         <div class="header-content">
-            <a href="#" class="logo">
+            <a href="#" class="logo" id="logo-btn">
                 <div class="logo-icon">
                     <i class="fas fa-golf-ball"></i>
                 </div>
@@ -41,132 +41,158 @@
     <!-- Main Content -->
     <main class="main-container">
         
-        <!-- Hero Search Section -->
-        <section class="hero-section">
-            <div class="hero-overlay"></div>
-            <div class="hero-content">
-                <span class="hero-chip"><i class="fas fa-check-circle"></i> 전국 500개 이상 구장 정보</span>
-                <h2>내 주변 <strong>파크골프장</strong><br>쉽고 빠르게 찾기</h2>
-                
-                <div class="search-bar-wrapper">
-                    <i class="fas fa-map-marker-alt search-icon"></i>
-                    <input type="text" id="main-search" placeholder="지역이나 구장 이름을 검색해보세요..." autocomplete="off">
-                    <button class="search-btn">검색</button>
+        <!-- =======================
+             TAB 1: HOME
+        ======================== -->
+        <div id="tab-home" class="tab-content active">
+            <!-- Hero Search Section -->
+            <section class="hero-section">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <span class="hero-chip"><i class="fas fa-check-circle"></i> 전국 500개 이상 구장 정보</span>
+                    <h2>내 주변 <strong>파크골프장</strong><br>쉽고 빠르게 찾기</h2>
+                    
+                    <div class="search-bar-wrapper">
+                        <i class="fas fa-map-marker-alt search-icon"></i>
+                        <input type="text" id="main-search" placeholder="지역이나 구장 이름을 검색해보세요..." autocomplete="off">
+                        <button class="search-btn">검색</button>
+                    </div>
+                    
+                    <div class="suggested-tags">
+                        <button class="tag-btn" data-tag="무료구장">#무료구장</button>
+                        <button class="tag-btn" data-tag="야간조명">#야간조명</button>
+                        <button class="tag-btn" data-tag="서울/경기">#서울/경기</button>
+                        <button class="tag-btn" data-tag="36홀 이상">#36홀 이상</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Main Banner -->
+            <section class="banner-section">
+                <a href="#" class="premium-banner">
+                    <div class="banner-icon"><i class="fas fa-trophy"></i></div>
+                    <div class="banner-text">
+                        <p class="banner-sub">PAGOL 공식 스코어 앱</p>
+                        <h3>스마트 스코어 기록장</h3>
+                        <p class="banner-desc">수기 기록은 그만! 스마트폰으로 간편하게.</p>
+                    </div>
+                    <div class="banner-arrow"><i class="fas fa-chevron-right"></i></div>
+                </a>
+            </section>
+
+            <!-- Recommended Courses -->
+            <section class="courses-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-fire flame-icon"></i> 실시간 인기 구장</h2>
+                    <a href="#" class="view-all">전체보기 <i class="fas fa-angle-right"></i></a>
                 </div>
                 
-                <div class="suggested-tags">
-                    <button class="tag-btn" data-tag="무료구장">#무료구장</button>
-                    <button class="tag-btn" data-tag="야간조명">#야간조명</button>
-                    <button class="tag-btn" data-tag="서울/경기">#서울/경기</button>
-                    <button class="tag-btn" data-tag="36홀 이상">#36홀 이상</button>
+                <div class="horizontal-scroll">
+                    <!-- Card 1 -->
+                    <a href="#" class="course-card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=600&auto=format&fit=crop" alt="골프장 이미지" loading="lazy">
+                            <span class="status-badge new">NEW</span>
+                            <button class="bookmark-btn"><i class="far fa-bookmark"></i></button>
+                        </div>
+                        <div class="card-info">
+                            <h3>잠실 한강 파크골프장</h3>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> 서울 송파구</p>
+                            <div class="card-footer">
+                                <span class="holes">18홀</span>
+                                <span class="rating"><i class="fas fa-star"></i> 4.8</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Card 2 -->
+                    <a href="#" class="course-card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=600&auto=format&fit=crop" alt="골프장 이미지" loading="lazy">
+                            <span class="status-badge hot">HOT</span>
+                            <button class="bookmark-btn"><i class="far fa-bookmark"></i></button>
+                        </div>
+                        <div class="card-info">
+                            <h3>판교 화랑 파크골프장</h3>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> 경기 성남시</p>
+                            <div class="card-footer">
+                                <span class="holes">36홀</span>
+                                <span class="rating"><i class="fas fa-star"></i> 4.9</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Card 3 -->
+                    <a href="#" class="course-card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=600&auto=format&fit=crop" alt="골프장 이미지" loading="lazy">
+                            <span class="status-badge update">UPDATE</span>
+                            <button class="bookmark-btn active"><i class="fas fa-bookmark"></i></button>
+                        </div>
+                        <div class="card-info">
+                            <h3>낙동강 삼락 파크골프장</h3>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> 부산 사상구</p>
+                            <div class="card-footer">
+                                <span class="holes">18홀</span>
+                                <span class="rating"><i class="fas fa-star"></i> 4.5</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Notice & Community -->
+            <section class="community-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-comment-dots text-primary"></i> 커뮤니티 & 공지</h2>
+                    <a href="#" class="view-all">더보기 <i class="fas fa-angle-right"></i></a>
+                </div>
+                
+                <div class="notice-list">
+                    <a href="#" class="notice-item">
+                        <span class="tag notice">공지</span>
+                        <span class="notice-title">PAGOL 앱이 정식 출시되었습니다!</span>
+                        <span class="notice-date">오늘</span>
+                    </a>
+                    <a href="#" class="notice-item">
+                        <span class="tag event">이벤트</span>
+                        <span class="notice-title">여름맞이 파크골프 장비 리뷰 이벤트</span>
+                        <span class="notice-date">어제</span>
+                    </a>
+                    <a href="#" class="notice-item">
+                        <span class="tag free">자유게시판</span>
+                        <span class="notice-title">초보자용 골프채 추천해주실 분 계신가요?</span>
+                        <span class="notice-date">07.13</span>
+                    </a>
+                    <a href="#" class="notice-item">
+                        <span class="tag free">자유게시판</span>
+                        <span class="notice-title">성남 지역 동호회 인원 모집합니다.</span>
+                        <span class="notice-date">07.12</span>
+                    </a>
+                </div>
+            </section>
+        </div>
+
+        <!-- =======================
+             TAB 2: SEARCH (구장검색)
+        ======================== -->
+        <div id="tab-search" class="tab-content">
+            <div class="search-tab-header">
+                <h2><i class="fas fa-map-marked-alt text-primary"></i> 전국 파크골프장 검색</h2>
+                <div class="search-bar-wrapper shadow-none border">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="course-search-input" placeholder="구장명 또는 지역 검색 (예: 서울, 화랑...)" autocomplete="off">
+                    <button class="clear-btn" id="clear-search" style="display:none;"><i class="fas fa-times-circle"></i></button>
+                </div>
+                <div class="search-results-info">
+                    총 <strong id="course-count">0</strong>개의 구장이 검색되었습니다.
                 </div>
             </div>
-        </section>
-
-        <!-- Main Banner -->
-        <section class="banner-section">
-            <a href="#" class="premium-banner">
-                <div class="banner-icon"><i class="fas fa-trophy"></i></div>
-                <div class="banner-text">
-                    <p class="banner-sub">PAGOL 공식 스코어 앱</p>
-                    <h3>스마트 스코어 기록장</h3>
-                    <p class="banner-desc">수기 기록은 그만! 스마트폰으로 간편하게.</p>
-                </div>
-                <div class="banner-arrow"><i class="fas fa-chevron-right"></i></div>
-            </a>
-        </section>
-
-        <!-- Recommended Courses -->
-        <section class="courses-section">
-            <div class="section-header">
-                <h2><i class="fas fa-fire flame-icon"></i> 실시간 인기 구장</h2>
-                <a href="#" class="view-all">전체보기 <i class="fas fa-angle-right"></i></a>
-            </div>
             
-            <div class="horizontal-scroll">
-                <!-- Card 1 -->
-                <a href="#" class="course-card">
-                    <div class="card-image">
-                        <img src="https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=600&auto=format&fit=crop" alt="골프장 이미지" loading="lazy">
-                        <span class="status-badge new">NEW</span>
-                        <button class="bookmark-btn"><i class="far fa-bookmark"></i></button>
-                    </div>
-                    <div class="card-info">
-                        <h3>잠실 한강 파크골프장</h3>
-                        <p class="location"><i class="fas fa-map-marker-alt"></i> 서울 송파구</p>
-                        <div class="card-footer">
-                            <span class="holes">18홀</span>
-                            <span class="rating"><i class="fas fa-star"></i> 4.8</span>
-                        </div>
-                    </div>
-                </a>
-
-                <!-- Card 2 -->
-                <a href="#" class="course-card">
-                    <div class="card-image">
-                        <img src="https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=600&auto=format&fit=crop" alt="골프장 이미지" loading="lazy">
-                        <span class="status-badge hot">HOT</span>
-                        <button class="bookmark-btn"><i class="far fa-bookmark"></i></button>
-                    </div>
-                    <div class="card-info">
-                        <h3>판교 화랑 파크골프장</h3>
-                        <p class="location"><i class="fas fa-map-marker-alt"></i> 경기 성남시</p>
-                        <div class="card-footer">
-                            <span class="holes">36홀</span>
-                            <span class="rating"><i class="fas fa-star"></i> 4.9</span>
-                        </div>
-                    </div>
-                </a>
-
-                <!-- Card 3 -->
-                <a href="#" class="course-card">
-                    <div class="card-image">
-                        <img src="https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=600&auto=format&fit=crop" alt="골프장 이미지" loading="lazy">
-                        <span class="status-badge update">UPDATE</span>
-                        <button class="bookmark-btn active"><i class="fas fa-bookmark"></i></button>
-                    </div>
-                    <div class="card-info">
-                        <h3>낙동강 삼락 파크골프장</h3>
-                        <p class="location"><i class="fas fa-map-marker-alt"></i> 부산 사상구</p>
-                        <div class="card-footer">
-                            <span class="holes">18홀</span>
-                            <span class="rating"><i class="fas fa-star"></i> 4.5</span>
-                        </div>
-                    </div>
-                </a>
+            <div class="course-list-container" id="course-list">
+                <!-- Javascript will render courses here -->
             </div>
-        </section>
-
-        <!-- Notice & Community -->
-        <section class="community-section">
-            <div class="section-header">
-                <h2><i class="fas fa-comment-dots text-primary"></i> 커뮤니티 & 공지</h2>
-                <a href="#" class="view-all">더보기 <i class="fas fa-angle-right"></i></a>
-            </div>
-            
-            <div class="notice-list">
-                <a href="#" class="notice-item">
-                    <span class="tag notice">공지</span>
-                    <span class="notice-title">PAGOL 앱이 정식 출시되었습니다!</span>
-                    <span class="notice-date">오늘</span>
-                </a>
-                <a href="#" class="notice-item">
-                    <span class="tag event">이벤트</span>
-                    <span class="notice-title">여름맞이 파크골프 장비 리뷰 이벤트</span>
-                    <span class="notice-date">어제</span>
-                </a>
-                <a href="#" class="notice-item">
-                    <span class="tag free">자유게시판</span>
-                    <span class="notice-title">초보자용 골프채 추천해주실 분 계신가요?</span>
-                    <span class="notice-date">07.13</span>
-                </a>
-                <a href="#" class="notice-item">
-                    <span class="tag free">자유게시판</span>
-                    <span class="notice-title">성남 지역 동호회 인원 모집합니다.</span>
-                    <span class="notice-date">07.12</span>
-                </a>
-            </div>
-        </section>
+        </div>
 
         <!-- Spacer for Bottom Nav -->
         <div class="bottom-nav-spacer"></div>
@@ -174,28 +200,30 @@
 
     <!-- Bottom Navigation -->
     <nav class="bottom-nav">
-        <a href="#" class="nav-item active">
+        <a href="#" class="nav-item active" data-target="tab-home">
             <i class="fas fa-home"></i>
             <span>홈</span>
         </a>
-        <a href="#" class="nav-item">
+        <a href="#" class="nav-item" data-target="tab-search">
             <i class="fas fa-map-marked-alt"></i>
             <span>구장검색</span>
         </a>
-        <a href="#" class="nav-item">
+        <a href="#" class="nav-item" data-target="tab-ranking">
             <i class="fas fa-trophy"></i>
             <span>랭킹</span>
         </a>
-        <a href="#" class="nav-item">
+        <a href="#" class="nav-item" data-target="tab-community">
             <i class="fas fa-users"></i>
             <span>커뮤니티</span>
         </a>
-        <a href="#" class="nav-item">
+        <a href="#" class="nav-item" data-target="tab-my">
             <i class="fas fa-user-circle"></i>
             <span>MY</span>
         </a>
     </nav>
 
+    <!-- Data & Scripts -->
+    <script src="./data.js"></script>
     <script src="./app.js"></script>
 </body>
 </html>
