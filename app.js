@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const fragmentSearch = document.createDocumentFragment();
         const fragmentHome = document.createDocumentFragment();
         
-        const limitSearch = query ? filteredCourses.length : Math.min(filteredCourses.length, 100);
+        const limitSearch = q ? filteredCourses.length : Math.min(filteredCourses.length, 100);
         const limitHome = Math.min(filteredCourses.length, 4); // Max 4 for Home
 
         for (let i = 0; i < limitSearch; i++) {
