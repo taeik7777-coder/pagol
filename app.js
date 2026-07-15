@@ -7,20 +7,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const tabContents = document.querySelectorAll('.tab-content');
 
     function switchTab(targetId) {
-        // Hide all tabs
         tabContents.forEach(tab => tab.classList.remove('active'));
-        // Deactivate all nav items
         navItems.forEach(nav => nav.classList.remove('active'));
 
-        // Show target tab
         const targetTab = document.getElementById(targetId);
         if (targetTab) targetTab.classList.add('active');
         
-        // Activate target nav item
         const targetNav = document.querySelector(`.nav-item[data-target="${targetId}"]`);
         if(targetNav) targetNav.classList.add('active');
 
-        // Reset scroll position
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
@@ -28,19 +23,15 @@ document.addEventListener('DOMContentLoaded', () => {
         item.addEventListener('click', (e) => {
             e.preventDefault();
             const targetId = item.getAttribute('data-target');
-            if(targetId) {
-                switchTab(targetId);
-            }
+            if(targetId) switchTab(targetId);
         });
     });
 
-    // Logo click goes to home
     document.getElementById('logo-btn').addEventListener('click', (e) => {
         e.preventDefault();
         switchTab('tab-home');
     });
 
-    // Dashboard Grid routing
     const gridCards = document.querySelectorAll('.grid-card');
     gridCards.forEach(card => {
         card.addEventListener('click', () => {
@@ -49,7 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Notification Mock
     document.getElementById('noti-btn').addEventListener('click', () => {
         alert("새로운 알림이 없습니다.");
     });
@@ -59,8 +49,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // ----------------------------------------
     const voiceBtns = document.querySelectorAll('.mic-btn');
     voiceBtns.forEach(btn => {
-        // The one in the search tab acts as a normal search if it's the magnifying glass,
-        // but let's handle the home mic specifically.
         if(btn.id === 'voice-search-btn') {
             btn.addEventListener('click', () => {
                 alert("🎤 마이크 권한을 허용해주세요! (음성 검색 기능은 추후 지원 예정입니다.)");
@@ -80,19 +68,20 @@ document.addEventListener('DOMContentLoaded', () => {
             searchInput.value = query;
             renderCourseList(query);
             updatePillTags(query);
+            updateMapActive(query);
         }
     });
 
     // ----------------------------------------
-    // 4. Search Tab Logic (Course Data Rendering)
+    // 4. Search Tab Logic & Data Rendering
     // ----------------------------------------
     const courseListContainer = document.getElementById('course-list');
     const searchInput = document.getElementById('course-search-input');
     const courseCount = document.getElementById('course-count');
     const pillBtns = document.querySelectorAll('.pill-btn');
     const searchTabBtn = document.getElementById('voice-search-btn-2');
+    const mapBtns = document.querySelectorAll('.map-btn');
 
-    // Data from data.js (courseData array)
     let courses = typeof courseData !== 'undefined' ? courseData : [];
 
     function renderCourseList(query = '') {
@@ -106,9 +95,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 const nameMatch = course.name.toLowerCase().replace(/\s+/g, '').includes(q);
                 const addressMatch = course.address.toLowerCase().replace(/\s+/g, '').includes(q);
                 
-                // Specific hole logic
                 if (q === '36홀') return course.holes >= 36;
                 if (q === '18홀') return course.holes === 18;
+                if (q === '무료') return course.name.includes('무료') || course.fee === '무료';
                 
                 return nameMatch || addressMatch;
             });
@@ -127,25 +116,29 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const fragment = document.createDocumentFragment();
-
-        // For performance on mobile, just render top 100 if empty query, 
-        // or all if filtered
         const limit = query ? filteredCourses.length : Math.min(filteredCourses.length, 100);
 
         for (let i = 0; i < limit; i++) {
             const course = filteredCourses[i];
             const div = document.createElement('div');
             div.className = 'list-item-card';
+            // Click to open detail
+            div.addEventListener('click', () => openDetailModal(course));
             
             const holesText = course.holes ? `${course.holes}홀` : '정보없음';
+            const imgUrl = course.image || 'https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=400&auto=format&fit=crop';
             
             div.innerHTML = `
-                <div class="list-item-header">
+                <img class="list-item-img" src="${imgUrl}" alt="${course.name}" loading="lazy">
+                <div class="list-item-content">
                     <div class="list-item-title">${course.name}</div>
-                    <div class="list-item-holes">${holesText}</div>
-                </div>
-                <div class="list-item-address">
-                    <i class="fas fa-map-marker-alt"></i> ${course.address}
+                    <div>
+                        <span class="list-item-holes">${holesText}</span>
+                        <span style="font-size:13px; font-weight:700; color:#ff9800;">⭐ ${course.rating || 0}</span>
+                    </div>
+                    <div class="list-item-address">
+                        <i class="fas fa-map-marker-alt"></i> ${course.address}
+                    </div>
                 </div>
             `;
             fragment.appendChild(div);
@@ -162,20 +155,24 @@ document.addEventListener('DOMContentLoaded', () => {
                 btn.classList.remove('active');
             }
         });
-        
-        // If not matching any tag, but string is empty, activate "전체보기"
-        if (activeTag === '') {
-            pillBtns[0].classList.add('active');
-        }
+        if (!activeTag) pillBtns[0].classList.add('active');
+    }
+
+    function updateMapActive(region) {
+        mapBtns.forEach(btn => {
+            if(btn.getAttribute('data-region') === region) {
+                btn.classList.add('active');
+            } else {
+                btn.classList.remove('active');
+            }
+        });
     }
 
     searchInput.addEventListener('input', (e) => {
         const query = e.target.value;
-        // Turn off all pills if user is typing custom text
-        updatePillTags(null); 
-        if (query === '') {
-            updatePillTags('');
-        }
+        updatePillTags(null);
+        updateMapActive(null);
+        if (query === '') updatePillTags('');
         renderCourseList(query);
     });
 
@@ -187,16 +184,158 @@ document.addEventListener('DOMContentLoaded', () => {
         btn.addEventListener('click', (e) => {
             const tagText = e.target.getAttribute('data-tag');
             updatePillTags(tagText);
-            
-            if (tagText === "") {
-                searchInput.value = "";
-            } else {
-                searchInput.value = tagText;
-            }
+            updateMapActive(null); // Map selection off
+            searchInput.value = tagText;
             renderCourseList(tagText);
         });
     });
 
-    // Initial render of search list
+    mapBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            const region = e.target.getAttribute('data-region');
+            updateMapActive(region);
+            updatePillTags(null);
+            searchInput.value = region;
+            renderCourseList(region);
+        });
+    });
+
     renderCourseList('');
+
+    // ----------------------------------------
+    // 5. Course Detail Modal & Reviews
+    // ----------------------------------------
+    const modal = document.getElementById('course-modal');
+    const closeBtn = document.getElementById('modal-close-btn');
+    let currentCourseId = null;
+
+    closeBtn.addEventListener('click', () => {
+        modal.classList.remove('active');
+    });
+
+    function openDetailModal(course) {
+        currentCourseId = course.id;
+        
+        // Populate modal data
+        document.getElementById('modal-img').src = course.image || 'https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop';
+        document.getElementById('modal-holes-badge').textContent = course.holes ? `${course.holes}홀` : '정보없음';
+        document.getElementById('modal-fee-badge').textContent = course.fee || '정보없음';
+        document.getElementById('modal-title').textContent = course.name;
+        document.getElementById('modal-address').textContent = course.address;
+        
+        document.getElementById('modal-score').textContent = course.rating || '0.0';
+        document.getElementById('modal-review-count').textContent = course.reviewCount || '0';
+        document.getElementById('modal-review-count-2').textContent = course.reviewCount || '0';
+        
+        document.getElementById('modal-hours').textContent = course.operatingHours || '정보없음';
+        document.getElementById('modal-fee').textContent = course.fee || '정보없음';
+        document.getElementById('modal-holes').textContent = course.holes ? `${course.holes}홀` : '정보없음';
+        document.getElementById('modal-phone').textContent = course.phone || '정보없음';
+        
+        document.getElementById('modal-closed').textContent = course.closedDays || '정보없음';
+        document.getElementById('modal-parking').textContent = course.parking || '정보없음';
+
+        loadReviews(course.id);
+        
+        // Show modal
+        modal.classList.add('active');
+        modal.scrollTo(0,0);
+    }
+
+    // Favorite Button toggle
+    const favBtn = document.querySelector('.favorite-btn');
+    favBtn.addEventListener('click', () => {
+        const icon = favBtn.querySelector('i');
+        favBtn.classList.toggle('active');
+        if (favBtn.classList.contains('active')) {
+            icon.classList.remove('far');
+            icon.classList.add('fas');
+        } else {
+            icon.classList.remove('fas');
+            icon.classList.add('far');
+        }
+    });
+
+    // Review System (Local Storage)
+    let selectedStars = 5;
+    const starIcons = document.querySelectorAll('#star-selector i');
+    
+    starIcons.forEach(star => {
+        star.addEventListener('click', (e) => {
+            selectedStars = parseInt(e.target.getAttribute('data-val'));
+            updateStarUI();
+        });
+    });
+
+    function updateStarUI() {
+        starIcons.forEach(star => {
+            const val = parseInt(star.getAttribute('data-val'));
+            if (val <= selectedStars) {
+                star.classList.remove('far');
+                star.classList.add('fas', 'active');
+            } else {
+                star.classList.remove('fas', 'active');
+                star.classList.add('far');
+            }
+        });
+    }
+    updateStarUI();
+
+    const reviewInput = document.getElementById('review-input');
+    const reviewSubmitBtn = document.getElementById('review-submit-btn');
+
+    reviewSubmitBtn.addEventListener('click', () => {
+        const text = reviewInput.value.trim();
+        if (!text) {
+            alert("후기 내용을 입력해주세요.");
+            return;
+        }
+
+        const newReview = {
+            id: Date.now(),
+            courseId: currentCourseId,
+            user: "파크골퍼" + Math.floor(Math.random()*1000),
+            stars: selectedStars,
+            text: text,
+            date: new Date().toLocaleDateString('ko-KR')
+        };
+
+        const existingReviews = JSON.parse(localStorage.getItem('pagol_reviews') || '[]');
+        existingReviews.unshift(newReview);
+        localStorage.setItem('pagol_reviews', JSON.stringify(existingReviews));
+
+        reviewInput.value = '';
+        selectedStars = 5;
+        updateStarUI();
+        
+        // Update local review count logic (dummy)
+        const rCount = parseInt(document.getElementById('modal-review-count').textContent) + 1;
+        document.getElementById('modal-review-count').textContent = rCount;
+        document.getElementById('modal-review-count-2').textContent = rCount;
+
+        loadReviews(currentCourseId);
+    });
+
+    function loadReviews(courseId) {
+        const reviewList = document.getElementById('review-list');
+        const allReviews = JSON.parse(localStorage.getItem('pagol_reviews') || '[]');
+        const courseReviews = allReviews.filter(r => r.courseId === courseId);
+        
+        if (courseReviews.length === 0) {
+            reviewList.innerHTML = '<p style="text-align:center; padding: 20px; color:#9ca3af;">첫 번째 후기를 남겨주세요!</p>';
+            return;
+        }
+
+        reviewList.innerHTML = courseReviews.map(r => `
+            <div class="review-item">
+                <div class="review-item-header">
+                    <span class="review-user">${r.user}</span>
+                    <span class="review-stars">${'⭐'.repeat(r.stars)}</span>
+                    <span class="review-date">${r.date}</span>
+                </div>
+                <div class="review-text">${r.text}</div>
+            </div>
+        `).join('');
+    }
+
 });

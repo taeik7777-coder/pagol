@@ -3,3450 +3,8050 @@ const courseData = [
     "id": 1,
     "name": "관악 파크골프장",
     "address": " 서울 관악구 신림동 산108-10",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-7642-1345",
+    "parking": "무료주차",
+    "rating": 4.8,
+    "reviewCount": 84
   },
   {
     "id": 2,
     "name": "난지천공원 파크골프장",
     "address": "연습장 서울 마포구 상암동 1538",
-    "holes": 6
+    "holes": 6,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-2443-7202",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 52
   },
   {
     "id": 3,
     "name": "녹천교 파크골프장",
     "address": " 서울 도봉구 창동 796",
-    "holes": 6
+    "holes": 6,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-5724-8022",
+    "parking": "무료주차",
+    "rating": 4.9,
+    "reviewCount": 75
   },
   {
     "id": 4,
     "name": "다락원 파크골프장",
     "address": " 서울 도봉구 도봉동 1-28",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2277-1519",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 106
   },
   {
     "id": 5,
     "name": "동작 파크골프장",
     "address": " 서울 동작구 동작동 327",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-9801-5638",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 78
   },
   {
     "id": 6,
     "name": "망원유수지 파크골프장",
     "address": " 서울 마포구 망원동 450-3",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-8117-4958",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.2,
+    "reviewCount": 30
   },
   {
     "id": 7,
     "name": "살곶이공원 파크골프장",
     "address": " 서울특별시 성동구 사근동 104",
-    "holes": 2
+    "holes": 2,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-976-7834",
+    "parking": "무료주차",
+    "rating": 4.6,
+    "reviewCount": 0
   },
   {
     "id": 8,
     "name": "서남물재생센터 파크골프장",
     "address": " 서울특별시 강서구 양천로201",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-9114-9653",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.0,
+    "reviewCount": 42
   },
   {
     "id": 9,
     "name": "안양천 파크골프장",
     "address": " 서울특별시 양천구 목동411일대",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-4284-8305",
+    "parking": "무료주차",
+    "rating": 4.5,
+    "reviewCount": 71
   },
   {
     "id": 10,
     "name": "안양천 파크골프장",
     "address": " 서울특별시 구로구 신도림동271-64번지 일대",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2693-9404",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 94
   },
   {
     "id": 11,
     "name": "안양천 파크골프장",
     "address": " 서울특별시 구로구 고척동60-1번지 일대",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-8791-9968",
+    "parking": "무료주차",
+    "rating": 3.5,
+    "reviewCount": 73
   },
   {
     "id": 12,
     "name": "안양천 파크골프장",
     "address": " 서울특별시 금천구 가산동557-3",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-748-2153",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 5.0,
+    "reviewCount": 84
   },
   {
     "id": 13,
     "name": "안양천 파크골프장",
     "address": " 서울특별시 영등포구 양화동4-1일대",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-9579-4829",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 64
   },
   {
     "id": 14,
     "name": "안양천 파크골프장",
     "address": " 서울특별시 양천구 목동411 일대",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-4875-3949",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 1
   },
   {
     "id": 15,
     "name": "양평누리 파크골프장",
     "address": " 서울특별시 영등포구 양평동25-1일대",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-1346-9969",
+    "parking": "무료주차",
+    "rating": 3.8,
+    "reviewCount": 122
   },
   {
     "id": 16,
     "name": "여의도한강공원",
     "address": " 서울특별시 영등포구 여의도동 70-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-8647-4009",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 129
   },
   {
     "id": 17,
     "name": "월드컵공원 파크골프장",
     "address": " 서울특별시 마포구 상암동478-1번지 일 대",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-7780-1248",
+    "parking": "무료주차",
+    "rating": 3.8,
+    "reviewCount": 136
   },
   {
     "id": 18,
     "name": "잠실운동장 파크골프장",
     "address": " 서울특별시 송파구 올림픽로25번지",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-701-3435",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 5
   },
   {
     "id": 19,
     "name": "잠실파크골프장",
     "address": " 서울특별시 잠실동 306(잠실 유수지)",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-3643-8019",
+    "parking": "무료주차",
+    "rating": 4.0,
+    "reviewCount": 130
   },
   {
     "id": 20,
     "name": "중랑구립파크골프장",
     "address": " 서울특별시 중랑구 묵동 361-5 일대",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-6732-4789",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.0,
+    "reviewCount": 4
   },
   {
     "id": 21,
     "name": "중랑물재생센터 파크골프장",
     "address": " 서울특별시 성동구 자동차시장3길 64",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-1403-3294",
+    "parking": "무료주차",
+    "rating": 3.9,
+    "reviewCount": 136
   },
   {
     "id": 22,
     "name": "중랑천 파크골프장",
     "address": " 서울특별시 광진구 중곡동455-9번지 일 대",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-347-6194",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 101
   },
   {
     "id": 23,
     "name": "중랑천 파크골프장",
     "address": " 서울특별시 노원구 월계동230-10",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-5478-7190",
+    "parking": "무료주차",
+    "rating": 4.8,
+    "reviewCount": 49
   },
   {
     "id": 24,
     "name": "중랑천 파크골프장",
     "address": " 서울특별시 동대문구 장안동204번지 일대",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-5480-1115",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.9,
+    "reviewCount": 0
   },
   {
     "id": 25,
     "name": "중랑천파크골프장",
     "address": " 서울특별시 노원구 상계동 754-14",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-5200-8570",
+    "parking": "무료주차",
+    "rating": 4.9,
+    "reviewCount": 108
   },
   {
     "id": 26,
     "name": "탄천 파크골프장",
     "address": " 서울특별시 강남구 세곡동 1-3",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-2011-1921",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 84
   },
   {
     "id": 27,
     "name": "가평파크골프장",
     "address": " 경기도 가평군 청평면 대성리 388-13",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-522-5437",
+    "parking": "무료주차",
+    "rating": 4.7,
+    "reviewCount": 39
   },
   {
     "id": 28,
     "name": "계양파크골프장",
     "address": " 인천광역시 계양구 봉수대로855",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-9349-8136",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 96
   },
   {
     "id": 29,
     "name": "공촌유수지파크골프장",
     "address": " 인천광역시 서구 첨단서로 130 공촌유수 지체육시설",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-5613-6964",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 134
   },
   {
     "id": 30,
     "name": "광주시파크골프장",
     "address": " 경기도 광주시 경안동 청석공원 내 파크골 프장",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-5875-1697",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 69
   },
   {
     "id": 31,
     "name": "구리시파크골프장",
     "address": " 경기도 구리시 수택동 왕숙천 구리시환경 사무소",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-2059-7144",
+    "parking": "무료주차",
+    "rating": 4.7,
+    "reviewCount": 3
   },
   {
     "id": 32,
     "name": "군포시파크골프장",
     "address": " 경기도 군포시 수변공원내",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-8453-8660",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 138
   },
   {
     "id": 33,
     "name": "나리공원파크골프장",
     "address": " 경기도 양주시 광사동 나리공원 내",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-359-9682",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 89
   },
   {
     "id": 34,
     "name": "남동파크골프장",
     "address": " 인천광역시 남동구 수산동 540",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-9950-4266",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 64
   },
   {
     "id": 35,
     "name": "남양주장애인파크골프장",
     "address": " 경기도 남양주시 별내동 910",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-6266-5505",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 13
   },
   {
     "id": 36,
     "name": "남양주파크골프장",
     "address": " 경기도 남양주시 다산동739 다산근린공원 앞 왕숙천",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-7781-1582",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.7,
+    "reviewCount": 132
   },
   {
     "id": 37,
     "name": "동두천파크골프장",
     "address": " 경기도 동두천시 동두천로27 송내주공5단 지",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-4959-8152",
+    "parking": "무료주차",
+    "rating": 4.7,
+    "reviewCount": 20
   },
   {
     "id": 38,
     "name": "동두천파크골프장",
     "address": " 경기도 동두천시 송내동 696",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-8078-8352",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.1,
+    "reviewCount": 48
   },
   {
     "id": 39,
     "name": "동탄제2신도시파크골프장",
     "address": " 경기도 화성시 동탄면 방교동789",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-5759-8304",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 56
   },
   {
     "id": 40,
     "name": "미사리파크골프장",
     "address": " 경기도 하남시 미사동608 하남나무고아원",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-162-1312",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 61
   },
   {
     "id": 41,
     "name": "서종파크골프장",
     "address": " 경기도 양평군 서종면 문호리922-4 서종 문화체육공원 내",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-9899-8013",
+    "parking": "무료주차",
+    "rating": 4.3,
+    "reviewCount": 16
   },
   {
     "id": 42,
     "name": "선학파크골프장",
     "address": " 인천광역시 연수구 경원대로 526",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-6334-6651",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 137
   },
   {
     "id": 43,
     "name": "성남시파크골프장",
     "address": " 경기도 성남시 분당구 수내동 탄천변",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-9609-4141",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 87
   },
   {
     "id": 44,
     "name": "성저파크골프장",
     "address": " 경기도 고양시 일산서구 대화동2325",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-869-8582",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.0,
+    "reviewCount": 55
   },
   {
     "id": 45,
     "name": "수원시파크골프장",
     "address": " 경기도 수원시 권선구 서수원로577번길 171(서수원칠보체육관)",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-810-7132",
+    "parking": "무료주차",
+    "rating": 4.5,
+    "reviewCount": 74
   },
   {
     "id": 46,
     "name": "시흥시청파크골프장",
     "address": " 경기도 시흥시 장현동 300 시흥시청 옆",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-6864-4638",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.3,
+    "reviewCount": 71
   },
   {
     "id": 47,
     "name": "시흥파크골프장",
     "address": " 경기도 시흥시 목감동 신도시 내",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-624-6895",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 71
   },
   {
     "id": 48,
     "name": "아시아드파크골프장",
     "address": " 인천광역시 서구 봉수대로806",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-2725-4820",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 31
   },
   {
     "id": 49,
     "name": "아양그린파크골프장",
     "address": " 경기도 안성시 아양택지지구 568",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-3145-9731",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 64
   },
   {
     "id": 50,
     "name": "안산신길파크골프장",
     "address": " 경기도 안산시 단원구 신길동1748",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-407-1736",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.1,
+    "reviewCount": 17
   },
   {
     "id": 51,
     "name": "양지파인리조트파크골프장",
     "address": " 경기도 용인시 처인구 양지면 남평로112 양지파인리조트",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-9282-3155",
+    "parking": "무료주차",
+    "rating": 3.5,
+    "reviewCount": 115
   },
   {
     "id": 52,
     "name": "양촌파크골프장",
     "address": " 경기도 김포시 양촌읍 학운리 3084-4",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-6870-2741",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 111
   },
   {
     "id": 53,
     "name": "양평장애인파크골프장",
     "address": " 경기도 양평군 강상면 교평리419",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-1574-6163",
+    "parking": "무료주차",
+    "rating": 5.0,
+    "reviewCount": 94
   },
   {
     "id": 54,
     "name": "양평파크골프장",
     "address": " 경기도 양평군 강상면 교평리419",
-    "holes": 81
+    "holes": 81,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-7710-9331",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 64
   },
   {
     "id": 55,
     "name": "여주파크골프장",
     "address": " 경기도 여주시 현암동 616-3",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-9150-4130",
+    "parking": "무료주차",
+    "rating": 4.8,
+    "reviewCount": 56
   },
   {
     "id": 56,
     "name": "연수파크골프장",
     "address": " 인천광역시 연수구 승기천",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-7640-5009",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.2,
+    "reviewCount": 120
   },
   {
     "id": 57,
     "name": "연천재인폭포오토캠핑장파크골프",
     "address": " 장 경기도 연천군 연천읍 고문리130-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-7279-4328",
+    "parking": "무료주차",
+    "rating": 4.9,
+    "reviewCount": 26
   },
   {
     "id": 58,
     "name": "연천파크골프장",
     "address": " 경기도 연천군 군남면 군남대교옆",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-2648-1864",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.0,
+    "reviewCount": 34
   },
   {
     "id": 59,
     "name": "영종미단시티파크골프장",
     "address": " 인천광역시 중구 운북동 1279",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-1270-2132",
+    "parking": "무료주차",
+    "rating": 5.0,
+    "reviewCount": 112
   },
   {
     "id": 60,
     "name": "영종파크골프장",
     "address": " 인천광역시 중구 중산동 1878-2",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-1225-1270",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.8,
+    "reviewCount": 102
   },
   {
     "id": 61,
     "name": "용인파크골프장",
     "address": " 경기도 용인시 포곡읍 용인애버랜드 옆(체 육공원내)",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-1966-3328",
+    "parking": "무료주차",
+    "rating": 4.6,
+    "reviewCount": 76
   },
   {
     "id": 62,
     "name": "운정호수공원파크골프장",
     "address": " 경기도 파주시 소리천로91",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-7400-7646",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 5.0,
+    "reviewCount": 75
   },
   {
     "id": 63,
     "name": "의정부파크골프장",
     "address": " 경기도 의정부시 장암동146-10(호장교 밑)",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-5196-6955",
+    "parking": "무료주차",
+    "rating": 3.8,
+    "reviewCount": 119
   },
   {
     "id": 64,
     "name": "이천시파크골프장",
     "address": " 경기도 이천시 안흥동 33번지",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2291-7316",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 54
   },
   {
     "id": 65,
     "name": "인천 인천송도파크골프장",
     "address": " 인천광역시 연수구 송도동 1번지 달빛공 원 내",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-7014-1516",
+    "parking": "무료주차",
+    "rating": 4.9,
+    "reviewCount": 116
   },
   {
     "id": 66,
     "name": "인천송도파크골프장",
     "address": " 인천 연수구 송도동",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-5903-5473",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 53
   },
   {
     "id": 67,
     "name": "일동파크골프장",
     "address": " 경기도 포천시 일동면 새낭로267",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-7269-3039",
+    "parking": "무료주차",
+    "rating": 4.9,
+    "reviewCount": 81
   },
   {
     "id": 68,
     "name": "장수파크골프장",
     "address": " 인천광역시 남동구 만수동 668",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-1002-1318",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 122
   },
   {
     "id": 69,
     "name": "장애인파크골프장",
     "address": " 경기도 남양주시 진건읍 송능2리(광해군 묘)",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-9481-1534",
+    "parking": "무료주차",
+    "rating": 3.8,
+    "reviewCount": 101
   },
   {
     "id": 70,
     "name": "장호원파크골프장",
     "address": " 경기도 이천시 장호원읍 오남리 304-5(청 미천 둔치)",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-8512-3420",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.8,
+    "reviewCount": 51
   },
   {
     "id": 71,
     "name": "정발파크골프장",
     "address": " 경기도 고양시 일산동구 마두동819 정발 산배수지",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-8893-5905",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 62
   },
   {
     "id": 72,
     "name": "죽전파크골프장",
     "address": " 경기도 용인시 수지구 죽전동555-4 죽전 체육공원(하수처리장)",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-9468-8741",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.3,
+    "reviewCount": 56
   },
   {
     "id": 73,
     "name": "중산파크골프장",
     "address": " 경기도 고양시 일산동구 중산로217 중산 공원",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-3673-7710",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 52
   },
   {
     "id": 74,
     "name": "청심빌리지파크골프장",
     "address": " 경기도 가평군 설악면 송산리711 청심빌 리지",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-1744-6870",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.0,
+    "reviewCount": 88
   },
   {
     "id": 75,
     "name": "파주금강산랜드파크골프장",
     "address": " 경기도 파주시 월롱면 위전리89",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-1872-2889",
+    "parking": "무료주차",
+    "rating": 5.0,
+    "reviewCount": 80
   },
   {
     "id": 76,
     "name": "파주파크골프장",
     "address": " 경기도 파주시 교하로577(심학산배수지입 구)",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-8907-5173",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 49
   },
   {
     "id": 77,
     "name": "평택파크골프장",
     "address": " 경기도 평택시 비전동 1005-1",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-9274-9970",
+    "parking": "무료주차",
+    "rating": 3.8,
+    "reviewCount": 144
   },
   {
     "id": 78,
     "name": "포천시파크골프장",
     "address": " 경기도 포천시 일동면 사직리 913-4",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-6880-2015",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.9,
+    "reviewCount": 105
   },
   {
     "id": 79,
     "name": "하남시파크골프장",
     "address": " 경기도 하남시 미사대로505 미사경정공원 내",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-1286-8788",
+    "parking": "무료주차",
+    "rating": 5.0,
+    "reviewCount": 6
   },
   {
     "id": 80,
     "name": "하남시파크골프장",
     "address": " 경기도 하남시 미사대로 505",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-8811-3627",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.8,
+    "reviewCount": 123
   },
   {
     "id": 81,
     "name": "화정파크골프장",
     "address": " 경기도 고양시 덕양구 은빛로77",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-4969-4606",
+    "parking": "무료주차",
+    "rating": 3.9,
+    "reviewCount": 131
   },
   {
     "id": 82,
     "name": "간현파크골프장",
     "address": " 강원특별자치도 원주시 지정면 간현리 1116-36번지",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-3654-1409",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.7,
+    "reviewCount": 36
   },
   {
     "id": 83,
     "name": "강릉사천파크골프장",
     "address": " 강원특별자치도 강릉시 사천면 석교리 1028-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-2544-1676",
+    "parking": "무료주차",
+    "rating": 3.9,
+    "reviewCount": 29
   },
   {
     "id": 84,
     "name": "강릉파크골프장",
     "address": " 강원특별자치도 강릉시 입암동 606-3",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-3471-2256",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 79
   },
   {
     "id": 85,
     "name": "고성군파크골프장",
     "address": " 강원특별자치도 고성군 토성면 도원리 115-27",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-1125-8510",
+    "parking": "무료주차",
+    "rating": 4.3,
+    "reviewCount": 126
   },
   {
     "id": 86,
     "name": "기린국민체육센터 파크골프장",
     "address": " 강원특별자치도 인제군 기린면 대내로 34-18",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-8963-2572",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 111
   },
   {
     "id": 87,
     "name": "녹송파크골프장",
     "address": " 강원특별자치도 정선군 정선읍 봉양리 37-3",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2943-9157",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 89
   },
   {
     "id": 88,
     "name": "대화 파크골프장",
     "address": " 강원특별자치도 평창군 대화면 하원동길 25",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-219-3950",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.4,
+    "reviewCount": 125
   },
   {
     "id": 89,
     "name": "동해망상파크골프장",
     "address": " 강원특별자치도 동해시 동해대로 6314 (망상컨벤션센터 옆)",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-1491-6304",
+    "parking": "무료주차",
+    "rating": 4.9,
+    "reviewCount": 54
   },
   {
     "id": 90,
     "name": "동해무릉파크골프장",
     "address": " 강원특별자치도 동해시 삼화동 34-27",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-4513-4815",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 32
   },
   {
     "id": 91,
     "name": "동해전천파크골프장",
     "address": " 강원특별자치도 동해시 동해대로 4898-5",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-5408-7802",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 115
   },
   {
     "id": 92,
     "name": "둔내우용파크골프장",
     "address": " 강원특별자치도 횡성군 둔내면 우용리 395-1",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-3715-4967",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.1,
+    "reviewCount": 120
   },
   {
     "id": 93,
     "name": "둔내파크골프장",
     "address": " 강원특별자치도 횡성군 둔내면 둔방내리 563-3",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-2648-7827",
+    "parking": "무료주차",
+    "rating": 3.9,
+    "reviewCount": 89
   },
   {
     "id": 94,
     "name": "문막파크골프장",
     "address": " 강원특별자치도 원주시 문막면 문막리 1071-17",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-6943-3174",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 149
   },
   {
     "id": 95,
     "name": "벽산파크골프장",
     "address": " 강원특별자치도 태백시 연화산길 410",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-9702-1923",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 49
   },
   {
     "id": 96,
     "name": "봉평 파크골프장",
     "address": " 강원특별자치도 평창군 봉평면 기운동길 12",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-4913-2142",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.9,
+    "reviewCount": 9
   },
   {
     "id": 97,
     "name": "북평파크골프장",
     "address": " 강원특별자치도 정선군 북평면 북평리 149-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-6807-9776",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 23
   },
   {
     "id": 98,
     "name": "사내 파크골프장",
     "address": " 강원특별자치도 화천군 사내면 사창리 377번지",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-600-1730",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.7,
+    "reviewCount": 40
   },
   {
     "id": 99,
     "name": "삼척시 도계파크골프장",
     "address": " 강원특별자치도 삼척시 도계읍 강원남부 로 1691-58",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-600-6879",
+    "parking": "무료주차",
+    "rating": 4.2,
+    "reviewCount": 105
   },
   {
     "id": 100,
     "name": "삼척시 미로파크골프장",
     "address": " 강원특별자치도 삼척시 미로면 무사리 산 62-10",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-8896-6015",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 39
   },
   {
     "id": 101,
     "name": "삼척시 원덕파크골프장",
     "address": " 강원특별자치도 원덕읍 월천리 587번지",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-8772-8569",
+    "parking": "무료주차",
+    "rating": 4.2,
+    "reviewCount": 22
   },
   {
     "id": 102,
     "name": "삼척시미로파크골프장",
     "address": " 강원특별자치도 삼척시 미로면 사둔리 20 번지",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-1726-6668",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.9,
+    "reviewCount": 73
   },
   {
     "id": 103,
     "name": "삼척시셍활체육공원파크골프장",
     "address": " 강원특별자치도 강릉시 교동 262-4",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-7937-6848",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 13
   },
   {
     "id": 104,
     "name": "속초 경동대 파크골프장",
     "address": " 강원특별자치도 속초시 도리원길 5",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-4710-5709",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 68
   },
   {
     "id": 105,
     "name": "속초시파크골프장",
     "address": " 강원특별자치도 속초시 관광로 363번길 92",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-8508-6195",
+    "parking": "무료주차",
+    "rating": 4.8,
+    "reviewCount": 30
   },
   {
     "id": 106,
     "name": "양양남대천파크골프장",
     "address": " 강원특별자치도 양양군 양양읍 송암리 540",
-    "holes": 54
+    "holes": 54,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-9347-8347",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 51
   },
   {
     "id": 107,
     "name": "영월파크골프장",
     "address": " 강원특별자치도 영월군 영월읍 팔괴로7- 15",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-8163-1874",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 131
   },
   {
     "id": 108,
     "name": "영월파크골프장",
     "address": "1구장 강원특별자치도 영월군 영월읍 하송리 81~74번지 및 73번지 일원",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-7205-5689",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 23
   },
   {
     "id": 109,
     "name": "용평 파크골프장",
     "address": " 강원특별자치도 평창군 용평면 갈정지길 55-35",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-1823-3333",
+    "parking": "무료주차",
+    "rating": 3.5,
+    "reviewCount": 133
   },
   {
     "id": 110,
     "name": "인제군파크골프장",
     "address": " 강원특별자치도 인제군 인제읍 남북리 살 구미길 27-5",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-9229-5497",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.4,
+    "reviewCount": 148
   },
   {
     "id": 111,
     "name": "주문진파크골프장",
     "address": " 강원특별자치도 강릉시 교항리 103-9",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-5307-1616",
+    "parking": "무료주차",
+    "rating": 4.5,
+    "reviewCount": 85
   },
   {
     "id": 112,
     "name": "철원군파크골프장",
     "address": " 강원특별자치도 철원군 갈말읍 군탄리 869",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-3450-1439",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.2,
+    "reviewCount": 50
   },
   {
     "id": 113,
     "name": "청일파크골프장",
     "address": " 강원특별자치도 횡성군 청일면 유평리 613-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-6094-5140",
+    "parking": "무료주차",
+    "rating": 4.5,
+    "reviewCount": 18
   },
   {
     "id": 114,
     "name": "춘천 서면파크골프장",
     "address": " 강원특별자치도 춘천시 서면 박서로800",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-7044-8848",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 50
   },
   {
     "id": 115,
     "name": "춘천 소양강파크골프장",
     "address": " 강원특별자치도 춘천시 장학리 459-11",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-5125-9846",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 97
   },
   {
     "id": 116,
     "name": "취병파크골프장",
     "address": " 강원특별자치도 원주시 문막읍 취병리 438-37번지",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-7540-1456",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.8,
+    "reviewCount": 77
   },
   {
     "id": 117,
     "name": "태백파크골프장",
     "address": " 강원특별자치도 태백시 백두대간로 179 태백스포츠파크 내",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2301-9511",
+    "parking": "무료주차",
+    "rating": 4.5,
+    "reviewCount": 56
   },
   {
     "id": 118,
     "name": "태장파크골프장",
     "address": " 강원특별자치도 원주시 태장동1346-16 둔치",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-1392-2460",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.4,
+    "reviewCount": 50
   },
   {
     "id": 119,
     "name": "평창 파크골프장",
     "address": " 강원특별자치도 평창군 평창읍 제방길 101",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-8817-8780",
+    "parking": "무료주차",
+    "rating": 4.5,
+    "reviewCount": 15
   },
   {
     "id": 120,
     "name": "학성파크골프장",
     "address": " 강원특별자치도 원주시 학성동 36번지",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-7980-3842",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 55
   },
   {
     "id": 121,
     "name": "한반도섬 파크골프장",
     "address": " 강원특별자치도 양구군 양구읍 파라호로 855번길",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-4474-5804",
+    "parking": "무료주차",
+    "rating": 4.8,
+    "reviewCount": 10
   },
   {
     "id": 122,
     "name": "행구수변공원파크골프장",
     "address": " 강원특별자치도 원주시 행구동 1029번지",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-691-1144",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 18
   },
   {
     "id": 123,
     "name": "현리근린공원파크골프장",
     "address": " 강원특별자치도 인제군 기린면 현리 785 근린공원",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-4320-8358",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 27
   },
   {
     "id": 124,
     "name": "홍천강변파크골프장",
     "address": " 강원특별자치도 홍천군 홍천읍 갈마곡리 267-10",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-7296-7590",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.1,
+    "reviewCount": 45
   },
   {
     "id": 125,
     "name": "홍천내면파크골프장",
     "address": " 강원특별자치도 홍천군 내면 광원리 1656 번지",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-6831-6702",
+    "parking": "무료주차",
+    "rating": 4.3,
+    "reviewCount": 6
   },
   {
     "id": 126,
     "name": "화천 산천어파크골프장",
     "address": "(1구장) 강원특별자치도 화천군 하남면 춘화로 3061-17",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-9934-4328",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.5,
+    "reviewCount": 123
   },
   {
     "id": 127,
     "name": "화천 산천어파크골프장",
     "address": "(2구장) 강원특별자치도 화천군 하남면 춘화로 3061-17",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-2612-9153",
+    "parking": "무료주차",
+    "rating": 4.6,
+    "reviewCount": 52
   },
   {
     "id": 128,
     "name": "화천 생활체육공원파크골프장",
     "address": " 강원특별자치도 화천군 하남면 춘화로 3225-56",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2765-2476",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 5.0,
+    "reviewCount": 118
   },
   {
     "id": 129,
     "name": "횡성명품구장",
     "address": " 강원특별자치도 횡성군 횡성읍 정암리 514-16",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-3028-8796",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 15
   },
   {
     "id": 130,
     "name": "횡성파크골프장",
     "address": " 강원특별자치도 횡성군 횡성읍 앞들동2로 45-19",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-9049-1218",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 18
   },
   {
     "id": 131,
     "name": "횡성파크골프장",
     "address": " 강원특별자치도 횡성군 횡성읍 앞들동2로 45-19",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-6889-1640",
+    "parking": "무료주차",
+    "rating": 3.8,
+    "reviewCount": 89
   },
   {
     "id": 132,
     "name": "가곡파크골프장",
     "address": " 경상남도 밀양시 가곡동 743-2",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-6476-7991",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.3,
+    "reviewCount": 61
   },
   {
     "id": 133,
     "name": "가산수변공원 파크골프장",
     "address": " 경상남도 양산시 동면 가산리807",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-1656-5976",
+    "parking": "무료주차",
+    "rating": 4.0,
+    "reviewCount": 90
   },
   {
     "id": 134,
     "name": "가산파크골프장",
     "address": " 경상북도 칠곡군 가산면 송학리 268",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-4925-1524",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 104
   },
   {
     "id": 135,
     "name": "가조파크골프장",
     "address": " 경상남도 거창군 가조면 일부리 1121-1",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-7606-3067",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 34
   },
   {
     "id": 136,
     "name": "가창파크골프장",
     "address": " 대구광역시 달성군 가창면 옥분리 788-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-5658-3984",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.7,
+    "reviewCount": 145
   },
   {
     "id": 137,
     "name": "가천면파크골프장",
     "address": " 경상북도 성주군 가천면 금봉리812-11",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-3198-2026",
+    "parking": "무료주차",
+    "rating": 4.8,
+    "reviewCount": 15
   },
   {
     "id": 138,
     "name": "가포체육공원 파크골프장",
     "address": " 경상남도 창원시 마산합포구 가포신항남 로 37",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-2645-4861",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 145
   },
   {
     "id": 139,
     "name": "각북파크골프장",
     "address": " 경상북도 청도군 각북면 낙산1길 산들팬 션앞",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2544-6189",
+    "parking": "무료주차",
+    "rating": 4.2,
+    "reviewCount": 148
   },
   {
     "id": 140,
     "name": "강남파크골프장",
     "address": " 경상북도 안동시 정상동 779",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-499-5760",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 52
   },
   {
     "id": 141,
     "name": "강변파크골프장",
     "address": " 경상남도 거창군 거창읍 대평리 강변",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-7896-3179",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 60
   },
   {
     "id": 142,
     "name": "강변파크골프장",
     "address": " 대구광역시 북구 서변동 1506 강변축구장 옆",
-    "holes": 45
+    "holes": 45,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-3791-4377",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.5,
+    "reviewCount": 144
   },
   {
     "id": 143,
     "name": "강변파크골프장",
     "address": " 부산광역시 사하구 을숙도대로 466",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-9579-6633",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 138
   },
   {
     "id": 144,
     "name": "강창파크골프장",
     "address": " 대구광역시 달성군 다사읍 매곡리 91",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-8681-5950",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 118
   },
   {
     "id": 145,
     "name": "거제파크골프장",
     "address": " 경상남도 거제시 거제면 스포츠파크 내",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-3101-3831",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 119
   },
   {
     "id": 146,
     "name": "거창군 파크골프장",
     "address": " 경상남도 거창군 거창읍 심소정길 39-36",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-4084-5813",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.1,
+    "reviewCount": 96
   },
   {
     "id": 147,
     "name": "거창파크골프장",
     "address": "(제4구장) 경상남도 거창군 거창읍 심소정길 강변",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-9919-7391",
+    "parking": "무료주차",
+    "rating": 3.8,
+    "reviewCount": 119
   },
   {
     "id": 148,
     "name": "건천파크골프장",
     "address": " 경상북도 경주시 건천읍 천포리 1112번지",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-1731-3050",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 146
   },
   {
     "id": 149,
     "name": "경산파크골프장",
     "address": " 경상북도 경산시 강변동로 369",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-1548-2489",
+    "parking": "무료주차",
+    "rating": 3.8,
+    "reviewCount": 145
   },
   {
     "id": 150,
     "name": "경주쉐르빌파크골프장",
     "address": " 경상북도 경주시 천북면 새터흥림길 51",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2479-4958",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.7,
+    "reviewCount": 96
   },
   {
     "id": 151,
     "name": "경주파크골프장",
     "address": " 경상북도 경주시 석장동1169-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-3746-2550",
+    "parking": "무료주차",
+    "rating": 4.8,
+    "reviewCount": 106
   },
   {
     "id": 152,
     "name": "계평파크골프장",
     "address": " 경상북도 안동시 계평리 717",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-9316-9153",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 97
   },
   {
     "id": 153,
     "name": "고로파크골프장",
     "address": " 대구광역시 군위군 삼국유사면 석산리 560",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-1789-6943",
+    "parking": "무료주차",
+    "rating": 3.9,
+    "reviewCount": 51
   },
   {
     "id": 154,
     "name": "고아파크골프장",
     "address": " 경상북도 구미시 고아읍 예강리 695-1",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-8386-9609",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 66
   },
   {
     "id": 155,
     "name": "고전파크골프장",
     "address": " 경상남도 하동군 고전면 전도리 882-3",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-6028-7211",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 6
   },
   {
     "id": 156,
     "name": "곡강천파크골프장",
     "address": " 경상북도 포항시 남구 효곡동",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-1487-2263",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 46
   },
   {
     "id": 157,
     "name": "과학관공원 파크골프장",
     "address": " 대구광역시 달성군 유가읍 상리 916-1",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-5852-8337",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 123
   },
   {
     "id": 158,
     "name": "광석골파크골프장",
     "address": " 경상남도 창원시 진해구 장천동 765번지",
-    "holes": 6
+    "holes": 6,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-538-3360",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 96
   },
   {
     "id": 159,
     "name": "교암파크골프장",
     "address": " 경상남도 의령군 용덕면 교암리 62-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-4938-2383",
+    "parking": "무료주차",
+    "rating": 3.9,
+    "reviewCount": 148
   },
   {
     "id": 160,
     "name": "구미파크골프장",
     "address": " 경상북도 구미시 낙동제방길 200 낙동강 체육공원 내",
-    "holes": 54
+    "holes": 54,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-9353-2045",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 6
   },
   {
     "id": 161,
     "name": "구지1호근린공원 파크골프장",
     "address": " 대구광역시 달성군 구지면 내리 840 산업 단지1호근린공원",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-3486-7445",
+    "parking": "무료주차",
+    "rating": 3.8,
+    "reviewCount": 107
   },
   {
     "id": 162,
     "name": "구지평촌파크골프장",
     "address": " 대구광역시 달성군 구지면 평촌리 1-10",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-3632-2585",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.8,
+    "reviewCount": 53
   },
   {
     "id": 163,
     "name": "군북파크골프장",
     "address": " 경상남도 함안군 군북면 함안산단7길70",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2386-9425",
+    "parking": "무료주차",
+    "rating": 4.0,
+    "reviewCount": 63
   },
   {
     "id": 164,
     "name": "군위파크골프장",
     "address": " 대구광역시 군위군 군위읍 내량길 28-60",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-5746-5417",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 86
   },
   {
     "id": 165,
     "name": "궁류파크골프장",
     "address": " 경상남도 의령군 궁류면 청정로 1209-32",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-9287-8297",
+    "parking": "무료주차",
+    "rating": 4.5,
+    "reviewCount": 40
   },
   {
     "id": 166,
     "name": "금서파크골프장",
     "address": " 경상남도 산청군 금서면 동의보감로 645",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2386-6330",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 22
   },
   {
     "id": 167,
     "name": "금성파크골프장",
     "address": " 경상북도 의성군 금성면 탑운길 99",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-7337-2756",
+    "parking": "무료주차",
+    "rating": 3.9,
+    "reviewCount": 68
   },
   {
     "id": 168,
     "name": "금소파크골프장",
     "address": " 경상북도 안동시 임하면 금소리 생태공원",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-4491-8838",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 70
   },
   {
     "id": 169,
     "name": "금천파크골프장",
     "address": " 경상북도 청도군 금천면 동곡리 새들보옆",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-4335-9820",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 126
   },
   {
     "id": 170,
     "name": "금호숲파크골프장",
     "address": " 경상북도 영천시 어은길 23",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-7266-6499",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.7,
+    "reviewCount": 140
   },
   {
     "id": 171,
     "name": "기산파크골프장",
     "address": " 경상북도 칠곡군 기산면 죽전리621-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-302-7744",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 10
   },
   {
     "id": 172,
     "name": "기성파크골프장",
     "address": " 경상북도 울진군 기성면 척산리 8-4",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2407-9115",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 53
   },
   {
     "id": 173,
     "name": "기장파크골프장",
     "address": " 부산광역시 기장군 정관읍 모전리677 물 빛공원",
-    "holes": 6
+    "holes": 6,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-4363-6008",
+    "parking": "무료주차",
+    "rating": 4.0,
+    "reviewCount": 37
   },
   {
     "id": 174,
     "name": "김천파크골프장",
     "address": " 경상북도 김천시 지좌동157-1",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-1547-2420",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 136
   },
   {
     "id": 175,
     "name": "낙서파크골프장",
     "address": " 경상남도 의령군 낙서면 낙서로 509-5",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-7608-8285",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 86
   },
   {
     "id": 176,
     "name": "남경주파크골프장",
     "address": " 경상북도 경주시 외동읍 외남로 1773- 129",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-9834-8315",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.4,
+    "reviewCount": 71
   },
   {
     "id": 177,
     "name": "남구 대공원 파크골프장",
     "address": " 울산광역시 남구 대공원로 94",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-4206-6079",
+    "parking": "무료주차",
+    "rating": 3.9,
+    "reviewCount": 139
   },
   {
     "id": 178,
     "name": "남구 태화강 파크골프장",
     "address": " 울산광역시 남구 신정동 391",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-7539-9818",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 61
   },
   {
     "id": 179,
     "name": "남구파크골프장",
     "address": " 대구광역시 남구 봉덕동 산128-1",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-6413-8941",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 146
   },
   {
     "id": 180,
     "name": "남대천파크골프장",
     "address": " 경상북도 울진군 평해읍 평해리 538-4",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-6816-4901",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 50
   },
   {
     "id": 181,
     "name": "남울진파크골프장",
     "address": " 경상북도 울진군 평해읍 월송리 11-2",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-1378-1381",
+    "parking": "무료주차",
+    "rating": 3.9,
+    "reviewCount": 43
   },
   {
     "id": 182,
     "name": "남항체육공원 파크골프장",
     "address": " 부산광역시 서구 암남동 123-6 (인조잔 디)",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-9661-9507",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 57
   },
   {
     "id": 183,
     "name": "남해스포츠 파크골프장",
     "address": " 경상남도 남해군 서면 스포츠파크길 15 남 해스포츠파크 내",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-734-5498",
+    "parking": "무료주차",
+    "rating": 3.8,
+    "reviewCount": 9
   },
   {
     "id": 184,
     "name": "내동유수파크골프장",
     "address": " 경상남도 진주시 내동 유수 935-11",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-3592-7306",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.3,
+    "reviewCount": 83
   },
   {
     "id": 185,
     "name": "논공 위천파크골프장",
     "address": " 대구광역시 달성군 논공읍 위천리 646",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-1157-5843",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 103
   },
   {
     "id": 186,
     "name": "다사파크골프장",
     "address": " 대구광역시 달성군 다사읍 매곡리 354-1 금호강변 세천교 밑",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-6710-7049",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 71
   },
   {
     "id": 187,
     "name": "다산파크골프장",
     "address": " 경상북도 고령군 다산면 사문나루1길 30",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-9268-9909",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 123
   },
   {
     "id": 188,
     "name": "다인문암파크골프장",
     "address": " 경상북도 의성군 다인면 삼분2길 259",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-9307-7125",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.0,
+    "reviewCount": 70
   },
   {
     "id": 189,
     "name": "단북파크골프장",
     "address": " 경상북도 의성군 단북면 단북다인로 168",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-1976-1189",
+    "parking": "무료주차",
+    "rating": 4.6,
+    "reviewCount": 69
   },
   {
     "id": 190,
     "name": "단성(묵곡) 파크골프장",
     "address": " 경상남도 산청군 단성면 성철로 93번길(겁 외사 옆)",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-9082-8637",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 91
   },
   {
     "id": 191,
     "name": "달맞이파크골프장",
     "address": " 경상북도 청도군 대전철엽신길 69",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-7268-5111",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 30
   },
   {
     "id": 192,
     "name": "달서 강창파크골프장",
     "address": " 대구광역시 달서구 파호동 401-2",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-3488-4603",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.3,
+    "reviewCount": 93
   },
   {
     "id": 193,
     "name": "달성보파크골프장",
     "address": " 대구광역시 달성군 논공읍 남리 6-5 (달성 보 하류)",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-8216-1856",
+    "parking": "무료주차",
+    "rating": 3.5,
+    "reviewCount": 25
   },
   {
     "id": 194,
     "name": "대가야파크골프장",
     "address": " 경상북도 고령군 대가야읍 장기리 320-1",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-9765-2675",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.1,
+    "reviewCount": 97
   },
   {
     "id": 195,
     "name": "대곡 파크골프장",
     "address": " 경상남도 대곡면 광석리 330",
-    "holes": 12
+    "holes": 12,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-5746-9525",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 23
   },
   {
     "id": 196,
     "name": "대산파크골프장",
     "address": " 경상남도 창원시 의창구 대산면 북부리 195-3",
-    "holes": 90
+    "holes": 90,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-7381-6255",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 89
   },
   {
     "id": 197,
     "name": "대원레포츠공원 파크골프장",
     "address": " 경상남도 창원시 의창구 두대로 46 (대상 공원내)",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-6922-7775",
+    "parking": "무료주차",
+    "rating": 4.2,
+    "reviewCount": 147
   },
   {
     "id": 198,
     "name": "대의파크골프장",
     "address": " 경상남도 의령군 대의면 마쌍리 733-7",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-968-7704",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.9,
+    "reviewCount": 35
   },
   {
     "id": 199,
     "name": "대저생태공원파크골프장",
     "address": " 부산광역시 강서구 대저1동 1-5 대저생태 공원",
-    "holes": 54
+    "holes": 54,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-4826-8907",
+    "parking": "무료주차",
+    "rating": 3.8,
+    "reviewCount": 122
   },
   {
     "id": 200,
     "name": "대정파크골프장",
     "address": " 경상북도 문경시 농암면 청화로 1128-6",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-903-1610",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.3,
+    "reviewCount": 41
   },
   {
     "id": 201,
     "name": "덕산파크골프장",
     "address": " 경상북도 칠곡군 약목면 덕산리 348-7",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-3655-8252",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 44
   },
   {
     "id": 202,
     "name": "도개파크골프장",
     "address": " 경상북도 구미시 도개면 궁기리 829-1",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-430-5176",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.9,
+    "reviewCount": 58
   },
   {
     "id": 203,
     "name": "도천파크골프장",
     "address": " 경상남도 창녕군 도천면 도천리 770",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-8930-5221",
+    "parking": "무료주차",
+    "rating": 3.9,
+    "reviewCount": 142
   },
   {
     "id": 204,
     "name": "동구 봉무동 파크골프장",
     "address": " 대구광역시 동구 봉무동 1097-5 빗물펌프 장(금호강변) 인근",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-7193-4333",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.1,
+    "reviewCount": 58
   },
   {
     "id": 205,
     "name": "동구도평파크골프장",
     "address": " 대구광역시 동구 도동",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-9806-6449",
+    "parking": "무료주차",
+    "rating": 5.0,
+    "reviewCount": 35
   },
   {
     "id": 206,
     "name": "동락파크골프장",
     "address": " 경상북도 구미시 진평동 880",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-1631-9177",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.1,
+    "reviewCount": 1
   },
   {
     "id": 207,
     "name": "동부5개면파크골프장",
     "address": " 경상남도 진주시 사봉면 사군로 583",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-258-3168",
+    "parking": "무료주차",
+    "rating": 4.0,
+    "reviewCount": 116
   },
   {
     "id": 208,
     "name": "동부권파크골프장",
     "address": " 경상남도 적중면 상부리242",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-3910-7416",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 101
   },
   {
     "id": 209,
     "name": "동천 파크골프장",
     "address": " 울산광역시 중구 남외동 508-1",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-6473-4626",
+    "parking": "무료주차",
+    "rating": 4.2,
+    "reviewCount": 143
   },
   {
     "id": 210,
     "name": "마전비치파크골프장",
     "address": " 경상남도 창원시 마산합포구 구산면 해양 관광로 722-69",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-7569-6964",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.0,
+    "reviewCount": 62
   },
   {
     "id": 211,
     "name": "마전비치파크골프장",
     "address": " 경상남도 창원시 마산합포구 구산면 해양 관광로 722-69",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-2340-7758",
+    "parking": "무료주차",
+    "rating": 4.8,
+    "reviewCount": 125
   },
   {
     "id": 212,
     "name": "매전파크골프장",
     "address": " 경상북도 청도군 매전면 온장길 123 장연 생태공원",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-9856-3445",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 5.0,
+    "reviewCount": 128
   },
   {
     "id": 213,
     "name": "모충파크골프장",
     "address": " 경상남도 사천시 송포동 산165-1",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-6192-1230",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 141
   },
   {
     "id": 214,
     "name": "무릉도원파크골프장",
     "address": " 경상북도 성주군 선남면 선노로 188-17",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-7194-8360",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.4,
+    "reviewCount": 88
   },
   {
     "id": 215,
     "name": "무안파크골프장",
     "address": " 경상남도 밀양시 무안면 신법리 262-2",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-6566-3500",
+    "parking": "무료주차",
+    "rating": 4.0,
+    "reviewCount": 112
   },
   {
     "id": 216,
     "name": "무태파크골프장",
     "address": " 대구광역시 북구 서변동 산격대교 밑",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-124-1859",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 40
   },
   {
     "id": 217,
     "name": "문경파크골프장",
     "address": " 경상북도 문경시 창리강길45",
-    "holes": 45
+    "holes": 45,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-2190-2111",
+    "parking": "무료주차",
+    "rating": 5.0,
+    "reviewCount": 96
   },
   {
     "id": 218,
     "name": "물빛파크골프장",
     "address": " 경상북도 경산시 하양읍 대조리921-51",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-951-1878",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 147
   },
   {
     "id": 219,
     "name": "미명명",
     "address": " 경상북도 울릉군 북면 현포1길 38",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-5437-9093",
+    "parking": "무료주차",
+    "rating": 4.5,
+    "reviewCount": 129
   },
   {
     "id": 220,
     "name": "밀양파크골프장",
     "address": " 경상남도 밀양시 삼문동 631번지",
-    "holes": 45
+    "holes": 45,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-783-5729",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.0,
+    "reviewCount": 61
   },
   {
     "id": 221,
     "name": "반여파크골프장",
     "address": " 부산광역시 해운대구 삼어로 94-141",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-2381-4557",
+    "parking": "무료주차",
+    "rating": 4.8,
+    "reviewCount": 127
   },
   {
     "id": 222,
     "name": "백전파크골프장",
     "address": " 경상남도 함양군 백전면 평정리 343",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-6891-3825",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 113
   },
   {
     "id": 223,
     "name": "범밤파크골프장",
     "address": " 부산광역시 강서구 범방동 1998",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-7267-6445",
+    "parking": "무료주차",
+    "rating": 4.2,
+    "reviewCount": 38
   },
   {
     "id": 224,
     "name": "벽진면파크골프장",
     "address": " 경상북도 성주군 벽진면 체육공원",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-6014-6045",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 127
   },
   {
     "id": 225,
     "name": "별고을파크골프장",
     "address": " 경상북도 성주군 대가면 참별로 2530-1",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-878-3084",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 88
   },
   {
     "id": 226,
     "name": "병곡파크골프장",
     "address": " 경상북도 영덕군 병곡면 송천리 434-1",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-3721-1256",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 5.0,
+    "reviewCount": 0
   },
   {
     "id": 227,
     "name": "봉산파크골프장",
     "address": " 경상남도 합천군 봉산면 서부로4344-11",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-7919-6347",
+    "parking": "무료주차",
+    "rating": 4.2,
+    "reviewCount": 121
   },
   {
     "id": 228,
     "name": "봉화파크골프장",
     "address": " 경상북도 봉화군 봉화읍 내성리 내성천 둔 치",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-622-6409",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 143
   },
   {
     "id": 229,
     "name": "부계파크골프장",
     "address": " 대구광역시 군위군 부계면 춘산리 976-18",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-7999-5011",
+    "parking": "무료주차",
+    "rating": 4.0,
+    "reviewCount": 127
   },
   {
     "id": 230,
     "name": "부림파크골프장",
     "address": " 경상남도 의령군 부림면 감암리 1256",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-759-3942",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 131
   },
   {
     "id": 231,
     "name": "북경주파크골프장",
     "address": " 경상북도 경주시 안강읍 갑산리 931외",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-7805-2194",
+    "parking": "무료주차",
+    "rating": 3.8,
+    "reviewCount": 148
   },
   {
     "id": 232,
     "name": "북구 검단파크골프장",
     "address": " 대구광역시 북구 검단동 276",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-7411-5976",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 60
   },
   {
     "id": 233,
     "name": "북구 금호파크골프장",
     "address": " 대구광역시 북구 금호동 393-2",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-3672-1975",
+    "parking": "무료주차",
+    "rating": 4.3,
+    "reviewCount": 115
   },
   {
     "id": 234,
     "name": "북면 장애인 파크골프장",
     "address": " 경상남도 창원시 의창구 북면 외산리 42- 2",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-5970-2627",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.2,
+    "reviewCount": 39
   },
   {
     "id": 235,
     "name": "북부권파크골프장",
     "address": " 경상남도 합천군 야로면 월광리388-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-2269-1470",
+    "parking": "무료주차",
+    "rating": 4.3,
+    "reviewCount": 112
   },
   {
     "id": 236,
     "name": "북삼파크골프장",
     "address": " 경상북도 칠곡군 북삼읍 어로리 743=1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-6006-9140",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.8,
+    "reviewCount": 147
   },
   {
     "id": 237,
     "name": "불로파크골프장",
     "address": " 대구광역시 동구 불로동 866-2",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-603-6947",
+    "parking": "무료주차",
+    "rating": 5.0,
+    "reviewCount": 44
   },
   {
     "id": 238,
     "name": "비산파크골프장",
     "address": "A-E 대구광역시 서구 비산동 2127(매천대교 밑)",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-7479-2938",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 20
   },
   {
     "id": 239,
     "name": "비산파크골프장",
     "address": "C-D 대구광역시 서구 비산동 2127(매천대교 밑)",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-7008-9286",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 139
   },
   {
     "id": 240,
     "name": "비안파크골프장",
     "address": " 경상북도 의성군 비안면 이두리 이두교",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-1246-1929",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 139
   },
   {
     "id": 241,
     "name": "사곡파크골프장",
     "address": " 경상북도 의성군 사곡면 의성사곡로 995- 9",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-291-4804",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 109
   },
   {
     "id": 242,
     "name": "사암파크골프장",
     "address": " 부산광역시 강서구 신호공단",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-8052-6250",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.3,
+    "reviewCount": 103
   },
   {
     "id": 243,
     "name": "산남파크골프장",
     "address": " 경상북도 청송군 안덕면 청송로 1845",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-4388-5205",
+    "parking": "무료주차",
+    "rating": 3.5,
+    "reviewCount": 111
   },
   {
     "id": 244,
     "name": "산동파크골프장",
     "address": " 경상북도 청도군 금천면 동곡1길 97 새들 보옆",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-6444-1459",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.3,
+    "reviewCount": 143
   },
   {
     "id": 245,
     "name": "산외파크골프장",
     "address": " 경상남도 밀양시 산외면 다죽리 1199-78",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-5335-9832",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 148
   },
   {
     "id": 246,
     "name": "산청(모고)파크골프장",
     "address": " 경상남도 산청군 산청읍 모고리",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-5626-6642",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.4,
+    "reviewCount": 115
   },
   {
     "id": 247,
     "name": "삼락18파크골프장",
     "address": " 부산광역시 사상구 삼락동 658-2",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-4707-9609",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 114
   },
   {
     "id": 248,
     "name": "삼락9&9파크골프장",
     "address": " 부산광역시 사상구 삼락동 658-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-5337-5493",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 90
   },
   {
     "id": 249,
     "name": "삼락다이나믹파크골프장",
     "address": " 부산광역시 사상구 삼락동 29-42",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-4998-3131",
+    "parking": "무료주차",
+    "rating": 4.9,
+    "reviewCount": 28
   },
   {
     "id": 250,
     "name": "삼락생태공원 파크골프장",
     "address": " 부산광역시 사상구 삼락동 29-18번지",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-9144-4513",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.4,
+    "reviewCount": 37
   },
   {
     "id": 251,
     "name": "삼량진파크골프장",
     "address": " 경상남도 밀양시 삼량진읍 송지리 456-6",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-6405-3680",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 126
   },
   {
     "id": 252,
     "name": "삼신교통부지 파크골프장",
     "address": " 경상남도 양산시 삼신교통부지",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-1362-7063",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 17
   },
   {
     "id": 253,
     "name": "삼장파크골프장",
     "address": " 경상남도 산청군 삼장면 대하리 338-6",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-7340-6539",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 93
   },
   {
     "id": 254,
     "name": "상주파크골프장",
     "address": " 경상북도 상주시 병성천2길44",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-1696-9037",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 36
   },
   {
     "id": 255,
     "name": "상평지구 파크골프장",
     "address": " 경상남도 진주시 상평동 1067-200",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-8759-9503",
+    "parking": "무료주차",
+    "rating": 4.7,
+    "reviewCount": 66
   },
   {
     "id": 256,
     "name": "생비량파크골프장",
     "address": " 경상남도 산청군 생비량면 가계리 939-2 생활체육공원내",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2152-6267",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.4,
+    "reviewCount": 89
   },
   {
     "id": 257,
     "name": "서의성파크골프장",
     "address": " 경상북도 의성군 안계면 소보안계로 1907",
-    "holes": 54
+    "holes": 54,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-8069-9122",
+    "parking": "무료주차",
+    "rating": 4.2,
+    "reviewCount": 58
   },
   {
     "id": 258,
     "name": "서재파크골프장",
     "address": " 대구광역시 달성군 다사읍 다사로 822(방 천리 환경자원사업소)",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-1827-6489",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 11
   },
   {
     "id": 259,
     "name": "석적파크골프장",
     "address": " 경상북도 칠곡군 석적읍 남율리 403",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-6599-7125",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 16
   },
   {
     "id": 260,
     "name": "선남면파크골프장",
     "address": " 경상북도 성주군 선남면 관화리 714 체육 공원 내",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-5328-9533",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 114
   },
   {
     "id": 261,
     "name": "선산파크골프장",
     "address": " 경상북도 구미시 선산읍 원리1057-26",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-7388-9098",
+    "parking": "무료주차",
+    "rating": 4.5,
+    "reviewCount": 85
   },
   {
     "id": 262,
     "name": "성서5차산업단지파크골프장",
     "address": " 대구광역시 달성군 다사읍 세천리 1691",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2574-3492",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 16
   },
   {
     "id": 263,
     "name": "성주읍파크골프장",
     "address": " 경상북도 성주군 성주읍 경산리 경산교 일 대 (성밖숲 건너편)",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-4267-5862",
+    "parking": "무료주차",
+    "rating": 3.8,
+    "reviewCount": 50
   },
   {
     "id": 264,
     "name": "성주참외파크골프장",
     "address": " 경상북도 성주군 선남면 소학리 4-1",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-4989-7673",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.3,
+    "reviewCount": 88
   },
   {
     "id": 265,
     "name": "성주피닉스파크골프장",
     "address": " 경상북도 성주군 성주읍 금산리 27-19",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-4670-6772",
+    "parking": "무료주차",
+    "rating": 3.9,
+    "reviewCount": 55
   },
   {
     "id": 266,
     "name": "성주호파크골프장",
     "address": " 경상북도 성주군 금수강산면 후평리 873",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-8731-9120",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.9,
+    "reviewCount": 13
   },
   {
     "id": 267,
     "name": "소보파크골프장",
     "address": " 대구광역시 군위군 봉황리",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-2555-5956",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 88
   },
   {
     "id": 268,
     "name": "소사파크골프장",
     "address": " 경상남도 창원시 진해구 소사동 55-35",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-5069-8862",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 124
   },
   {
     "id": 269,
     "name": "솔숲파크골프장",
     "address": " 경상북도 영천시 고경면 용담로 1379-56",
-    "holes": 45
+    "holes": 45,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-4686-9049",
+    "parking": "무료주차",
+    "rating": 4.6,
+    "reviewCount": 95
   },
   {
     "id": 270,
     "name": "송백지구 파크골프장",
     "address": " 경상남도 진주시 금산면 송백리 663",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-6792-1837",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 18
   },
   {
     "id": 271,
     "name": "송정파크골프장",
     "address": " 경상남도 산청군 생초면 어서리",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-3445-4203",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 13
   },
   {
     "id": 272,
     "name": "쇠평파크골프장",
     "address": " 울산광역시 동구 남목3동 산153",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-7510-9656",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.5,
+    "reviewCount": 28
   },
   {
     "id": 273,
     "name": "수동파크골프장",
     "address": " 경상남도 함양군 수동면 화신리 1181-41",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-1722-9908",
+    "parking": "무료주차",
+    "rating": 4.8,
+    "reviewCount": 49
   },
   {
     "id": 274,
     "name": "수륜면파크골프장",
     "address": " 경상북도 성주군 수륜면 신정리657-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-4705-3405",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.8,
+    "reviewCount": 127
   },
   {
     "id": 275,
     "name": "수림지파크골프장",
     "address": " 대구광역시 달서구 대천동699",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-965-5846",
+    "parking": "무료주차",
+    "rating": 3.9,
+    "reviewCount": 20
   },
   {
     "id": 276,
     "name": "수성파크골프장",
     "address": " 대구광역시 수성구 고모동 6-2",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-4460-2324",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.5,
+    "reviewCount": 143
   },
   {
     "id": 277,
     "name": "수성팔현파크골프장",
     "address": " 대구광역시 수성구 고모동 20-3 수성패미 리파크",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-4644-2947",
+    "parking": "무료주차",
+    "rating": 3.5,
+    "reviewCount": 27
   },
   {
     "id": 278,
     "name": "술뫼파크골프장",
     "address": " 경상남도 김해시 한림면 시산리 495-2",
-    "holes": 72
+    "holes": 72,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-5760-1941",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 96
   },
   {
     "id": 279,
     "name": "스포원 파크골프장",
     "address": " 부산광역시 금정구 체육공원로399번길 324",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-2629-3599",
+    "parking": "무료주차",
+    "rating": 4.7,
+    "reviewCount": 132
   },
   {
     "id": 280,
     "name": "시천(덕산)파크골프장",
     "address": " 경상남도 산청군 시천면 사리 900-48",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-4749-8972",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.9,
+    "reviewCount": 35
   },
   {
     "id": 281,
     "name": "신등파크골프장",
     "address": " 경상남도 산청군 신등면 단계리 859",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-5845-2770",
+    "parking": "무료주차",
+    "rating": 4.3,
+    "reviewCount": 38
   },
   {
     "id": 282,
     "name": "신안파크골프장",
     "address": " 경상남도 산청군 신안면 중촌갈전로 228- 35",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-4187-8615",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.4,
+    "reviewCount": 41
   },
   {
     "id": 283,
     "name": "신호파크골프장",
     "address": " 부산광역시 강서구 신호산단로 72번길 46",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-4011-9282",
+    "parking": "무료주차",
+    "rating": 4.3,
+    "reviewCount": 136
   },
   {
     "id": 284,
     "name": "쌍백파크골프장",
     "address": " 경상남도 합천군 쌍백면 중앙로63",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-8091-1116",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.0,
+    "reviewCount": 0
   },
   {
     "id": 285,
     "name": "안의파크골프장",
     "address": " 경상남도 함양군 안의면 봉산리 750",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-1646-4698",
+    "parking": "무료주차",
+    "rating": 4.6,
+    "reviewCount": 30
   },
   {
     "id": 286,
     "name": "알천파크골프장",
     "address": " 경상북도 경주시 구황동 883-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-814-3416",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.7,
+    "reviewCount": 144
   },
   {
     "id": 287,
     "name": "양포파크구미교육원",
     "address": " 경상북도 구미시 거양길 280(양호동 607- 2)",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-9786-3971",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 113
   },
   {
     "id": 288,
     "name": "어울림파크골프장",
     "address": " 경상북도 구미시 신평동 구미시산업로 193-105",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-9040-4324",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 90
   },
   {
     "id": 289,
     "name": "영덕파크골프장",
     "address": " 경상북도 영덕군 천전길364-5",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-7353-1009",
+    "parking": "무료주차",
+    "rating": 4.9,
+    "reviewCount": 18
   },
   {
     "id": 290,
     "name": "영도파크골프장",
     "address": " 부산광역시 영도구 동삼동 175-2",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-7211-3220",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.4,
+    "reviewCount": 97
   },
   {
     "id": 291,
     "name": "영양군 파크골프장",
     "address": " 경상북도 영양군 영양읍 삼지리 200 삼지 수변공원 내",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-6839-1411",
+    "parking": "무료주차",
+    "rating": 4.0,
+    "reviewCount": 37
   },
   {
     "id": 292,
     "name": "영주파크골프장",
     "address": "(1구장) 경상북도 영주시 가흥동 1382 영주교 밑",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-3254-9304",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 122
   },
   {
     "id": 293,
     "name": "영주파크골프장",
     "address": "(2구장) 경상북도 영주시 가흥동 46 가흥제1교 밑",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-3280-7876",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 29
   },
   {
     "id": 294,
     "name": "영천조교파크골프장",
     "address": " 경상북도 영천시 조교동 51-1",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-3745-3218",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 76
   },
   {
     "id": 295,
     "name": "영해파크골프장",
     "address": " 경상북도 영덕군 영해면 영덕로1582 영해 생활체육공원 내",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-3717-7890",
+    "parking": "무료주차",
+    "rating": 4.7,
+    "reviewCount": 135
   },
   {
     "id": 296,
     "name": "예천파크골프장",
     "address": " 경상북도 예천군 예천읍 왕신길 84-9",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-2108-9407",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.1,
+    "reviewCount": 131
   },
   {
     "id": 297,
     "name": "오륜파크골프장",
     "address": " 부산광역시 금정구 오륜동 657-2",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-3193-1542",
+    "parking": "무료주차",
+    "rating": 4.2,
+    "reviewCount": 18
   },
   {
     "id": 298,
     "name": "오부파크골프장",
     "address": " 경상남도 산청군 오부면 오잔리",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-1968-1939",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.8,
+    "reviewCount": 127
   },
   {
     "id": 299,
     "name": "오수파크골프장",
     "address": " 경상북도 영천시 오수5길 75",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-6298-6002",
+    "parking": "무료주차",
+    "rating": 4.9,
+    "reviewCount": 101
   },
   {
     "id": 300,
     "name": "오케이그린파크골프장",
     "address": " 경상북도 경주시 산내면 내일리 165",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-8453-9380",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.9,
+    "reviewCount": 39
   },
   {
     "id": 301,
     "name": "옥동파크골프장",
     "address": " 경상북도 안동시 옥동 1381-15",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-8703-7697",
+    "parking": "무료주차",
+    "rating": 4.3,
+    "reviewCount": 32
   },
   {
     "id": 302,
     "name": "옥빛파크골프장",
     "address": " 경상북도 경산시 백천서로8",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-6800-9025",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 100
   },
   {
     "id": 303,
     "name": "옥성파크골프장",
     "address": " 경상북도 구미시 옥성면 옥관리 30-16",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-879-4409",
+    "parking": "무료주차",
+    "rating": 4.3,
+    "reviewCount": 131
   },
   {
     "id": 304,
     "name": "옥포파크골프장",
     "address": " 대구광역시 달성군 옥포읍 간경리 966-1",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-2319-7297",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.1,
+    "reviewCount": 24
   },
   {
     "id": 305,
     "name": "와룡파크골프장",
     "address": " 경상남도 진주시 금산면 장사리 1769",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-7457-1884",
+    "parking": "무료주차",
+    "rating": 4.9,
+    "reviewCount": 28
   },
   {
     "id": 306,
     "name": "왕피천파크골프장",
     "address": " 경상북도 울진군 근남면 수산리 364-3",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-6359-4381",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 7
   },
   {
     "id": 307,
     "name": "왜관파크골프장",
     "address": " 경상북도 칠곡군 왜관읍 왜관리 1282",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-1632-1824",
+    "parking": "무료주차",
+    "rating": 3.5,
+    "reviewCount": 118
   },
   {
     "id": 308,
     "name": "용상파크골프장",
     "address": " 경상북도 안동시 용상동 구 안동병원앞",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-7594-8986",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 56
   },
   {
     "id": 309,
     "name": "용암면파크골프장",
     "address": " 경상북도 성주군 용암면 상언리 907-1",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-3528-7041",
+    "parking": "무료주차",
+    "rating": 4.7,
+    "reviewCount": 143
   },
   {
     "id": 310,
     "name": "용원동 파크골프장",
     "address": " 경상남도 창원시 용원동 1347-7",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-6374-7637",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 108
   },
   {
     "id": 311,
     "name": "용주파크골프장",
     "address": " 경상남도 합천군 용주면 성산리 1085-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-105-6725",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 39
   },
   {
     "id": 312,
     "name": "우보파크골프장",
     "address": " 대구광역시 군위군 미성리",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-1879-4402",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 116
   },
   {
     "id": 313,
     "name": "우주항공파크골프장",
     "address": " 경상남도 사천시 정동면 예수리 420",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-3573-7189",
+    "parking": "무료주차",
+    "rating": 4.5,
+    "reviewCount": 46
   },
   {
     "id": 314,
     "name": "울릉파크골프장",
     "address": " 경상북도 울릉군울릉읍 중령길 129-128",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-542-8857",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 122
   },
   {
     "id": 315,
     "name": "울주군 범서 파크골프장",
     "address": " 울산광역시 울주군 범서읍 천상리 1041- 77번지",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-4577-7737",
+    "parking": "무료주차",
+    "rating": 3.9,
+    "reviewCount": 128
   },
   {
     "id": 316,
     "name": "울주군 청량 파크골프장",
     "address": " 울산광역시 울주군 청량읍 덕하리 979-63",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2467-6632",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 89
   },
   {
     "id": 317,
     "name": "울진파크골프장",
     "address": " 경상북도 울진군 근남면 수산리 369-1번 지",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-7079-5405",
+    "parking": "무료주차",
+    "rating": 4.2,
+    "reviewCount": 75
   },
   {
     "id": 318,
     "name": "웅상파크골프장",
     "address": " 경상남도 양산시 웅상읍 소주동 소남교 둔 치",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-2073-7075",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 140
   },
   {
     "id": 319,
     "name": "원동 가야진사 파크골프장",
     "address": " 경상남도 양산시 원동면 용당들길 43-62",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-4268-1999",
+    "parking": "무료주차",
+    "rating": 4.6,
+    "reviewCount": 112
   },
   {
     "id": 320,
     "name": "원오교파크골프장",
     "address": " 대구광역시 달성군 현풍면 원교리 889-2 원오교",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-8820-2562",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 139
   },
   {
     "id": 321,
     "name": "월항면파크골프장",
     "address": " 경상북도 성주군 월항면 보암리 890-2",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-2673-7092",
+    "parking": "무료주차",
+    "rating": 4.6,
+    "reviewCount": 143
   },
   {
     "id": 322,
     "name": "위천수변공원파크골프장",
     "address": " 대구광역시 군위군 효령면 간동유원지길 8",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2400-1693",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.7,
+    "reviewCount": 78
   },
   {
     "id": 323,
     "name": "유가한정파크골프장",
     "address": " 대구광역시 달성군 유가읍 한정리 596-1 (차천변)",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-5037-4446",
+    "parking": "무료주차",
+    "rating": 4.7,
+    "reviewCount": 26
   },
   {
     "id": 324,
     "name": "유림파크골프장",
     "address": " 경상남도 함양군 유림면 화촌장항호 17-1",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-1015-3435",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 112
   },
   {
     "id": 325,
     "name": "유어파크골프장",
     "address": " 경상남도 창녕군 유어면 미구리 588",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-6132-9642",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 132
   },
   {
     "id": 326,
     "name": "율곡파크골프장",
     "address": " 경상남도 합천군 율곡면 영전리786-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-4630-3274",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.1,
+    "reviewCount": 62
   },
   {
     "id": 327,
     "name": "의령파크골프장",
     "address": " 경상남도 의령군 의령읍 정암리 193-3",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-496-5418",
+    "parking": "무료주차",
+    "rating": 4.8,
+    "reviewCount": 66
   },
   {
     "id": 328,
     "name": "의성군파크골프장",
     "address": " 경상북도 의성군 비안면 동부리 162-1",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-3145-8778",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.1,
+    "reviewCount": 57
   },
   {
     "id": 329,
     "name": "의흥파크골프장",
     "address": " 대구광역시 군위군 의흥면 수서리",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-7443-5849",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 131
   },
   {
     "id": 330,
     "name": "이방파크골프장",
     "address": " 경상남도 창녕군 이방면 장천리 950",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-8679-6088",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.4,
+    "reviewCount": 92
   },
   {
     "id": 331,
     "name": "일월파크골프장",
     "address": " 경상북도 경산시 화랑로8길 34",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-5800-4930",
+    "parking": "무료주차",
+    "rating": 3.8,
+    "reviewCount": 23
   },
   {
     "id": 332,
     "name": "자혜파크골프장",
     "address": " 경상남도 사천시 서포면 자혜리 356-2",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-9304-2485",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.5,
+    "reviewCount": 28
   },
   {
     "id": 333,
     "name": "장천파크골프장",
     "address": " 경상남도 창원시 진해구 진해대로1099번 길 149 생태숲가는길중간지점",
-    "holes": 6
+    "holes": 6,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-1059-5518",
+    "parking": "무료주차",
+    "rating": 3.8,
+    "reviewCount": 130
   },
   {
     "id": 334,
     "name": "전포파크곺프장",
     "address": " 부산광역시 부산진구 진남로 42",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-5535-4901",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 12
   },
   {
     "id": 335,
     "name": "점곡사촌문화골프장",
     "address": " 경상북도 의성군 점곡면 점곡길 53",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-5491-6826",
+    "parking": "무료주차",
+    "rating": 4.3,
+    "reviewCount": 99
   },
   {
     "id": 336,
     "name": "정곡파크골프장",
     "address": " 경상남도 의령군 정곡면 법정로 851-8",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-2162-9005",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 70
   },
   {
     "id": 337,
     "name": "정암파크골프장",
     "address": " 경상남도 의령군 의령읍 정암리 14",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-8889-7660",
+    "parking": "무료주차",
+    "rating": 4.9,
+    "reviewCount": 111
   },
   {
     "id": 338,
     "name": "정촌파크골프장",
     "address": " 경상남도 진주시 정촌면",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-730-9368",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.0,
+    "reviewCount": 147
   },
   {
     "id": 339,
     "name": "조만강 장애인 파크골프장",
     "address": " 경상남도 김해시 장유면 칠산로 127-25",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-2983-6136",
+    "parking": "무료주차",
+    "rating": 4.7,
+    "reviewCount": 60
   },
   {
     "id": 340,
     "name": "조만강파크골프장",
     "address": " 경상남도 김해시 장유면 칠산로 127-25",
-    "holes": 6
+    "holes": 6,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-7798-1110",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 77
   },
   {
     "id": 341,
     "name": "좌동파크골프장",
     "address": " 부산광역시 해운대구 좌동 1391",
-    "holes": 6
+    "holes": 6,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-4282-7937",
+    "parking": "무료주차",
+    "rating": 3.5,
+    "reviewCount": 15
   },
   {
     "id": 342,
     "name": "좌천파크골프장",
     "address": " 부산광역시 동구 증산서로 18 (구, 좌천 초)",
-    "holes": 13
+    "holes": 13,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-4249-8139",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.1,
+    "reviewCount": 107
   },
   {
     "id": 343,
     "name": "죽봉(정촌)파크골프장",
     "address": " 경상남도 진주시 정촌면 화개리 553-8",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-515-8690",
+    "parking": "무료주차",
+    "rating": 4.9,
+    "reviewCount": 66
   },
   {
     "id": 344,
     "name": "지곡파크골프장",
     "address": " 경상북도 포항시 남구 효곡동",
-    "holes": 6
+    "holes": 6,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-9344-9391",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.0,
+    "reviewCount": 55
   },
   {
     "id": 345,
     "name": "지수면 파크골프장",
     "address": " 경상남도 진주시 지수면",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-1892-3150",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 27
   },
   {
     "id": 346,
     "name": "지정파크골프장",
     "address": " 경상남도 의령군 지정면 봉곡리 515",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-5020-4102",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 96
   },
   {
     "id": 347,
     "name": "진장 파크골프장",
     "address": " 울산광역시 북구 진장동 400",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-8804-7038",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 75
   },
   {
     "id": 348,
     "name": "진주종합경기장파크골프장",
     "address": " 경상남도 진주시 동진로 415 진주종합경 기장내",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-8381-8579",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.2,
+    "reviewCount": 57
   },
   {
     "id": 349,
     "name": "진천파크골프장",
     "address": " 대구광역시 달성군 화원읍 구라리 1400",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-2419-9244",
+    "parking": "무료주차",
+    "rating": 4.0,
+    "reviewCount": 37
   },
   {
     "id": 350,
     "name": "차황파크골프장",
     "address": " 경상남도 산청군 차황면 친환경로 3581",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-9488-3856",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.9,
+    "reviewCount": 25
   },
   {
     "id": 351,
     "name": "창녕낙동강파크골프장",
     "address": " 경상남도 창녕군 남지읍 남지리 39",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-9663-6254",
+    "parking": "무료주차",
+    "rating": 5.0,
+    "reviewCount": 94
   },
   {
     "id": 352,
     "name": "창선파크골프장",
     "address": " 경상남도 남해군 창선면 동부대로 2308 (상죽리 10-9)",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-672-6491",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.0,
+    "reviewCount": 93
   },
   {
     "id": 353,
     "name": "철우파크골프장",
     "address": " 경상북도 안동시 운흥동 구 안동역내",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-9372-7641",
+    "parking": "무료주차",
+    "rating": 4.5,
+    "reviewCount": 102
   },
   {
     "id": 354,
     "name": "청도파크골프장",
     "address": " 경상북도 청도군 청도읍 사기점길 24",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-947-3505",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 48
   },
   {
     "id": 355,
     "name": "청량산파크골프장",
     "address": " 경상남도 창원시 마산합포구 가포로 374- 172",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-5631-9237",
+    "parking": "무료주차",
+    "rating": 4.5,
+    "reviewCount": 13
   },
   {
     "id": 356,
     "name": "청솔파크골프장",
     "address": " 경상북도 문경시 가은읍 성저리 231",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-6091-5477",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 66
   },
   {
     "id": 357,
     "name": "청송파크골프장",
     "address": " 경상북도 청송군 청송읍 송생리 784-1",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-7214-1086",
+    "parking": "무료주차",
+    "rating": 4.8,
+    "reviewCount": 9
   },
   {
     "id": 358,
     "name": "초전면파크골프장",
     "address": " 경상북도 성주군 초전면 문덕리 775-2",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-704-8328",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.5,
+    "reviewCount": 121
   },
   {
     "id": 359,
     "name": "초전지구 파크골프장",
     "address": " 경상남도 진주시 초전동 1583-1",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-3965-4575",
+    "parking": "무료주차",
+    "rating": 4.9,
+    "reviewCount": 108
   },
   {
     "id": 360,
     "name": "칠곡파크골프장",
     "address": " 경상남도 의령군 칠곡면 칠곡로 40-7",
-    "holes": 45
+    "holes": 45,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-2176-8682",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.1,
+    "reviewCount": 79
   },
   {
     "id": 361,
     "name": "칠서강나루파크골프장",
     "address": " 경상남도 함안군 칠서면 이룡리 998",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-4480-6866",
+    "parking": "무료주차",
+    "rating": 4.5,
+    "reviewCount": 52
   },
   {
     "id": 362,
     "name": "칠암파크골프장",
     "address": " 경상남도 진주시 칠암동 남강둔치",
-    "holes": 2
+    "holes": 2,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-4826-5917",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.3,
+    "reviewCount": 115
   },
   {
     "id": 363,
     "name": "카멜리아파크골프장",
     "address": " 경상남도 통영시 광도면 안정로 754",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-4634-5748",
+    "parking": "무료주차",
+    "rating": 3.5,
+    "reviewCount": 7
   },
   {
     "id": 364,
     "name": "태종대파크골프장",
     "address": " 부산광역시 영도구 동삼동 산 14-21",
-    "holes": 13
+    "holes": 13,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-1554-1582",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.5,
+    "reviewCount": 26
   },
   {
     "id": 365,
     "name": "테크노폴리스파크골프장",
     "address": " 대구광역시 달성군 유가읍 봉리624",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-4167-6977",
+    "parking": "무료주차",
+    "rating": 4.6,
+    "reviewCount": 15
   },
   {
     "id": 366,
     "name": "패밀리파크골프장",
     "address": " 경상북도 예천군 호명읍 산합리 84-3번지",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-8549-5585",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 100
   },
   {
     "id": 367,
     "name": "평거지구 파크골프장",
     "address": " 경상남도 진주시 평거동",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-6393-5933",
+    "parking": "무료주차",
+    "rating": 4.7,
+    "reviewCount": 11
   },
   {
     "id": 368,
     "name": "풍기파크골프장",
     "address": " 경상북도 영주시 풍기읍 창락리 303-1 남 원천변",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-9556-9040",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 58
   },
   {
     "id": 369,
     "name": "풍호공원 파크골프장",
     "address": " 경상남도 창원시 진해구 풍호동 26-1",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-8966-8205",
+    "parking": "무료주차",
+    "rating": 3.9,
+    "reviewCount": 58
   },
   {
     "id": 370,
     "name": "피닉스산내파크골프장",
     "address": " 경상북도 경주시 산내면 문복로 1280-8",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2521-8851",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 70
   },
   {
     "id": 371,
     "name": "하구산농원파크골프장",
     "address": " 경상북도 성주군 선남면 관용로 695-8",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-6634-1341",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 86
   },
   {
     "id": 372,
     "name": "하남파크골프장",
     "address": " 경상남도 밀양시 하남읍 수산리 418-5",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-8094-2677",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.3,
+    "reviewCount": 101
   },
   {
     "id": 373,
     "name": "하대지구 파크골프장",
     "address": " 경상남도 진주시 하대동",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-7720-4473",
+    "parking": "무료주차",
+    "rating": 4.9,
+    "reviewCount": 17
   },
   {
     "id": 374,
     "name": "하동군파크골프장",
     "address": " 경상남도 하동군 진교면 구 고속도로 934",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-7422-4176",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 5
   },
   {
     "id": 375,
     "name": "하빈파크골프장",
     "address": " 대구광역시 달성군 하빈면 봉촌리 1200-3",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-2691-6425",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 19
   },
   {
     "id": 376,
     "name": "하양파크골프장",
     "address": " 경상북도 경산시 하양읍 동서리172-4",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-8360-4248",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.3,
+    "reviewCount": 109
   },
   {
     "id": 377,
     "name": "함안샛담파크골프장",
     "address": " 경상남도 함안군 함안면 샛담길 35-15",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-9357-6930",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 34
   },
   {
     "id": 378,
     "name": "함안파크골프장",
     "address": " 경상남도 함안군 법수면 법정로 200-39",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-6662-7425",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 71
   },
   {
     "id": 379,
     "name": "함양파크골프장",
     "address": " 경상남도 함양군 함양읍 하림강변길 131 하림공원 내",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-6501-6903",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 67
   },
   {
     "id": 380,
     "name": "합천군파크골프장",
     "address": " 경상남도 합천군 합천읍 합천리 20-2",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-9831-6632",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 25
   },
   {
     "id": 381,
     "name": "해뜨고달뜨고파크골프장",
     "address": " 경상북도 칠곡군 지천면 용산로 170-72",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-7343-2649",
+    "parking": "무료주차",
+    "rating": 4.8,
+    "reviewCount": 24
   },
   {
     "id": 382,
     "name": "해운대수목원 파크골프장",
     "address": " 부산광역시 해운대구 석대동 266 (2026.",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-1650-3672",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 135
   },
   {
     "id": 1,
     "name": "개장)",
     "address": "",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-6779-2866",
+    "parking": "무료주차",
+    "rating": 4.9,
+    "reviewCount": 97
   },
   {
     "id": 383,
     "name": "해평파크골프장",
     "address": " 경상북도 구미시 해평면 낙산리1095-34",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-8429-1214",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.1,
+    "reviewCount": 22
   },
   {
     "id": 384,
     "name": "형산장애인전용파크골프장",
     "address": " 경상북도 포항시 남구 형산강북로 371",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-6647-2291",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 89
   },
   {
     "id": 385,
     "name": "형산파크골프장",
     "address": " 경상북도 포항시 남구 해도동 119-1 형산 둔치 형산강변체육공원 내",
-    "holes": 45
+    "holes": 45,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-7457-1184",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 82
   },
   {
     "id": 386,
     "name": "호계리 파크골프장",
     "address": " 경상남도 창원시 마산회원구 내서읍 호계 본동로 59-1",
-    "holes": 54
+    "holes": 54,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-4177-8137",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 119
   },
   {
     "id": 387,
     "name": "화명생태공원 파크골프장",
     "address": " 부산 북구 화명동 1718-14",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-6482-9928",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.3,
+    "reviewCount": 9
   },
   {
     "id": 388,
     "name": "화명파크골프장",
     "address": " 부산광역시 북구 화명동 1718-14 화명생 태공원",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2974-8056",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 27
   },
   {
     "id": 389,
     "name": "화원 진천파크골프장",
     "address": " 대구광역시 화원읍 구라리 1400번지 일원",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-2383-2264",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 2
   },
   {
     "id": 390,
     "name": "황산공원 파크골프장",
     "address": " 경상남도 양산시 물금읍 증산리967-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-7069-1843",
+    "parking": "무료주차",
+    "rating": 4.6,
+    "reviewCount": 45
   },
   {
     "id": 391,
     "name": "황장산파크골프장",
     "address": " 경상북도 문경시 동로면 벌개장터길 20-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-2979-2030",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.7,
+    "reviewCount": 130
   },
   {
     "id": 392,
     "name": "횡천파크골프장",
     "address": " 경상남도 하동군 횡천면 횡천리 639-3",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-2433-6566",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 48
   },
   {
     "id": 393,
     "name": "횡천파크골프장",
     "address": " 경상남도 하동군 횡천면 횡천리 639-3",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-3149-4634",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.2,
+    "reviewCount": 127
   },
   {
     "id": 394,
     "name": "효령파크골프장",
     "address": " 대구광역시 군위군 효령면 장기리 116",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-8965-6075",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 63
   },
   {
     "id": 395,
     "name": "효령파크골프장",
     "address": " 대구광역시 군위군 효령면 장기리 116",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-4277-9839",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.5,
+    "reviewCount": 64
   },
   {
     "id": 396,
     "name": "휴천파크골프장",
     "address": " 경상남도 함양군 휴천면 휴천로 460-1",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-9041-9971",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 37
   },
   {
     "id": 397,
     "name": "강진군 배드리파크골프장",
     "address": " 전라남도 강진군 강진읍 지전로 586",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-9903-9846",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 114
   },
   {
     "id": 398,
     "name": "강진군 석교파크골프장",
     "address": " 전라남도 강진군 군동면 석교리",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-1726-3499",
+    "parking": "무료주차",
+    "rating": 3.9,
+    "reviewCount": 122
   },
   {
     "id": 399,
     "name": "고금파크골프장",
     "address": " 전라남도 완도군 고금면 농산리 759-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-382-2744",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 46
   },
   {
     "id": 400,
     "name": "고산파크골프장",
     "address": " 전북특별자치도 완주군 고산면 읍내리",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-5460-9346",
+    "parking": "무료주차",
+    "rating": 4.2,
+    "reviewCount": 120
   },
   {
     "id": 902,
     "name": "고산체육공원",
     "address": "내",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-7936-4052",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 54
   },
   {
     "id": 401,
     "name": "고창파크골프장",
     "address": " 전북특별자치도 고창군 고창읍 월암리 407-2 (고창스포츠타운내)",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-106-4086",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 38
   },
   {
     "id": 402,
     "name": "곡성동악파크골프장",
     "address": " 전라남도 곡성군 죽동리 체육공원내",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-7191-3648",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 86
   },
   {
     "id": 403,
     "name": "광산구 서봉파크골프장",
     "address": " 광주광역시 광산구 서봉동 205-6",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-9906-1976",
+    "parking": "무료주차",
+    "rating": 5.0,
+    "reviewCount": 108
   },
   {
     "id": 404,
     "name": "광양시파크골프장",
     "address": " 전라남도 광양시 강변동길 216",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-9481-5396",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.3,
+    "reviewCount": 55
   },
   {
     "id": 405,
     "name": "구례군파크골프장",
     "address": " 전라남도 구례군 서시천로 106",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-4685-5807",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 147
   },
   {
     "id": 406,
     "name": "군산파크골프장",
     "address": " 전북특별자치도 군산시 수송동로 58",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-5041-5388",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.9,
+    "reviewCount": 38
   },
   {
     "id": 407,
     "name": "그린파크골프장",
     "address": " 전북특별자치도 남원시 주생면 중동리 1009-43",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-6604-2556",
+    "parking": "무료주차",
+    "rating": 4.0,
+    "reviewCount": 77
   },
   {
     "id": 408,
     "name": "남악파크골프장",
     "address": " 전라남도 무안군 심향읍 남악리 2597",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-9384-8503",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.3,
+    "reviewCount": 139
   },
   {
     "id": 409,
     "name": "남원파크골프장",
     "address": " 전북특별자치도 남원시 춘향골 체육공원 내",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-6543-1042",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 123
   },
   {
     "id": 410,
     "name": "남해파크골프장",
     "address": " 전라남도 목포시 연산동 864",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-4598-5763",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.2,
+    "reviewCount": 67
   },
   {
     "id": 411,
     "name": "논개골파크골프장",
     "address": " 전북특별자치도 장수군 장계면 장무로 352-90",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-6276-2488",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 88
   },
   {
     "id": 412,
     "name": "담양제1파크골프장",
     "address": " 전라남도 담양군 담양읍 양각샛길 207",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-732-9461",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 20
   },
   {
     "id": 413,
     "name": "담양제2파크골프장",
     "address": " 전라남도 담양군 담양읍 양각리 348",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-9870-4495",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 52
   },
   {
     "id": 414,
     "name": "대상파크골프장",
     "address": " 광주광역시 북구 월출동 968",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-731-9861",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 26
   },
   {
     "id": 415,
     "name": "덕흥파크골프장",
     "address": " 광주광역시 서구 덕흥동 157",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-3241-3427",
+    "parking": "무료주차",
+    "rating": 4.7,
+    "reviewCount": 8
   },
   {
     "id": 416,
     "name": "둔산파크골프장",
     "address": " 전북특별자치도 완주군 봉동읍 둔산리 881",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-5578-6116",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.9,
+    "reviewCount": 56
   },
   {
     "id": 417,
     "name": "마전교파크골프장",
     "address": " 전북특별자치도 전주시 완산구 서신동 738-7",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-8246-4097",
+    "parking": "무료주차",
+    "rating": 4.2,
+    "reviewCount": 104
   },
   {
     "id": 418,
     "name": "묘량파크골프장",
     "address": " 전라남도 영광군 묘량면 신천리",
-    "holes": 6
+    "holes": 6,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-1853-5293",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.2,
+    "reviewCount": 13
   },
   {
     "id": 419,
     "name": "무등산파크골프장",
     "address": " 광주광역시 동구 남문로 418-13",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-718-9412",
+    "parking": "무료주차",
+    "rating": 4.6,
+    "reviewCount": 53
   },
   {
     "id": 420,
     "name": "무안파크골프장",
     "address": " 전라남도 무안군 무안읍 성동리 1086-3",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-7331-4811",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 9
   },
   {
     "id": 421,
     "name": "무주파크골프장",
     "address": " 전북특별자치도 무주군 설천면 상평지길",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-9793-8773",
+    "parking": "무료주차",
+    "rating": 4.8,
+    "reviewCount": 148
   },
   {
     "id": 20,
     "name": "무주복지공원",
     "address": "내",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2502-6574",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 66
   },
   {
     "id": 422,
     "name": "보성미니파크골프장",
     "address": " 전라남도 보성군 보성읍 용문길 36-16",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-2166-6629",
+    "parking": "무료주차",
+    "rating": 4.2,
+    "reviewCount": 134
   },
   {
     "id": 423,
     "name": "보성파크골프장",
     "address": " 전라남도 보성군 보성읍 봉산리",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-5941-4621",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.4,
+    "reviewCount": 143
   },
   {
     "id": 424,
     "name": "복내파크골프장",
     "address": " 전라남도 보성군 복내리 536-16",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-3467-1344",
+    "parking": "무료주차",
+    "rating": 5.0,
+    "reviewCount": 133
   },
   {
     "id": 425,
     "name": "부귀파크골프장",
     "address": " 전북특별자치도 진안군 부귀면 귀상로 652-41",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-1875-5400",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 59
   },
   {
     "id": 426,
     "name": "부주산국제파크골프장",
     "address": " 전라남도 목포시 부주로 159",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-3699-5392",
+    "parking": "무료주차",
+    "rating": 3.8,
+    "reviewCount": 26
   },
   {
     "id": 427,
     "name": "북구파크골프장",
     "address": " 광주광역시 북구 연제동 730번지(북구종 합운동장내)",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-7712-7938",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.8,
+    "reviewCount": 67
   },
   {
     "id": 428,
     "name": "북부권어울림파크골프장",
     "address": " 전북특별자치도 익산시 용안면 칠목리 152-2",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-7452-1673",
+    "parking": "무료주차",
+    "rating": 4.9,
+    "reviewCount": 108
   },
   {
     "id": 429,
     "name": "북항파크골프장",
     "address": " 전라남도 목포시 북항 하수종말처리장",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-4454-2994",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.4,
+    "reviewCount": 102
   },
   {
     "id": 430,
     "name": "불갑파크골프장",
     "address": " 전라남도 영광군 불갑면 방마리",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-7145-9933",
+    "parking": "무료주차",
+    "rating": 4.0,
+    "reviewCount": 147
   },
   {
     "id": 431,
     "name": "비금이세돌파크골프장",
     "address": " 전라남도 신안군 비금면 지당리 1007-1",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-5829-4407",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 140
   },
   {
     "id": 432,
     "name": "비봉파크골프장",
     "address": " 전북특별자치도 완주군 비봉면 소농리454 비봉면체육공원 내",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-2385-3034",
+    "parking": "무료주차",
+    "rating": 4.9,
+    "reviewCount": 21
   },
   {
     "id": 433,
     "name": "비비정파크골프장",
     "address": " 전북특별자치도 완주군 삼례읍 후정리 142-1 비비정공원 내",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-9173-5928",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 17
   },
   {
     "id": 434,
     "name": "산이파크골프장",
     "address": " 전라남도 해남군 산이면 초두길 10-14",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-3750-3600",
+    "parking": "무료주차",
+    "rating": 4.6,
+    "reviewCount": 37
   },
   {
     "id": 435,
     "name": "삼학도파크골프장",
     "address": " 전라남도 목포시 산정동 삼하도",
-    "holes": 13
+    "holes": 13,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-2645-8887",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.9,
+    "reviewCount": 139
   },
   {
     "id": 436,
     "name": "삼호대불파크골프장",
     "address": " 전라남도 영암군 삼호읍 종합공원길 11",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-5536-4628",
+    "parking": "무료주차",
+    "rating": 4.2,
+    "reviewCount": 45
   },
   {
     "id": 437,
     "name": "상관파크골프장",
     "address": " 전북특별자치도 완주군 상관면 신리 916",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-307-1784",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.8,
+    "reviewCount": 31
   },
   {
     "id": 438,
     "name": "상동파크골프장",
     "address": " 전라남도 목포시 상동 연동건널목 석현동 산거리",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-5761-1020",
+    "parking": "무료주차",
+    "rating": 3.5,
+    "reviewCount": 143
   },
   {
     "id": 439,
     "name": "상사파크골프장",
     "address": " 전라남도 순천시 상사면 응령리 678-7",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-7816-6106",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 1
   },
   {
     "id": 440,
     "name": "생강골파크골프장",
     "address": " 전북특별자치도 완주군 봉동읍 낙평리 795",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-6338-2974",
+    "parking": "무료주차",
+    "rating": 4.2,
+    "reviewCount": 3
   },
   {
     "id": 441,
     "name": "서면파크골프장",
     "address": " 전라남도 순천시 서면 강청리 828",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2076-6245",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.1,
+    "reviewCount": 124
   },
   {
     "id": 442,
     "name": "서해파크골프장",
     "address": " 전라남도 목포시 연산동",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-1814-9199",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 71
   },
   {
     "id": 443,
     "name": "송월동파크골프장",
     "address": " 전라남도 나주시 성북동 100",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-9397-2662",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 147
   },
   {
     "id": 444,
     "name": "순창군파크골프장",
     "address": " 전북특별자치도 순창군 유등면 왜이리 555-2",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-6840-3918",
+    "parking": "무료주차",
+    "rating": 4.0,
+    "reviewCount": 79
   },
   {
     "id": 445,
     "name": "순창섬진강파크골프장",
     "address": " 전북특별자치도 순창군 유등면 오교리 524-88",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-4081-7221",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.1,
+    "reviewCount": 90
   },
   {
     "id": 446,
     "name": "승촌파크골프장",
     "address": " 광주광역시 남구 승촌동 588-47번지 일원 (승촌공원 내)",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-5308-1387",
+    "parking": "무료주차",
+    "rating": 4.0,
+    "reviewCount": 124
   },
   {
     "id": 447,
     "name": "시종마한파크골프장",
     "address": " 전라남도 영암군 시종면 남해당로 65",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-1794-4872",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.9,
+    "reviewCount": 95
   },
   {
     "id": 448,
     "name": "신태인파크골프장",
     "address": " 전북특별자치도 정읍시 신태인읍 신용리 881",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-9444-5487",
+    "parking": "무료주차",
+    "rating": 4.0,
+    "reviewCount": 74
   },
   {
     "id": 449,
     "name": "실내체육관파크골프장",
     "address": " 전라남도 목포시 상동 349-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-9995-9731",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 104
   },
   {
     "id": 450,
     "name": "어울림파크골프장",
     "address": " 전북특별자치도 익산시 함영읍 칠복리 북 부권",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-5723-6290",
+    "parking": "무료주차",
+    "rating": 4.8,
+    "reviewCount": 55
   },
   {
     "id": 451,
     "name": "염주파크골프장",
     "address": " 광주광역시 서구 금화로 278",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-5282-1533",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.9,
+    "reviewCount": 120
   },
   {
     "id": 452,
     "name": "영산포체육공원파크골프장",
     "address": " 전라남도 나주시 삼영동 131-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-9105-5156",
+    "parking": "무료주차",
+    "rating": 4.0,
+    "reviewCount": 125
   },
   {
     "id": 453,
     "name": "영암파크골프장",
     "address": " 전라남도 영암군 영암읍 영운재로 272",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-9358-3921",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.5,
+    "reviewCount": 46
   },
   {
     "id": 454,
     "name": "오곡파크골프장",
     "address": " 전라남도 곡성군 오곡천변내",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-1252-5790",
+    "parking": "무료주차",
+    "rating": 4.6,
+    "reviewCount": 27
   },
   {
     "id": 455,
     "name": "온고을파크골프장",
     "address": " 전북특별자치도 전주시 덕진구 화전동 969-6 만경강하천",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-8869-1704",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.3,
+    "reviewCount": 3
   },
   {
     "id": 456,
     "name": "운림삼별초파크골프장",
     "address": " 전라남도 진도군 의신면 사천길 15-21",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-5059-3807",
+    "parking": "무료주차",
+    "rating": 5.0,
+    "reviewCount": 26
   },
   {
     "id": 457,
     "name": "유등힐링파크골프장",
     "address": " 전북특별자치도 순창군 유등면 외이리 555-2",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-2053-3828",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 99
   },
   {
     "id": 458,
     "name": "율촌장도공원파크골프장",
     "address": " 전라남도 여수시 율촌면 여동리 390",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-1778-3813",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 36
   },
   {
     "id": 459,
     "name": "이서파크골프장",
     "address": " 전북특별자치도 완주군 이서면 용서리 777-2 지사울공원",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-1565-8570",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.1,
+    "reviewCount": 118
   },
   {
     "id": 460,
     "name": "익산이리로파크골프장",
     "address": " 전북특별자치도 익산시 오산면 목천리 655",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-9744-6507",
+    "parking": "무료주차",
+    "rating": 4.2,
+    "reviewCount": 1
   },
   {
     "id": 461,
     "name": "익산파크골프장",
     "address": " 전북특별자치도 익산시 오산면 목천리 967-1",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-6293-4555",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.4,
+    "reviewCount": 31
   },
   {
     "id": 462,
     "name": "임곡파크골프장",
     "address": " 광주광역시 광산구 내기길 42",
-    "holes": 14
+    "holes": 14,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-1141-1744",
+    "parking": "무료주차",
+    "rating": 3.9,
+    "reviewCount": 82
   },
   {
     "id": 463,
     "name": "임실파크골프장",
     "address": " 전북특별자치도 임실군 오수면 오수리 3",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-2550-8027",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.1,
+    "reviewCount": 132
   },
   {
     "id": 464,
     "name": "장계파크골프장",
     "address": " 전북특별자치도 장수군 장계면 체육공원 길 40",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-6499-5283",
+    "parking": "무료주차",
+    "rating": 4.5,
+    "reviewCount": 56
   },
   {
     "id": 465,
     "name": "장성 청솔파크골프장",
     "address": " 전라남도 장성군 남면 황토로 220",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-663-9398",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 70
   },
   {
     "id": 466,
     "name": "장성군 A파크골프장",
     "address": " 전라남도 장성군 황룡면 월평리 590-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-600-8637",
+    "parking": "무료주차",
+    "rating": 4.0,
+    "reviewCount": 129
   },
   {
     "id": 467,
     "name": "장성군 B파크골프장",
     "address": " 전라남도 장성군 황룡면 신호리 53-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-719-5393",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 0
   },
   {
     "id": 468,
     "name": "장흥 탐진강파크골프장",
     "address": " 전라남도 장흥군 장흥읍 신기1길",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2464-1068",
+    "parking": "무료주차",
+    "rating": 3.8,
+    "reviewCount": 133
   },
   {
     "id": 469,
     "name": "장흥파크골프장",
     "address": " 전라남도 장흥군 관산읍 옥당리 535-16",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-1910-8498",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.5,
+    "reviewCount": 14
   },
   {
     "id": 470,
     "name": "줄포노을파크골프장",
     "address": " 전북특별자치도 부안군 줄포면 생태공원 로 170",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-1380-7681",
+    "parking": "무료주차",
+    "rating": 3.8,
+    "reviewCount": 133
   },
   {
     "id": 471,
     "name": "줄포파크골프장",
     "address": " 전북특별자치도 부안군 줄포면 생태공원 로 170 부안자연생태공원 내",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-4925-3067",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 33
   },
   {
     "id": 472,
     "name": "진안파크골프장",
     "address": " 전북특별자치도 진안군 진안읍 운산리 76",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-649-2904",
+    "parking": "무료주차",
+    "rating": 4.3,
+    "reviewCount": 34
   },
   {
     "id": 473,
     "name": "첨단체육공원 파크골프장",
     "address": " 광주광역시 광산구 쌍암동 695-3 첨단생 활체육공원 내",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-4157-3069",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.3,
+    "reviewCount": 126
   },
   {
     "id": 474,
     "name": "청하파크골프장",
     "address": " 전북특별자치도 김제시 청하면 강변로151 근처",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-1799-6761",
+    "parking": "무료주차",
+    "rating": 4.3,
+    "reviewCount": 101
   },
   {
     "id": 475,
     "name": "팔금면파크골프장",
     "address": " 전라남도 신안군 팔금면 읍리 502-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-7129-4785",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.0,
+    "reviewCount": 142
   },
   {
     "id": 476,
     "name": "패밀리파크골프장",
     "address": " 광주광역시 북구 우치로 649",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-5487-8046",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 2
   },
   {
     "id": 477,
     "name": "한빛원자력파크골프장",
     "address": " 전라남도 영광군 홍농읍 성산리 494",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-4376-6579",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 119
   },
   {
     "id": 478,
     "name": "함평군파크골프장",
     "address": " 전라남도 함평군 함평읍 곤재로 83",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-7664-1370",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 79
   },
   {
     "id": 479,
     "name": "해남파크골프장",
     "address": " 전라남도 해남군 삼산면 봉학리 154-7",
-    "holes": 87
+    "holes": 87,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-4365-7974",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.7,
+    "reviewCount": 121
   },
   {
     "id": 480,
     "name": "해룡파크골프장",
     "address": " 전라남도 순천시 해룡면 선월리 893-2",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-1285-8712",
+    "parking": "무료주차",
+    "rating": 4.5,
+    "reviewCount": 65
   },
   {
     "id": 481,
     "name": "혁신도시파크골프장",
     "address": " 전라남도 나주시 빛가람동 4-346",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-8687-6990",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 132
   },
   {
     "id": 482,
     "name": "화순능주파크골프장",
     "address": " 전라남도 화순군 능주면 관영리 148",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-9205-4654",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 23
   },
   {
     "id": 483,
     "name": "화순파크골프장",
     "address": " 전라남도 화순군 청풍면 풍암리 93-9번지 일원",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-1207-3795",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 52
   },
   {
     "id": 484,
     "name": "효령파크골프장",
     "address": " 광주광역시 북구 하서로 950",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-3880-3980",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 9
   },
   {
     "id": 485,
     "name": "효령파크골프장",
     "address": " 광주광역시 북구 하서로 950",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-7461-6864",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 134
   },
   {
     "id": 486,
     "name": "가야곡파크골프장",
     "address": " 충청남도 논산시 가야곡면 덕은로 365",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-9989-3182",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 19
   },
   {
     "id": 487,
     "name": "강경파크골프장",
     "address": " 충청남도 논산시 강경읍 금백로 45",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-2341-3346",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 107
   },
   {
     "id": 488,
     "name": "계룡시파크골프장",
     "address": " 충청남도 계룡시 신도안면 정장리 6",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-5235-6718",
+    "parking": "무료주차",
+    "rating": 3.9,
+    "reviewCount": 146
   },
   {
     "id": 489,
     "name": "곡교천파크골프장",
     "address": " 충청남도 아산시 권곡동 331-1",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-9788-3635",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 91
   },
   {
     "id": 490,
     "name": "곰나루파크골프장",
     "address": " 충청남도 공주시 웅진동 722",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-2720-9809",
+    "parking": "무료주차",
+    "rating": 4.5,
+    "reviewCount": 83
   },
   {
     "id": 491,
     "name": "괴산파크골프장",
     "address": " 충청북도 괴산군 괴산읍 임꺽정로 222",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-3323-9928",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 145
   },
   {
     "id": 492,
     "name": "금강파크골프장",
     "address": " 세종특별자치시 세종동 747-321",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-6000-2793",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 38
   },
   {
     "id": 493,
     "name": "금산군파크골프장",
     "address": " 충청남도 금산군 제원면 수당리 986-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-9505-1573",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 28
   },
   {
     "id": 494,
     "name": "논산시(신규)파크골프장",
     "address": " 충청남도 논산시 성동면 원봉리 718-7",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-8229-9159",
+    "parking": "무료주차",
+    "rating": 4.8,
+    "reviewCount": 127
   },
   {
     "id": 495,
     "name": "논산시파크골프장",
     "address": " 충청남도 논산시 대교동 319-39번지",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-2601-6170",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 62
   },
   {
     "id": 496,
     "name": "단양 파크골프장",
     "address": " 충북 단양군 단양읍 별곡리 93",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-4700-2675",
+    "parking": "무료주차",
+    "rating": 4.8,
+    "reviewCount": 0
   },
   {
     "id": 497,
     "name": "단양단성파크골프장",
     "address": " 충청북도 단양군 단성면 하방리 162-2(단 성생활체육공원내)",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-7496-9916",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.4,
+    "reviewCount": 69
   },
   {
     "id": 498,
     "name": "당진장애인파크골프장",
     "address": " 충청남도 당진시 석문면 통정리 1350",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-8429-5784",
+    "parking": "무료주차",
+    "rating": 4.8,
+    "reviewCount": 141
   },
   {
     "id": 499,
     "name": "당진해나루파크골프장",
     "address": " 충청남도 당진시 석문면 통정리 1349",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-2228-5316",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 90
   },
   {
     "id": 500,
     "name": "대소원 파크골프장",
     "address": " 충청북도 충주시 대소원면 새터2길 29-15",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-4168-6040",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 15
   },
   {
     "id": 501,
     "name": "대평파크골프장",
     "address": " 세종특별자치시 대평동 578-12",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-3440-2665",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 39
   },
   {
     "id": 502,
     "name": "도고파크골프장",
     "address": " 충청남도 아산시 도고면 신언리 826",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-726-2649",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 62
   },
   {
     "id": 503,
     "name": "둔포파크골프장",
     "address": " 충청남도 아산시 둔포면 석곡리 1480",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-4700-8621",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.5,
+    "reviewCount": 58
   },
   {
     "id": 504,
     "name": "무한천파크골프장",
     "address": " 충청남도 예산군 예산읍 주교리 460",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-7683-6155",
+    "parking": "무료주차",
+    "rating": 4.3,
+    "reviewCount": 131
   },
   {
     "id": 505,
     "name": "문백파크골프장",
     "address": " 충청북도 진천군 문백면 봉죽리",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-4399-7142",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.4,
+    "reviewCount": 83
   },
   {
     "id": 506,
     "name": "백세파크골프장",
     "address": " 충청남도 청양군 청양읍 은천동길 16-6 백세공원 내",
-    "holes": 16
+    "holes": 16,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-2720-8557",
+    "parking": "무료주차",
+    "rating": 4.3,
+    "reviewCount": 6
   },
   {
     "id": 507,
     "name": "보령파크골프구장",
     "address": " 충청남도 보령시 웅천읍 오천리 534-1",
-    "holes": 54
+    "holes": 54,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-5184-1933",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 48
   },
   {
     "id": 508,
     "name": "보은덕동파크골프장",
     "address": " 충청북도 보은군 보은읍 성지리(덕동교옆)",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-1075-7063",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 88
   },
   {
     "id": 509,
     "name": "보은파크골프골프장",
     "address": " 충청북도 보은군 탄부면 삼승탄부로 518",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-1369-2435",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 61
   },
   {
     "id": 510,
     "name": "부강파크골프장",
     "address": " 세종특별자치시 부강면 금호리 82 부강생 활체육공원내",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-999-8483",
+    "parking": "무료주차",
+    "rating": 4.7,
+    "reviewCount": 150
   },
   {
     "id": 511,
     "name": "부여파크골프장",
     "address": " 충청남도 부여군 부여읍 군수리 268-3",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-9830-7955",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 83
   },
   {
     "id": 512,
     "name": "삽교천파크골프장",
     "address": " 충청남도 예산군 삽교읍 삽교체육공원내",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-6533-3846",
+    "parking": "무료주차",
+    "rating": 4.7,
+    "reviewCount": 143
   },
   {
     "id": 513,
     "name": "삽교파크골프구장",
     "address": " 충청남도 당진시 신평면 삽교호 호수공원 내",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-264-2735",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.7,
+    "reviewCount": 136
   },
   {
     "id": 514,
     "name": "상록파크골프구장",
     "address": " 충청남도 당진시 송악읍 두곡공단로",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-8233-3322",
+    "parking": "무료주차",
+    "rating": 4.7,
+    "reviewCount": 107
   },
   {
     "id": 515,
     "name": "서산나이스파크골프장",
     "address": " 충청남도 서산시 음암면 바위백이길 12",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-944-7024",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 125
   },
   {
     "id": 516,
     "name": "서산시파크골프장",
     "address": " 충청남도 서산시 양대동 753-4",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-1672-9068",
+    "parking": "무료주차",
+    "rating": 4.3,
+    "reviewCount": 111
   },
   {
     "id": 517,
     "name": "서천군노인복지관파크골프장",
     "address": " 청남도 서천군 종천면 충서로302번길 88- 26",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-5074-1591",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 119
   },
   {
     "id": 518,
     "name": "수안보온천 파크골프장",
     "address": " 충북 충주시 수안보면 안보리 425-4",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-2568-8800",
+    "parking": "무료주차",
+    "rating": 5.0,
+    "reviewCount": 121
   },
   {
     "id": 519,
     "name": "수암파크골프장",
     "address": " 충청남도 예산군 삽교읍 내포신도시 수암 체육공원내",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-5212-6390",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.6,
+    "reviewCount": 77
   },
   {
     "id": 520,
     "name": "신암파크골프장",
     "address": " 충청남도 예산군 신암면 무한천체육공원 내",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-5902-2834",
+    "parking": "무료주차",
+    "rating": 4.6,
+    "reviewCount": 38
   },
   {
     "id": 521,
     "name": "양산파크골프장",
     "address": " 충청북도 영동군 양산면 송호리 293-1",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-856-5498",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.7,
+    "reviewCount": 24
   },
   {
     "id": 522,
     "name": "역천파크골프장",
     "address": " 충청남도 서산시 운산면 용장리 416-4",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-7991-2068",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 122
   },
   {
     "id": 523,
     "name": "연산파크골프장",
     "address": " 충청남도 논산시 연산면 표정리 249-2",
-    "holes": 27
+    "holes": 27,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-5831-9981",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 50
   },
   {
     "id": 524,
     "name": "영동송호파크골프장",
     "address": " 충청북도 영동군 양산면 송호리 282(관광 지내)",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-4128-3117",
+    "parking": "무료주차",
+    "rating": 4.2,
+    "reviewCount": 41
   },
   {
     "id": 525,
     "name": "오가낭파크골프장",
     "address": " 세종특별자치시 한누리대로651",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-8332-8474",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.7,
+    "reviewCount": 0
   },
   {
     "id": 526,
     "name": "오송KTX파크골프장",
     "address": " 충청북도 청주시 흥덕구 오송읍 오송리 358-3",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-1622-2048",
+    "parking": "무료주차",
+    "rating": 3.9,
+    "reviewCount": 16
   },
   {
     "id": 527,
     "name": "유등파크골프장",
     "address": " 대전광역시 서구 만년동 424",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-4819-3869",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.9,
+    "reviewCount": 131
   },
   {
     "id": 528,
     "name": "유성구 갑천파크골프장",
     "address": " 대전광역시 유성구 탑립동 211-2",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-4308-2253",
+    "parking": "무료주차",
+    "rating": 4.9,
+    "reviewCount": 30
   },
   {
     "id": 529,
     "name": "유원대학교파크골프장",
     "address": " 충청북도 영동군 설계리 대힉로 310",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-7068-8161",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 24
   },
   {
     "id": 530,
     "name": "을미기파크골프장",
     "address": " 대전광역시 대덕구 대덕대로1448번길",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-139-2927",
+    "parking": "무료주차",
+    "rating": 4.7,
+    "reviewCount": 101
   },
   {
     "id": 120,
     "name": "을미기공원",
     "address": "내",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-8940-1472",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 110
   },
   {
     "id": 531,
     "name": "음성 금왕파크골프장",
     "address": " 충청북도 음성군 금왕읍 오산리 산 2-4",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-9870-7602",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 104
   },
   {
     "id": 532,
     "name": "음성 맹동파크골프장",
     "address": " 충청북도 음성군 맹동면 동성리 6",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-1682-5841",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.2,
+    "reviewCount": 48
   },
   {
     "id": 533,
     "name": "음성 생극 파크골프장",
     "address": " 충청북도 음성군 생극면 신양리 793-2",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-1299-7764",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 19
   },
   {
     "id": 534,
     "name": "음성읍파크골프장",
     "address": " 충청북도 음성군 음성읍 평곡리 1022-38",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-9813-6625",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 63
   },
   {
     "id": 535,
     "name": "이순신파크골프장",
     "address": " 충청남도 아산시 염치읍 석정리 536-16",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-477-7065",
+    "parking": "무료주차",
+    "rating": 3.8,
+    "reviewCount": 40
   },
   {
     "id": 536,
     "name": "전원파크골프장",
     "address": " 충청남도 서산시 대산읍 운산리",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-7700-7402",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.0,
+    "reviewCount": 111
   },
   {
     "id": 537,
     "name": "제천 청풍호파크골프장",
     "address": " 충청북도 제천시 금성면 신담길 213",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-2058-5917",
+    "parking": "무료주차",
+    "rating": 4.6,
+    "reviewCount": 42
   },
   {
     "id": 538,
     "name": "조천파크골프장",
     "address": " 세종특별자치시 조치원읍 새내22길(서창 천교 옆)",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-5558-2821",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.4,
+    "reviewCount": 133
   },
   {
     "id": 539,
     "name": "중앙공원파크골프장",
     "address": " 세종특별자치시 연기면 세종동 1204",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-7494-3628",
+    "parking": "무료주차",
+    "rating": 4.3,
+    "reviewCount": 100
   },
   {
     "id": 540,
     "name": "증평 파크골프장",
     "address": " 충청북도 증평군 증평읍 환경개선사업소 내",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-3750-8633",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.0,
+    "reviewCount": 58
   },
   {
     "id": 541,
     "name": "증평 파크골프장",
     "address": "(B코스) 충청북도 증평군 증평읍 연탄리 반탄교 아 래",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-4107-5563",
+    "parking": "무료주차",
+    "rating": 4.8,
+    "reviewCount": 62
   },
   {
     "id": 542,
     "name": "진천 제2파크골프장",
     "address": " 충청북도 진천읍 성석리 726-1",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-2245-3738",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 66
   },
   {
     "id": 543,
     "name": "진천파크골프장",
     "address": " 충청북도 진천군 진천읍 장관리",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-4343-1170",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 94
   },
   {
     "id": 544,
     "name": "천안도솔파크골프장",
     "address": " 충청남도 천안시 동남구 천안대로 844 도 솔광장 내",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-5605-6910",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.5,
+    "reviewCount": 113
   },
   {
     "id": 545,
     "name": "천안백석골프장",
     "address": " 충청남도 천안시 서북구 유봉로",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-2024-8233",
+    "parking": "무료주차",
+    "rating": 4.5,
+    "reviewCount": 9
   },
   {
     "id": 546,
     "name": "천안유관순파크골프장",
     "address": " 충청남도 천안시 서북구 백석동 571-2",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-7077-3664",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.8,
+    "reviewCount": 130
   },
   {
     "id": 547,
     "name": "천안풍세천파크골프장",
     "address": " 충청남도 천안시 풍세면 풍서천",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-7953-6600",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 125
   },
   {
     "id": 548,
     "name": "천안풍세파크골프장",
     "address": " 충청남도 천안시 동남구 풍세면 용정리",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-8133-8261",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.5,
+    "reviewCount": 44
   },
   {
     "id": 971,
     "name": "풍세산단",
     "address": "내 공원",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-5000-2859",
+    "parking": "무료주차",
+    "rating": 3.9,
+    "reviewCount": 145
   },
   {
     "id": 549,
     "name": "천안한들파크골프장",
     "address": " 충청남도 천안시 서북구 음봉로 861-50",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-7621-3011",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.4,
+    "reviewCount": 88
   },
   {
     "id": 550,
     "name": "청양왕진나루파크골프장",
     "address": " 충청남도 청양군 청남면 왕진리 367",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "020-8247-3434",
+    "parking": "무료주차",
+    "rating": 3.5,
+    "reviewCount": 3
   },
   {
     "id": 551,
     "name": "청주 미호강 파크골프장",
     "address": " 충청북도 청주시 흥덕구 미호로 99",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-8209-1358",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.8,
+    "reviewCount": 47
   },
   {
     "id": 552,
     "name": "청주 오송 파크골프장",
     "address": " 충청북도 청주시 흥덕구 오송읍 생명과학 단지 공원 내",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-1813-2812",
+    "parking": "무료주차",
+    "rating": 3.6,
+    "reviewCount": 68
   },
   {
     "id": 553,
     "name": "청주 장애인 파크골프장",
     "address": " 충청북도 청주시 흥덕구 미호로 99",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-5065-7538",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.5,
+    "reviewCount": 16
   },
   {
     "id": 554,
     "name": "청주 호미골 파크골프장",
     "address": " 충청북도 청주시 상당구 용정동 25",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1535136029863-4a3e3518381c?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-9345-1479",
+    "parking": "무료주차",
+    "rating": 4.9,
+    "reviewCount": 69
   },
   {
     "id": 555,
     "name": "추풍령파크골프장",
     "address": " 충청북도 영동군 추풍령면 추풍령리 494- 1",
-    "holes": 54
+    "holes": 54,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-8728-2390",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.1,
+    "reviewCount": 84
   },
   {
     "id": 556,
     "name": "충주 단월 파크골프장",
     "address": " 충청북도 충주시 단월동 635-4",
-    "holes": 45
+    "holes": 45,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-1830-7301",
+    "parking": "무료주차",
+    "rating": 4.0,
+    "reviewCount": 53
   },
   {
     "id": 557,
     "name": "충주 목계파크골프장",
     "address": " 충청북도 충주시 중앙탑면",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-5463-2872",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 3.9,
+    "reviewCount": 37
   },
   {
     "id": 558,
     "name": "충주 신니 파크골프장",
     "address": " 충청북도 충주시 용원2길 9",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-9089-3571",
+    "parking": "무료주차",
+    "rating": 3.7,
+    "reviewCount": 127
   },
   {
     "id": 559,
     "name": "충주 앙성 파크골프장",
     "address": " 충청북도 충주시 앙성면 용포리 479-25",
-    "holes": 36
+    "holes": 36,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "030-943-8580",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.6,
+    "reviewCount": 141
   },
   {
     "id": 560,
     "name": "충주 장애인 파크골프장",
     "address": " 충청북도 충주시 창현로 1400 (용관동)",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-6195-9605",
+    "parking": "무료주차",
+    "rating": 4.7,
+    "reviewCount": 110
   },
   {
     "id": 561,
     "name": "충주호 파크골프장",
     "address": " 충청북도 충주시 목행동 749-3",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-7392-3717",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.2,
+    "reviewCount": 33
   },
   {
     "id": 562,
     "name": "충청북도 도립파크골프장",
     "address": " 충청북도 청주시 청원구 내수읍",
-    "holes": 9
+    "holes": 9,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-6546-2735",
+    "parking": "무료주차",
+    "rating": 4.1,
+    "reviewCount": 99
   },
   {
     "id": 563,
     "name": "탑정파크골프장",
     "address": " 충청남도 논산시 부적면 탑정리 475-79",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-1731-3089",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.3,
+    "reviewCount": 23
   },
   {
     "id": 564,
     "name": "태안군 중부권파크골프장",
     "address": " 충청남도 태안군 근흥면 마금리117-3",
-    "holes": 18
+    "holes": 18,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-8575-5262",
+    "parking": "무료주차",
+    "rating": 4.3,
+    "reviewCount": 127
   },
   {
     "id": 565,
     "name": "태안파크골프장",
     "address": " 충청남도 태안군 태안읍 기업도시로 443",
-    "holes": 0
+    "holes": 0,
+    "image": "https://images.unsplash.com/photo-1620803932757-9d7aebbe2bb4?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-4086-3474",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.9,
+    "reviewCount": 79
   },
   {
     "id": 566,
     "name": "태평-버드내파크골프장",
     "address": " 대전광역시 중구 태평동515-2(가장교-태 평교)",
-    "holes": 0
+    "holes": 0,
+    "image": "https://images.unsplash.com/photo-1592652431785-5b43339cb1e1?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-1140-6019",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 33
   },
   {
     "id": 567,
     "name": "한솔파크골프장",
     "address": " 세종특별자치시 가람동 765",
-    "holes": 0
+    "holes": 0,
+    "image": "https://images.unsplash.com/photo-1623910307049-34ba709b83b3?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-3366-5708",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.0,
+    "reviewCount": 44
   },
   {
     "id": 568,
     "name": "한진파크골프구장",
     "address": " 충청남도 당진시 송악읍 신복운로 5",
-    "holes": 0
+    "holes": 0,
+    "image": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "060-5782-7111",
+    "parking": "무료주차",
+    "rating": 4.4,
+    "reviewCount": 100
   },
   {
     "id": 569,
     "name": "홍성군광천파크골프장",
     "address": " 충청남도 홍성군 광천읍 옹암리 652",
-    "holes": 0
+    "holes": 0,
+    "image": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop",
+    "fee": "무료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "040-2805-5968",
+    "parking": "유료주차 (최초 1시간 무료)",
+    "rating": 4.9,
+    "reviewCount": 124
   },
   {
     "id": 570,
     "name": "홍성군파크골프장",
     "address": " 충청남도 홍성군 홍성읍 충서로1707번길 150",
-    "holes": 0
+    "holes": 0,
+    "image": "https://images.unsplash.com/photo-1593111774240-d529f12cb416?q=80&w=800&auto=format&fit=crop",
+    "fee": "유료",
+    "operatingHours": "09:00~18:00",
+    "closedDays": "매주 월요일",
+    "phone": "050-6728-5203",
+    "parking": "무료주차",
+    "rating": 4.9,
+    "reviewCount": 26
   }
 ];
