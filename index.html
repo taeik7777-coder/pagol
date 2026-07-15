@@ -134,7 +134,7 @@
                 
                 <div class="search-box" style="margin-bottom: 20px;">
                     <input type="text" id="course-search-input" placeholder="이름이나 주소로 검색..." autocomplete="off">
-                    <button class="mic-btn" id="voice-search-btn-2" style="width: 44px; height: 44px; border-radius: 12px; font-size: 18px;">
+                    <button class="mic-btn" id="voice-search-btn-2" style="width: 44px; height: 44px; border-radius: 50%; font-size: 18px;">
                         <i class="fas fa-search"></i>
                     </button>
                 </div>
@@ -168,6 +168,7 @@
                 <!-- Swipeable Region Tiles -->
                 <div class="region-scroll-x" id="search-region-tiles" style="display:flex; gap:10px; overflow-x:auto; padding-bottom:10px; scrollbar-width:none; -ms-overflow-style:none;">
                     <button class="pill-btn active" data-region="">전체</button>
+                    <button class="pill-btn" id="btn-near-me" style="background:#e8f5e9; color:#4caf50; border:1px solid #4caf50;"><i class="fas fa-map-marker-alt"></i> 내 주변</button>
                     <button class="pill-btn" data-region="서울">서울</button>
                     <button class="pill-btn" data-region="경기">경기</button>
                     <button class="pill-btn" data-region="인천">인천</button>

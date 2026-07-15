@@ -102,17 +102,90 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let courses = typeof courseData !== 'undefined' ? courseData : [];
 
+    // Haversine distance formula
+    function getDistanceFromLatLonInKm(lat1, lon1, lat2, lon2) {
+        var R = 6371;
+        var dLat = deg2rad(lat2-lat1);
+        var dLon = deg2rad(lon2-lon1); 
+        var a = 
+            Math.sin(dLat/2) * Math.sin(dLat/2) +
+            Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) * 
+            Math.sin(dLon/2) * Math.sin(dLon/2); 
+        var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+        return R * c; 
+    }
+    function deg2rad(deg) { return deg * (Math.PI/180); }
+
+    const btnNearMe = document.getElementById('btn-near-me');
+    if (btnNearMe) {
+        btnNearMe.addEventListener('click', () => {
+            if (navigator.geolocation) {
+                btnNearMe.innerHTML = '<i class="fas fa-spinner fa-spin"></i> 탐색중...';
+                
+                // Use a default coordinate if blocked, but typically asks permission
+                navigator.geolocation.getCurrentPosition(position => {
+                    const myLat = position.coords.latitude;
+                    const myLng = position.coords.longitude;
+                    
+                    courses.forEach(c => {
+                        c.distance = getDistanceFromLatLonInKm(myLat, myLng, c.lat, c.lng);
+                    });
+                    
+                    courses.sort((a, b) => a.distance - b.distance);
+                    
+                    updateRegionTiles(null);
+                    updateMapActive(null);
+                    updatePillTags(null);
+                    searchInput.value = '';
+                    
+                    document.querySelectorAll('#search-region-tiles .pill-btn').forEach(b => b.classList.remove('active'));
+                    btnNearMe.classList.add('active');
+                    btnNearMe.innerHTML = '<i class="fas fa-map-marker-alt"></i> 내 주변';
+                    
+                    renderCourseList('NEAR_ME');
+                }, error => {
+                    alert('위치 정보를 가져올 수 없습니다. 브라우저 설정을 확인해주세요.');
+                    btnNearMe.innerHTML = '<i class="fas fa-map-marker-alt"></i> 내 주변';
+                }, { timeout: 10000 });
+            } else {
+                alert('위치 정보를 지원하지 않는 브라우저입니다.');
+            }
+        });
+    }
+
     function renderCourseList(query = '') {
         courseListContainer.innerHTML = '';
         homeCourseListContainer.innerHTML = '';
         
-        let filteredCourses = courses;
+        let filteredCourses = [...courses];
         
-        if (query) {
+        if (query === 'NEAR_ME') {
+            // Already sorted by distance
+        } else if (query) {
             const q = query.toLowerCase().replace(/\s+/g, '');
+            const regionSynonyms = {
+                '충북': ['충북', '충청북도'], '충남': ['충남', '충청남도'],
+                '전북': ['전북', '전라북도'], '전남': ['전남', '전라남도'],
+                '경북': ['경북', '경상북도'], '경남': ['경남', '경상남도'],
+                '서울': ['서울', '서울특별시'], '부산': ['부산', '부산광역시'],
+                '대구': ['대구', '대구광역시'], '인천': ['인천', '인천광역시'],
+                '광주': ['광주', '광주광역시'], '대전': ['대전', '대전광역시'],
+                '울산': ['울산', '울산광역시'], '세종': ['세종', '세종특별자치시'],
+                '제주': ['제주', '제주특별자치도'], '경기': ['경기', '경기도'],
+                '강원': ['강원', '강원특별자치도', '강원도']
+            };
+            
+            const targetRegions = regionSynonyms[query] || [q];
+
             filteredCourses = courses.filter(course => {
                 const nameMatch = course.name.toLowerCase().replace(/\s+/g, '').includes(q);
-                const addressMatch = course.address.toLowerCase().replace(/\s+/g, '').includes(q);
+                let addressMatch = false;
+                for (let r of targetRegions) {
+                    if (course.address.toLowerCase().replace(/\s+/g, '').includes(r)) {
+                        addressMatch = true;
+                        break;
+                    }
+                }
                 
                 if (q === '36홀') return course.holes >= 36;
                 if (q === '18홀') return course.holes === 18;
@@ -151,8 +224,8 @@ document.addEventListener('DOMContentLoaded', () => {
             div.addEventListener('click', () => openDetailModal(course));
             
             const holesText = course.holes ? `${course.holes}홀` : '정보없음';
-            // Provide a fallback if image is somehow missing
             const imgUrl = course.image || 'https://picsum.photos/seed/fallback/400/300';
+            const distText = course.distance ? `<span style="color:#4caf50; font-weight:700; font-size:12px; margin-left:6px;"><i class="fas fa-location-arrow"></i> ${course.distance.toFixed(1)}km</span>` : '';
             
             div.innerHTML = `
                 <img class="list-item-img" src="${imgUrl}" alt="${course.name}" loading="lazy">
@@ -161,6 +234,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div>
                         <span class="list-item-holes">${holesText}</span>
                         <span style="font-size:13px; font-weight:700; color:#ff9800;">⭐ ${course.rating || 0}</span>
+                        ${distText}
                     </div>
                     <div class="list-item-address">
                         <i class="fas fa-map-marker-alt"></i> ${course.address}

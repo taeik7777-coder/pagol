@@ -378,9 +378,6 @@ button, input {
 .search-tab-header {
     background: var(--bg-surface);
     padding: 24px 20px;
-    position: sticky;
-    top: 78px; 
-    z-index: 90;
     border-bottom: 1px solid rgba(0,0,0,0.05);
 }
 
@@ -424,7 +421,7 @@ button, input {
 }
 
 .map-svg-path {
-    fill: #dbeafe; /* Light blue by default */
+    fill: #f3f4f6; /* Gray by default */
     stroke: #ffffff;
     stroke-width: 2;
     cursor: pointer;
@@ -432,7 +429,7 @@ button, input {
 }
 
 .map-svg-path:hover {
-    fill: #93c5fd;
+    fill: #dbeafe;
 }
 
 .map-svg-path.active {

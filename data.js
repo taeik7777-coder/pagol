@@ -11,7 +11,9 @@ const courseData = [
     "phone": "050-7642-1345",
     "parking": "무료주차",
     "rating": 4.8,
-    "reviewCount": 84
+    "reviewCount": 84,
+    "lat": 37.41465980616927,
+    "lng": 126.66683205943775
   },
   {
     "id": 2,
@@ -25,7 +27,9 @@ const courseData = [
     "phone": "030-2443-7202",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 52
+    "reviewCount": 52,
+    "lat": 37.901886233554904,
+    "lng": 127.20718089424236
   },
   {
     "id": 3,
@@ -39,7 +43,9 @@ const courseData = [
     "phone": "060-5724-8022",
     "parking": "무료주차",
     "rating": 4.9,
-    "reviewCount": 75
+    "reviewCount": 75,
+    "lat": 37.79501980055396,
+    "lng": 127.09146551068301
   },
   {
     "id": 4,
@@ -53,7 +59,9 @@ const courseData = [
     "phone": "060-2277-1519",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 106
+    "reviewCount": 106,
+    "lat": 37.90791095799378,
+    "lng": 126.55842152848689
   },
   {
     "id": 5,
@@ -67,7 +75,9 @@ const courseData = [
     "phone": "040-9801-5638",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 78
+    "reviewCount": 78,
+    "lat": 37.599355658564924,
+    "lng": 126.78209201751272
   },
   {
     "id": 6,
@@ -81,7 +91,9 @@ const courseData = [
     "phone": "040-8117-4958",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.2,
-    "reviewCount": 30
+    "reviewCount": 30,
+    "lat": 37.52953579161246,
+    "lng": 126.94299583633776
   },
   {
     "id": 7,
@@ -95,7 +107,9 @@ const courseData = [
     "phone": "040-976-7834",
     "parking": "무료주차",
     "rating": 4.6,
-    "reviewCount": 0
+    "reviewCount": 0,
+    "lat": 37.282453811575266,
+    "lng": 126.61833861038446
   },
   {
     "id": 8,
@@ -109,7 +123,9 @@ const courseData = [
     "phone": "050-9114-9653",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.0,
-    "reviewCount": 42
+    "reviewCount": 42,
+    "lat": 37.362546147690566,
+    "lng": 126.93808480872538
   },
   {
     "id": 9,
@@ -123,7 +139,9 @@ const courseData = [
     "phone": "030-4284-8305",
     "parking": "무료주차",
     "rating": 4.5,
-    "reviewCount": 71
+    "reviewCount": 71,
+    "lat": 37.510956933491876,
+    "lng": 127.043830762982
   },
   {
     "id": 10,
@@ -137,7 +155,9 @@ const courseData = [
     "phone": "060-2693-9404",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 94
+    "reviewCount": 94,
+    "lat": 37.11716696012317,
+    "lng": 126.62496464134915
   },
   {
     "id": 11,
@@ -151,7 +171,9 @@ const courseData = [
     "phone": "050-8791-9968",
     "parking": "무료주차",
     "rating": 3.5,
-    "reviewCount": 73
+    "reviewCount": 73,
+    "lat": 37.38398307365729,
+    "lng": 126.59163533275651
   },
   {
     "id": 12,
@@ -165,7 +187,9 @@ const courseData = [
     "phone": "040-748-2153",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 5.0,
-    "reviewCount": 84
+    "reviewCount": 84,
+    "lat": 37.33557626702191,
+    "lng": 127.38458449032385
   },
   {
     "id": 13,
@@ -179,7 +203,9 @@ const courseData = [
     "phone": "040-9579-4829",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 64
+    "reviewCount": 64,
+    "lat": 37.19140914506132,
+    "lng": 127.46024429884815
   },
   {
     "id": 14,
@@ -193,7 +219,9 @@ const courseData = [
     "phone": "030-4875-3949",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 1
+    "reviewCount": 1,
+    "lat": 37.55800594141156,
+    "lng": 126.73427550867859
   },
   {
     "id": 15,
@@ -207,7 +235,9 @@ const courseData = [
     "phone": "030-1346-9969",
     "parking": "무료주차",
     "rating": 3.8,
-    "reviewCount": 122
+    "reviewCount": 122,
+    "lat": 37.598827885645,
+    "lng": 127.34896907234402
   },
   {
     "id": 16,
@@ -221,7 +251,9 @@ const courseData = [
     "phone": "060-8647-4009",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 129
+    "reviewCount": 129,
+    "lat": 37.40588827106225,
+    "lng": 127.07111165250777
   },
   {
     "id": 17,
@@ -235,7 +267,9 @@ const courseData = [
     "phone": "060-7780-1248",
     "parking": "무료주차",
     "rating": 3.8,
-    "reviewCount": 136
+    "reviewCount": 136,
+    "lat": 37.28951393922061,
+    "lng": 126.90159081844116
   },
   {
     "id": 18,
@@ -249,7 +283,9 @@ const courseData = [
     "phone": "020-701-3435",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 5
+    "reviewCount": 5,
+    "lat": 37.38639051117917,
+    "lng": 126.87636775636743
   },
   {
     "id": 19,
@@ -263,7 +299,9 @@ const courseData = [
     "phone": "030-3643-8019",
     "parking": "무료주차",
     "rating": 4.0,
-    "reviewCount": 130
+    "reviewCount": 130,
+    "lat": 37.82379871123014,
+    "lng": 126.82707929918588
   },
   {
     "id": 20,
@@ -277,7 +315,9 @@ const courseData = [
     "phone": "060-6732-4789",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.0,
-    "reviewCount": 4
+    "reviewCount": 4,
+    "lat": 37.84046134668507,
+    "lng": 126.7746100952149
   },
   {
     "id": 21,
@@ -291,7 +331,9 @@ const courseData = [
     "phone": "030-1403-3294",
     "parking": "무료주차",
     "rating": 3.9,
-    "reviewCount": 136
+    "reviewCount": 136,
+    "lat": 37.763993030492834,
+    "lng": 127.41268411352105
   },
   {
     "id": 22,
@@ -305,7 +347,9 @@ const courseData = [
     "phone": "030-347-6194",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 101
+    "reviewCount": 101,
+    "lat": 37.30923121232772,
+    "lng": 126.79210411944571
   },
   {
     "id": 23,
@@ -319,7 +363,9 @@ const courseData = [
     "phone": "030-5478-7190",
     "parking": "무료주차",
     "rating": 4.8,
-    "reviewCount": 49
+    "reviewCount": 49,
+    "lat": 37.65856340938904,
+    "lng": 127.46182924851381
   },
   {
     "id": 24,
@@ -333,7 +379,9 @@ const courseData = [
     "phone": "050-5480-1115",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.9,
-    "reviewCount": 0
+    "reviewCount": 0,
+    "lat": 37.38867864108713,
+    "lng": 126.62751044243113
   },
   {
     "id": 25,
@@ -347,7 +395,9 @@ const courseData = [
     "phone": "020-5200-8570",
     "parking": "무료주차",
     "rating": 4.9,
-    "reviewCount": 108
+    "reviewCount": 108,
+    "lat": 37.65547020173164,
+    "lng": 126.4976340282828
   },
   {
     "id": 26,
@@ -361,7 +411,9 @@ const courseData = [
     "phone": "030-2011-1921",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 84
+    "reviewCount": 84,
+    "lat": 37.99909870558201,
+    "lng": 127.33441734039246
   },
   {
     "id": 27,
@@ -375,7 +427,9 @@ const courseData = [
     "phone": "030-522-5437",
     "parking": "무료주차",
     "rating": 4.7,
-    "reviewCount": 39
+    "reviewCount": 39,
+    "lat": 36.778261720736865,
+    "lng": 127.24248801242322
   },
   {
     "id": 28,
@@ -389,7 +443,9 @@ const courseData = [
     "phone": "030-9349-8136",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 96
+    "reviewCount": 96,
+    "lat": 37.5917512197422,
+    "lng": 127.19305302884642
   },
   {
     "id": 29,
@@ -403,7 +459,9 @@ const courseData = [
     "phone": "030-5613-6964",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 134
+    "reviewCount": 134,
+    "lat": 37.10483855067604,
+    "lng": 127.19448084602965
   },
   {
     "id": 30,
@@ -417,7 +475,9 @@ const courseData = [
     "phone": "050-5875-1697",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 69
+    "reviewCount": 69,
+    "lat": 35.07279096632359,
+    "lng": 127.05093946594066
   },
   {
     "id": 31,
@@ -431,7 +491,9 @@ const courseData = [
     "phone": "020-2059-7144",
     "parking": "무료주차",
     "rating": 4.7,
-    "reviewCount": 3
+    "reviewCount": 3,
+    "lat": 37.414775951451624,
+    "lng": 127.32912974151367
   },
   {
     "id": 32,
@@ -445,7 +507,9 @@ const courseData = [
     "phone": "020-8453-8660",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 138
+    "reviewCount": 138,
+    "lat": 37.33510962481782,
+    "lng": 126.75682928386414
   },
   {
     "id": 33,
@@ -459,7 +523,9 @@ const courseData = [
     "phone": "040-359-9682",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 89
+    "reviewCount": 89,
+    "lat": 36.934221113052146,
+    "lng": 127.39015318147037
   },
   {
     "id": 34,
@@ -473,7 +539,9 @@ const courseData = [
     "phone": "040-9950-4266",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 64
+    "reviewCount": 64,
+    "lat": 37.91722897883837,
+    "lng": 126.67196266411756
   },
   {
     "id": 35,
@@ -487,7 +555,9 @@ const courseData = [
     "phone": "050-6266-5505",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 13
+    "reviewCount": 13,
+    "lat": 37.085056572031206,
+    "lng": 127.32656612465658
   },
   {
     "id": 36,
@@ -501,7 +571,9 @@ const courseData = [
     "phone": "040-7781-1582",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.7,
-    "reviewCount": 132
+    "reviewCount": 132,
+    "lat": 37.121632815498636,
+    "lng": 126.82180571789628
   },
   {
     "id": 37,
@@ -515,7 +587,9 @@ const courseData = [
     "phone": "040-4959-8152",
     "parking": "무료주차",
     "rating": 4.7,
-    "reviewCount": 20
+    "reviewCount": 20,
+    "lat": 37.59216179636138,
+    "lng": 126.86240233389312
   },
   {
     "id": 38,
@@ -529,7 +603,9 @@ const courseData = [
     "phone": "030-8078-8352",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.1,
-    "reviewCount": 48
+    "reviewCount": 48,
+    "lat": 37.637395708866684,
+    "lng": 127.02228870676512
   },
   {
     "id": 39,
@@ -543,7 +619,9 @@ const courseData = [
     "phone": "040-5759-8304",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 56
+    "reviewCount": 56,
+    "lat": 37.32542212098068,
+    "lng": 127.2534887835715
   },
   {
     "id": 40,
@@ -557,7 +635,9 @@ const courseData = [
     "phone": "040-162-1312",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 61
+    "reviewCount": 61,
+    "lat": 37.48582940620981,
+    "lng": 126.96188192739469
   },
   {
     "id": 41,
@@ -571,7 +651,9 @@ const courseData = [
     "phone": "050-9899-8013",
     "parking": "무료주차",
     "rating": 4.3,
-    "reviewCount": 16
+    "reviewCount": 16,
+    "lat": 37.566414423410166,
+    "lng": 127.20584290302662
   },
   {
     "id": 42,
@@ -585,7 +667,9 @@ const courseData = [
     "phone": "020-6334-6651",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 137
+    "reviewCount": 137,
+    "lat": 36.98609292138224,
+    "lng": 126.8187968153294
   },
   {
     "id": 43,
@@ -599,7 +683,9 @@ const courseData = [
     "phone": "060-9609-4141",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 87
+    "reviewCount": 87,
+    "lat": 37.737913153654056,
+    "lng": 127.10708759877743
   },
   {
     "id": 44,
@@ -613,7 +699,9 @@ const courseData = [
     "phone": "020-869-8582",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.0,
-    "reviewCount": 55
+    "reviewCount": 55,
+    "lat": 37.598682418954425,
+    "lng": 126.76578054808869
   },
   {
     "id": 45,
@@ -627,7 +715,9 @@ const courseData = [
     "phone": "040-810-7132",
     "parking": "무료주차",
     "rating": 4.5,
-    "reviewCount": 74
+    "reviewCount": 74,
+    "lat": 37.63178678364456,
+    "lng": 127.0091499006137
   },
   {
     "id": 46,
@@ -641,7 +731,9 @@ const courseData = [
     "phone": "020-6864-4638",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.3,
-    "reviewCount": 71
+    "reviewCount": 71,
+    "lat": 37.5164632310748,
+    "lng": 127.46815520568603
   },
   {
     "id": 47,
@@ -655,7 +747,9 @@ const courseData = [
     "phone": "060-624-6895",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 71
+    "reviewCount": 71,
+    "lat": 37.06432470835918,
+    "lng": 127.49306634418731
   },
   {
     "id": 48,
@@ -669,7 +763,9 @@ const courseData = [
     "phone": "030-2725-4820",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 31
+    "reviewCount": 31,
+    "lat": 37.49725212719316,
+    "lng": 127.14117433241991
   },
   {
     "id": 49,
@@ -683,7 +779,9 @@ const courseData = [
     "phone": "040-3145-9731",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 64
+    "reviewCount": 64,
+    "lat": 37.391341522666934,
+    "lng": 127.36849286957647
   },
   {
     "id": 50,
@@ -697,7 +795,9 @@ const courseData = [
     "phone": "030-407-1736",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.1,
-    "reviewCount": 17
+    "reviewCount": 17,
+    "lat": 37.60809711466371,
+    "lng": 126.64781500157864
   },
   {
     "id": 51,
@@ -711,7 +811,9 @@ const courseData = [
     "phone": "060-9282-3155",
     "parking": "무료주차",
     "rating": 3.5,
-    "reviewCount": 115
+    "reviewCount": 115,
+    "lat": 37.63900541593968,
+    "lng": 126.95205986055264
   },
   {
     "id": 52,
@@ -725,7 +827,9 @@ const courseData = [
     "phone": "040-6870-2741",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 111
+    "reviewCount": 111,
+    "lat": 36.888328999102946,
+    "lng": 126.91345925994119
   },
   {
     "id": 53,
@@ -739,7 +843,9 @@ const courseData = [
     "phone": "020-1574-6163",
     "parking": "무료주차",
     "rating": 5.0,
-    "reviewCount": 94
+    "reviewCount": 94,
+    "lat": 37.299675448712236,
+    "lng": 126.79517944263905
   },
   {
     "id": 54,
@@ -753,7 +859,9 @@ const courseData = [
     "phone": "020-7710-9331",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 64
+    "reviewCount": 64,
+    "lat": 37.42633928248658,
+    "lng": 126.94165139053727
   },
   {
     "id": 55,
@@ -767,7 +875,9 @@ const courseData = [
     "phone": "030-9150-4130",
     "parking": "무료주차",
     "rating": 4.8,
-    "reviewCount": 56
+    "reviewCount": 56,
+    "lat": 37.511032967974145,
+    "lng": 126.78231443974535
   },
   {
     "id": 56,
@@ -781,7 +891,9 @@ const courseData = [
     "phone": "060-7640-5009",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.2,
-    "reviewCount": 120
+    "reviewCount": 120,
+    "lat": 37.17810216529197,
+    "lng": 126.56538481357993
   },
   {
     "id": 57,
@@ -795,7 +907,9 @@ const courseData = [
     "phone": "020-7279-4328",
     "parking": "무료주차",
     "rating": 4.9,
-    "reviewCount": 26
+    "reviewCount": 26,
+    "lat": 37.74285677192912,
+    "lng": 127.29526323371206
   },
   {
     "id": 58,
@@ -809,7 +923,9 @@ const courseData = [
     "phone": "030-2648-1864",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.0,
-    "reviewCount": 34
+    "reviewCount": 34,
+    "lat": 37.03225045295183,
+    "lng": 126.66743968958284
   },
   {
     "id": 59,
@@ -823,7 +939,9 @@ const courseData = [
     "phone": "050-1270-2132",
     "parking": "무료주차",
     "rating": 5.0,
-    "reviewCount": 112
+    "reviewCount": 112,
+    "lat": 37.63937337348679,
+    "lng": 127.04148297025417
   },
   {
     "id": 60,
@@ -837,7 +955,9 @@ const courseData = [
     "phone": "060-1225-1270",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.8,
-    "reviewCount": 102
+    "reviewCount": 102,
+    "lat": 37.028433044236884,
+    "lng": 127.14047480418837
   },
   {
     "id": 61,
@@ -851,7 +971,9 @@ const courseData = [
     "phone": "060-1966-3328",
     "parking": "무료주차",
     "rating": 4.6,
-    "reviewCount": 76
+    "reviewCount": 76,
+    "lat": 37.365075298769085,
+    "lng": 127.02120788342009
   },
   {
     "id": 62,
@@ -865,7 +987,9 @@ const courseData = [
     "phone": "040-7400-7646",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 5.0,
-    "reviewCount": 75
+    "reviewCount": 75,
+    "lat": 36.86760738714188,
+    "lng": 126.85973856619151
   },
   {
     "id": 63,
@@ -879,7 +1003,9 @@ const courseData = [
     "phone": "020-5196-6955",
     "parking": "무료주차",
     "rating": 3.8,
-    "reviewCount": 119
+    "reviewCount": 119,
+    "lat": 36.844376971130245,
+    "lng": 126.74249697677894
   },
   {
     "id": 64,
@@ -893,7 +1019,9 @@ const courseData = [
     "phone": "060-2291-7316",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 54
+    "reviewCount": 54,
+    "lat": 37.05882118905064,
+    "lng": 126.66455406226973
   },
   {
     "id": 65,
@@ -907,7 +1035,9 @@ const courseData = [
     "phone": "060-7014-1516",
     "parking": "무료주차",
     "rating": 4.9,
-    "reviewCount": 116
+    "reviewCount": 116,
+    "lat": 37.288394738187996,
+    "lng": 127.15602085879283
   },
   {
     "id": 66,
@@ -921,7 +1051,9 @@ const courseData = [
     "phone": "030-5903-5473",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 53
+    "reviewCount": 53,
+    "lat": 37.8017496074583,
+    "lng": 126.8210788670507
   },
   {
     "id": 67,
@@ -935,7 +1067,9 @@ const courseData = [
     "phone": "020-7269-3039",
     "parking": "무료주차",
     "rating": 4.9,
-    "reviewCount": 81
+    "reviewCount": 81,
+    "lat": 37.05334920382746,
+    "lng": 126.71960384676962
   },
   {
     "id": 68,
@@ -949,7 +1083,9 @@ const courseData = [
     "phone": "020-1002-1318",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 122
+    "reviewCount": 122,
+    "lat": 37.02732137452038,
+    "lng": 126.2229042923961
   },
   {
     "id": 69,
@@ -963,7 +1099,9 @@ const courseData = [
     "phone": "040-9481-1534",
     "parking": "무료주차",
     "rating": 3.8,
-    "reviewCount": 101
+    "reviewCount": 101,
+    "lat": 37.270784488746294,
+    "lng": 126.7269865341266
   },
   {
     "id": 70,
@@ -977,7 +1115,9 @@ const courseData = [
     "phone": "020-8512-3420",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.8,
-    "reviewCount": 51
+    "reviewCount": 51,
+    "lat": 37.20894838266744,
+    "lng": 127.50903883126088
   },
   {
     "id": 71,
@@ -991,7 +1131,9 @@ const courseData = [
     "phone": "020-8893-5905",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 62
+    "reviewCount": 62,
+    "lat": 37.689326006356055,
+    "lng": 126.70633595822716
   },
   {
     "id": 72,
@@ -1005,7 +1147,9 @@ const courseData = [
     "phone": "030-9468-8741",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.3,
-    "reviewCount": 56
+    "reviewCount": 56,
+    "lat": 37.37298464422896,
+    "lng": 127.46576033859078
   },
   {
     "id": 73,
@@ -1019,7 +1163,9 @@ const courseData = [
     "phone": "040-3673-7710",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 52
+    "reviewCount": 52,
+    "lat": 37.56253172369166,
+    "lng": 126.9701199434727
   },
   {
     "id": 74,
@@ -1033,7 +1179,9 @@ const courseData = [
     "phone": "020-1744-6870",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.0,
-    "reviewCount": 88
+    "reviewCount": 88,
+    "lat": 36.863554331708194,
+    "lng": 127.5091740368195
   },
   {
     "id": 75,
@@ -1047,7 +1195,9 @@ const courseData = [
     "phone": "030-1872-2889",
     "parking": "무료주차",
     "rating": 5.0,
-    "reviewCount": 80
+    "reviewCount": 80,
+    "lat": 37.027465694164306,
+    "lng": 127.17273291029983
   },
   {
     "id": 76,
@@ -1061,7 +1211,9 @@ const courseData = [
     "phone": "030-8907-5173",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 49
+    "reviewCount": 49,
+    "lat": 37.732239861783626,
+    "lng": 126.96171340427732
   },
   {
     "id": 77,
@@ -1075,7 +1227,9 @@ const courseData = [
     "phone": "030-9274-9970",
     "parking": "무료주차",
     "rating": 3.8,
-    "reviewCount": 144
+    "reviewCount": 144,
+    "lat": 37.09500656416508,
+    "lng": 127.13718401022987
   },
   {
     "id": 78,
@@ -1089,7 +1243,9 @@ const courseData = [
     "phone": "060-6880-2015",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.9,
-    "reviewCount": 105
+    "reviewCount": 105,
+    "lat": 37.28431765862387,
+    "lng": 126.62693073564931
   },
   {
     "id": 79,
@@ -1103,7 +1259,9 @@ const courseData = [
     "phone": "060-1286-8788",
     "parking": "무료주차",
     "rating": 5.0,
-    "reviewCount": 6
+    "reviewCount": 6,
+    "lat": 36.820776119565856,
+    "lng": 127.02147441354637
   },
   {
     "id": 80,
@@ -1117,7 +1275,9 @@ const courseData = [
     "phone": "040-8811-3627",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.8,
-    "reviewCount": 123
+    "reviewCount": 123,
+    "lat": 37.34037834050515,
+    "lng": 127.0570489013728
   },
   {
     "id": 81,
@@ -1131,7 +1291,9 @@ const courseData = [
     "phone": "040-4969-4606",
     "parking": "무료주차",
     "rating": 3.9,
-    "reviewCount": 131
+    "reviewCount": 131,
+    "lat": 37.069484907085396,
+    "lng": 127.09596820406047
   },
   {
     "id": 82,
@@ -1145,7 +1307,9 @@ const courseData = [
     "phone": "050-3654-1409",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.7,
-    "reviewCount": 36
+    "reviewCount": 36,
+    "lat": 37.846317407919,
+    "lng": 127.93416140411826
   },
   {
     "id": 83,
@@ -1159,7 +1323,9 @@ const courseData = [
     "phone": "030-2544-1676",
     "parking": "무료주차",
     "rating": 3.9,
-    "reviewCount": 29
+    "reviewCount": 29,
+    "lat": 38.17645858841105,
+    "lng": 127.70945903513345
   },
   {
     "id": 84,
@@ -1173,7 +1339,9 @@ const courseData = [
     "phone": "050-3471-2256",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 79
+    "reviewCount": 79,
+    "lat": 37.418205347078676,
+    "lng": 127.91070356255983
   },
   {
     "id": 85,
@@ -1187,7 +1355,9 @@ const courseData = [
     "phone": "060-1125-8510",
     "parking": "무료주차",
     "rating": 4.3,
-    "reviewCount": 126
+    "reviewCount": 126,
+    "lat": 37.43027320791388,
+    "lng": 128.10674059005726
   },
   {
     "id": 86,
@@ -1201,7 +1371,9 @@ const courseData = [
     "phone": "030-8963-2572",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 111
+    "reviewCount": 111,
+    "lat": 38.16779511846531,
+    "lng": 128.4378443244721
   },
   {
     "id": 87,
@@ -1215,7 +1387,9 @@ const courseData = [
     "phone": "060-2943-9157",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 89
+    "reviewCount": 89,
+    "lat": 37.95277384554218,
+    "lng": 128.02319375567865
   },
   {
     "id": 88,
@@ -1229,7 +1403,9 @@ const courseData = [
     "phone": "030-219-3950",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.4,
-    "reviewCount": 125
+    "reviewCount": 125,
+    "lat": 37.365054641411916,
+    "lng": 128.64273289729437
   },
   {
     "id": 89,
@@ -1243,7 +1419,9 @@ const courseData = [
     "phone": "060-1491-6304",
     "parking": "무료주차",
     "rating": 4.9,
-    "reviewCount": 54
+    "reviewCount": 54,
+    "lat": 37.539915768141114,
+    "lng": 128.02060228269585
   },
   {
     "id": 90,
@@ -1257,7 +1435,9 @@ const courseData = [
     "phone": "060-4513-4815",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 32
+    "reviewCount": 32,
+    "lat": 37.698071868660534,
+    "lng": 128.45905626030995
   },
   {
     "id": 91,
@@ -1271,7 +1451,9 @@ const courseData = [
     "phone": "060-5408-7802",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 115
+    "reviewCount": 115,
+    "lat": 37.42055140393005,
+    "lng": 128.12407959998993
   },
   {
     "id": 92,
@@ -1285,7 +1467,9 @@ const courseData = [
     "phone": "060-3715-4967",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.1,
-    "reviewCount": 120
+    "reviewCount": 120,
+    "lat": 37.72137821995897,
+    "lng": 128.08000245133633
   },
   {
     "id": 93,
@@ -1299,7 +1483,9 @@ const courseData = [
     "phone": "050-2648-7827",
     "parking": "무료주차",
     "rating": 3.9,
-    "reviewCount": 89
+    "reviewCount": 89,
+    "lat": 37.63419237347358,
+    "lng": 128.10736707632316
   },
   {
     "id": 94,
@@ -1313,7 +1499,9 @@ const courseData = [
     "phone": "020-6943-3174",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 149
+    "reviewCount": 149,
+    "lat": 37.93764738514676,
+    "lng": 128.53702910977893
   },
   {
     "id": 95,
@@ -1327,7 +1515,9 @@ const courseData = [
     "phone": "020-9702-1923",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 49
+    "reviewCount": 49,
+    "lat": 38.22482805828164,
+    "lng": 128.39607778369296
   },
   {
     "id": 96,
@@ -1341,7 +1531,9 @@ const courseData = [
     "phone": "030-4913-2142",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.9,
-    "reviewCount": 9
+    "reviewCount": 9,
+    "lat": 37.32761726441504,
+    "lng": 128.29191181374858
   },
   {
     "id": 97,
@@ -1355,7 +1547,9 @@ const courseData = [
     "phone": "060-6807-9776",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 23
+    "reviewCount": 23,
+    "lat": 37.71862593648704,
+    "lng": 127.92542091526332
   },
   {
     "id": 98,
@@ -1369,7 +1563,9 @@ const courseData = [
     "phone": "030-600-1730",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.7,
-    "reviewCount": 40
+    "reviewCount": 40,
+    "lat": 37.52273337164939,
+    "lng": 127.80977082288452
   },
   {
     "id": 99,
@@ -1383,7 +1579,9 @@ const courseData = [
     "phone": "050-600-6879",
     "parking": "무료주차",
     "rating": 4.2,
-    "reviewCount": 105
+    "reviewCount": 105,
+    "lat": 37.94080744080101,
+    "lng": 127.7449148036744
   },
   {
     "id": 100,
@@ -1397,7 +1595,9 @@ const courseData = [
     "phone": "050-8896-6015",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 39
+    "reviewCount": 39,
+    "lat": 37.419625904092506,
+    "lng": 128.33361100206324
   },
   {
     "id": 101,
@@ -1411,7 +1611,9 @@ const courseData = [
     "phone": "040-8772-8569",
     "parking": "무료주차",
     "rating": 4.2,
-    "reviewCount": 22
+    "reviewCount": 22,
+    "lat": 37.65901801300569,
+    "lng": 128.3781556363893
   },
   {
     "id": 102,
@@ -1425,7 +1627,9 @@ const courseData = [
     "phone": "040-1726-6668",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.9,
-    "reviewCount": 73
+    "reviewCount": 73,
+    "lat": 37.359121988560794,
+    "lng": 128.50588918943185
   },
   {
     "id": 103,
@@ -1439,7 +1643,9 @@ const courseData = [
     "phone": "020-7937-6848",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 13
+    "reviewCount": 13,
+    "lat": 37.42254970429847,
+    "lng": 128.43079698991684
   },
   {
     "id": 104,
@@ -1453,7 +1659,9 @@ const courseData = [
     "phone": "060-4710-5709",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 68
+    "reviewCount": 68,
+    "lat": 37.899077452409124,
+    "lng": 127.67690777076436
   },
   {
     "id": 105,
@@ -1467,7 +1675,9 @@ const courseData = [
     "phone": "040-8508-6195",
     "parking": "무료주차",
     "rating": 4.8,
-    "reviewCount": 30
+    "reviewCount": 30,
+    "lat": 37.431962575332086,
+    "lng": 127.97680274113189
   },
   {
     "id": 106,
@@ -1481,7 +1691,9 @@ const courseData = [
     "phone": "050-9347-8347",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 51
+    "reviewCount": 51,
+    "lat": 37.56338101534799,
+    "lng": 127.70839680223905
   },
   {
     "id": 107,
@@ -1495,7 +1707,9 @@ const courseData = [
     "phone": "060-8163-1874",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 131
+    "reviewCount": 131,
+    "lat": 37.97137015133197,
+    "lng": 127.9828468998567
   },
   {
     "id": 108,
@@ -1509,7 +1723,9 @@ const courseData = [
     "phone": "040-7205-5689",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 23
+    "reviewCount": 23,
+    "lat": 38.10641155113394,
+    "lng": 128.53990453342206
   },
   {
     "id": 109,
@@ -1523,7 +1739,9 @@ const courseData = [
     "phone": "040-1823-3333",
     "parking": "무료주차",
     "rating": 3.5,
-    "reviewCount": 133
+    "reviewCount": 133,
+    "lat": 37.582856409685434,
+    "lng": 127.97251192517349
   },
   {
     "id": 110,
@@ -1537,7 +1755,9 @@ const courseData = [
     "phone": "040-9229-5497",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.4,
-    "reviewCount": 148
+    "reviewCount": 148,
+    "lat": 38.02967980560522,
+    "lng": 127.72654316083067
   },
   {
     "id": 111,
@@ -1551,7 +1771,9 @@ const courseData = [
     "phone": "060-5307-1616",
     "parking": "무료주차",
     "rating": 4.5,
-    "reviewCount": 85
+    "reviewCount": 85,
+    "lat": 37.50768840879241,
+    "lng": 128.5528473656161
   },
   {
     "id": 112,
@@ -1565,7 +1787,9 @@ const courseData = [
     "phone": "020-3450-1439",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.2,
-    "reviewCount": 50
+    "reviewCount": 50,
+    "lat": 37.81775281664562,
+    "lng": 128.536293635334
   },
   {
     "id": 113,
@@ -1579,7 +1803,9 @@ const courseData = [
     "phone": "040-6094-5140",
     "parking": "무료주차",
     "rating": 4.5,
-    "reviewCount": 18
+    "reviewCount": 18,
+    "lat": 37.490375497577645,
+    "lng": 127.78193037476802
   },
   {
     "id": 114,
@@ -1593,7 +1819,9 @@ const courseData = [
     "phone": "060-7044-8848",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 50
+    "reviewCount": 50,
+    "lat": 37.77625821664796,
+    "lng": 127.90443715185602
   },
   {
     "id": 115,
@@ -1607,7 +1835,9 @@ const courseData = [
     "phone": "020-5125-9846",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 97
+    "reviewCount": 97,
+    "lat": 37.33131298168468,
+    "lng": 127.68908001440813
   },
   {
     "id": 116,
@@ -1621,7 +1851,9 @@ const courseData = [
     "phone": "060-7540-1456",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.8,
-    "reviewCount": 77
+    "reviewCount": 77,
+    "lat": 37.40916536597749,
+    "lng": 128.21177416921955
   },
   {
     "id": 117,
@@ -1635,7 +1867,9 @@ const courseData = [
     "phone": "060-2301-9511",
     "parking": "무료주차",
     "rating": 4.5,
-    "reviewCount": 56
+    "reviewCount": 56,
+    "lat": 37.47502660122105,
+    "lng": 128.38218666926463
   },
   {
     "id": 118,
@@ -1649,7 +1883,9 @@ const courseData = [
     "phone": "060-1392-2460",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.4,
-    "reviewCount": 50
+    "reviewCount": 50,
+    "lat": 37.856279502848594,
+    "lng": 127.89250774958066
   },
   {
     "id": 119,
@@ -1663,7 +1899,9 @@ const courseData = [
     "phone": "060-8817-8780",
     "parking": "무료주차",
     "rating": 4.5,
-    "reviewCount": 15
+    "reviewCount": 15,
+    "lat": 37.91714815611552,
+    "lng": 127.66972150182639
   },
   {
     "id": 120,
@@ -1677,7 +1915,9 @@ const courseData = [
     "phone": "050-7980-3842",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 55
+    "reviewCount": 55,
+    "lat": 37.69186479847391,
+    "lng": 128.44580616048148
   },
   {
     "id": 121,
@@ -1691,7 +1931,9 @@ const courseData = [
     "phone": "030-4474-5804",
     "parking": "무료주차",
     "rating": 4.8,
-    "reviewCount": 10
+    "reviewCount": 10,
+    "lat": 37.926025608382844,
+    "lng": 127.68374572861978
   },
   {
     "id": 122,
@@ -1705,7 +1947,9 @@ const courseData = [
     "phone": "060-691-1144",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 18
+    "reviewCount": 18,
+    "lat": 37.52068307540867,
+    "lng": 128.53117008683748
   },
   {
     "id": 123,
@@ -1719,7 +1963,9 @@ const courseData = [
     "phone": "020-4320-8358",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 27
+    "reviewCount": 27,
+    "lat": 37.373791178541865,
+    "lng": 128.23790835647677
   },
   {
     "id": 124,
@@ -1733,7 +1979,9 @@ const courseData = [
     "phone": "020-7296-7590",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.1,
-    "reviewCount": 45
+    "reviewCount": 45,
+    "lat": 37.87701303320203,
+    "lng": 127.84069580196032
   },
   {
     "id": 125,
@@ -1747,7 +1995,9 @@ const courseData = [
     "phone": "030-6831-6702",
     "parking": "무료주차",
     "rating": 4.3,
-    "reviewCount": 6
+    "reviewCount": 6,
+    "lat": 38.0385995148876,
+    "lng": 127.70136743345789
   },
   {
     "id": 126,
@@ -1761,7 +2011,9 @@ const courseData = [
     "phone": "050-9934-4328",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.5,
-    "reviewCount": 123
+    "reviewCount": 123,
+    "lat": 37.90043791003342,
+    "lng": 127.97327548218054
   },
   {
     "id": 127,
@@ -1775,7 +2027,9 @@ const courseData = [
     "phone": "040-2612-9153",
     "parking": "무료주차",
     "rating": 4.6,
-    "reviewCount": 52
+    "reviewCount": 52,
+    "lat": 37.529990482376654,
+    "lng": 127.82919284942021
   },
   {
     "id": 128,
@@ -1789,7 +2043,9 @@ const courseData = [
     "phone": "060-2765-2476",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 5.0,
-    "reviewCount": 118
+    "reviewCount": 118,
+    "lat": 37.34960288905676,
+    "lng": 128.05306212074603
   },
   {
     "id": 129,
@@ -1803,7 +2059,9 @@ const courseData = [
     "phone": "060-3028-8796",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 15
+    "reviewCount": 15,
+    "lat": 38.144060579866725,
+    "lng": 127.8306678329923
   },
   {
     "id": 130,
@@ -1817,7 +2075,9 @@ const courseData = [
     "phone": "050-9049-1218",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 18
+    "reviewCount": 18,
+    "lat": 38.200487952565396,
+    "lng": 128.62092046797426
   },
   {
     "id": 131,
@@ -1831,7 +2091,9 @@ const courseData = [
     "phone": "050-6889-1640",
     "parking": "무료주차",
     "rating": 3.8,
-    "reviewCount": 89
+    "reviewCount": 89,
+    "lat": 37.90026602568305,
+    "lng": 128.18170314585336
   },
   {
     "id": 132,
@@ -1845,7 +2107,9 @@ const courseData = [
     "phone": "060-6476-7991",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.3,
-    "reviewCount": 61
+    "reviewCount": 61,
+    "lat": 34.84779069980106,
+    "lng": 128.84606975004917
   },
   {
     "id": 133,
@@ -1859,7 +2123,9 @@ const courseData = [
     "phone": "030-1656-5976",
     "parking": "무료주차",
     "rating": 4.0,
-    "reviewCount": 90
+    "reviewCount": 90,
+    "lat": 35.271931990691165,
+    "lng": 128.3488545886501
   },
   {
     "id": 134,
@@ -1873,7 +2139,9 @@ const courseData = [
     "phone": "040-4925-1524",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 104
+    "reviewCount": 104,
+    "lat": 36.236759635991326,
+    "lng": 128.24632621229145
   },
   {
     "id": 135,
@@ -1887,7 +2155,9 @@ const courseData = [
     "phone": "040-7606-3067",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 34
+    "reviewCount": 34,
+    "lat": 35.64284481382804,
+    "lng": 129.0396341837699
   },
   {
     "id": 136,
@@ -1901,7 +2171,9 @@ const courseData = [
     "phone": "050-5658-3984",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.7,
-    "reviewCount": 145
+    "reviewCount": 145,
+    "lat": 35.920043157874126,
+    "lng": 128.21619023379236
   },
   {
     "id": 137,
@@ -1915,7 +2187,9 @@ const courseData = [
     "phone": "060-3198-2026",
     "parking": "무료주차",
     "rating": 4.8,
-    "reviewCount": 15
+    "reviewCount": 15,
+    "lat": 36.25739756959212,
+    "lng": 128.4024960517025
   },
   {
     "id": 138,
@@ -1929,7 +2203,9 @@ const courseData = [
     "phone": "030-2645-4861",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 145
+    "reviewCount": 145,
+    "lat": 35.6532102492033,
+    "lng": 128.87231359804147
   },
   {
     "id": 139,
@@ -1943,7 +2219,9 @@ const courseData = [
     "phone": "060-2544-6189",
     "parking": "무료주차",
     "rating": 4.2,
-    "reviewCount": 148
+    "reviewCount": 148,
+    "lat": 36.264286274639446,
+    "lng": 128.91627610845424
   },
   {
     "id": 140,
@@ -1957,7 +2235,9 @@ const courseData = [
     "phone": "020-499-5760",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 52
+    "reviewCount": 52,
+    "lat": 36.13475198463521,
+    "lng": 128.47075076141823
   },
   {
     "id": 141,
@@ -1971,7 +2251,9 @@ const courseData = [
     "phone": "060-7896-3179",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 60
+    "reviewCount": 60,
+    "lat": 35.168754241758656,
+    "lng": 128.55029903387154
   },
   {
     "id": 142,
@@ -1985,7 +2267,9 @@ const courseData = [
     "phone": "040-3791-4377",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.5,
-    "reviewCount": 144
+    "reviewCount": 144,
+    "lat": 35.62751824518142,
+    "lng": 128.74587883802906
   },
   {
     "id": 143,
@@ -1999,7 +2283,9 @@ const courseData = [
     "phone": "020-9579-6633",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 138
+    "reviewCount": 138,
+    "lat": 34.97265806741557,
+    "lng": 129.13344618943404
   },
   {
     "id": 144,
@@ -2013,7 +2299,9 @@ const courseData = [
     "phone": "040-8681-5950",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 118
+    "reviewCount": 118,
+    "lat": 35.900237236704086,
+    "lng": 128.48465961240558
   },
   {
     "id": 145,
@@ -2027,7 +2315,9 @@ const courseData = [
     "phone": "060-3101-3831",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 119
+    "reviewCount": 119,
+    "lat": 35.64393724734444,
+    "lng": 128.60941672267225
   },
   {
     "id": 146,
@@ -2041,7 +2331,9 @@ const courseData = [
     "phone": "030-4084-5813",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.1,
-    "reviewCount": 96
+    "reviewCount": 96,
+    "lat": 35.078060201731276,
+    "lng": 128.24131869356023
   },
   {
     "id": 147,
@@ -2055,7 +2347,9 @@ const courseData = [
     "phone": "060-9919-7391",
     "parking": "무료주차",
     "rating": 3.8,
-    "reviewCount": 119
+    "reviewCount": 119,
+    "lat": 35.53704637702066,
+    "lng": 128.64846067101738
   },
   {
     "id": 148,
@@ -2069,7 +2363,9 @@ const courseData = [
     "phone": "050-1731-3050",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 146
+    "reviewCount": 146,
+    "lat": 36.386578508385206,
+    "lng": 128.29653139970227
   },
   {
     "id": 149,
@@ -2083,7 +2379,9 @@ const courseData = [
     "phone": "040-1548-2489",
     "parking": "무료주차",
     "rating": 3.8,
-    "reviewCount": 145
+    "reviewCount": 145,
+    "lat": 36.76825655304681,
+    "lng": 128.40908061869243
   },
   {
     "id": 150,
@@ -2097,7 +2395,9 @@ const courseData = [
     "phone": "060-2479-4958",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.7,
-    "reviewCount": 96
+    "reviewCount": 96,
+    "lat": 36.497841030058,
+    "lng": 128.8935812758773
   },
   {
     "id": 151,
@@ -2111,7 +2411,9 @@ const courseData = [
     "phone": "060-3746-2550",
     "parking": "무료주차",
     "rating": 4.8,
-    "reviewCount": 106
+    "reviewCount": 106,
+    "lat": 36.92675080393856,
+    "lng": 128.51434765770665
   },
   {
     "id": 152,
@@ -2125,7 +2427,9 @@ const courseData = [
     "phone": "050-9316-9153",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 97
+    "reviewCount": 97,
+    "lat": 36.474376940937866,
+    "lng": 128.5941278927138
   },
   {
     "id": 153,
@@ -2139,7 +2443,9 @@ const courseData = [
     "phone": "040-1789-6943",
     "parking": "무료주차",
     "rating": 3.9,
-    "reviewCount": 51
+    "reviewCount": 51,
+    "lat": 35.55147226027573,
+    "lng": 128.13870741688942
   },
   {
     "id": 154,
@@ -2153,7 +2459,9 @@ const courseData = [
     "phone": "030-8386-9609",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 66
+    "reviewCount": 66,
+    "lat": 36.85894047674538,
+    "lng": 128.4662324258242
   },
   {
     "id": 155,
@@ -2167,7 +2475,9 @@ const courseData = [
     "phone": "060-6028-7211",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 6
+    "reviewCount": 6,
+    "lat": 34.85476156976008,
+    "lng": 128.24271067709356
   },
   {
     "id": 156,
@@ -2181,7 +2491,9 @@ const courseData = [
     "phone": "020-1487-2263",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 46
+    "reviewCount": 46,
+    "lat": 36.77915780951424,
+    "lng": 128.30806395087657
   },
   {
     "id": 157,
@@ -2195,7 +2507,9 @@ const courseData = [
     "phone": "040-5852-8337",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 123
+    "reviewCount": 123,
+    "lat": 35.53570676502775,
+    "lng": 128.5441730028411
   },
   {
     "id": 158,
@@ -2209,7 +2523,9 @@ const courseData = [
     "phone": "020-538-3360",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 96
+    "reviewCount": 96,
+    "lat": 35.63594003523787,
+    "lng": 128.59945535783376
   },
   {
     "id": 159,
@@ -2223,7 +2539,9 @@ const courseData = [
     "phone": "050-4938-2383",
     "parking": "무료주차",
     "rating": 3.9,
-    "reviewCount": 148
+    "reviewCount": 148,
+    "lat": 35.46239486110578,
+    "lng": 128.84535852163276
   },
   {
     "id": 160,
@@ -2237,7 +2555,9 @@ const courseData = [
     "phone": "040-9353-2045",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 6
+    "reviewCount": 6,
+    "lat": 36.474750427797844,
+    "lng": 128.2433221271077
   },
   {
     "id": 161,
@@ -2251,7 +2571,9 @@ const courseData = [
     "phone": "050-3486-7445",
     "parking": "무료주차",
     "rating": 3.8,
-    "reviewCount": 107
+    "reviewCount": 107,
+    "lat": 36.32888362628839,
+    "lng": 128.16960648551085
   },
   {
     "id": 162,
@@ -2265,7 +2587,9 @@ const courseData = [
     "phone": "050-3632-2585",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.8,
-    "reviewCount": 53
+    "reviewCount": 53,
+    "lat": 35.95635165773311,
+    "lng": 128.6733665758599
   },
   {
     "id": 163,
@@ -2279,7 +2603,9 @@ const courseData = [
     "phone": "060-2386-9425",
     "parking": "무료주차",
     "rating": 4.0,
-    "reviewCount": 63
+    "reviewCount": 63,
+    "lat": 34.909252552785055,
+    "lng": 128.77902710886744
   },
   {
     "id": 164,
@@ -2293,7 +2619,9 @@ const courseData = [
     "phone": "040-5746-5417",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 86
+    "reviewCount": 86,
+    "lat": 36.10256907905845,
+    "lng": 128.17450184305852
   },
   {
     "id": 165,
@@ -2307,7 +2635,9 @@ const courseData = [
     "phone": "040-9287-8297",
     "parking": "무료주차",
     "rating": 4.5,
-    "reviewCount": 40
+    "reviewCount": 40,
+    "lat": 34.82375566902369,
+    "lng": 128.5011368872304
   },
   {
     "id": 166,
@@ -2321,7 +2651,9 @@ const courseData = [
     "phone": "060-2386-6330",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 22
+    "reviewCount": 22,
+    "lat": 35.281997878590005,
+    "lng": 128.2089832131319
   },
   {
     "id": 167,
@@ -2335,7 +2667,9 @@ const courseData = [
     "phone": "020-7337-2756",
     "parking": "무료주차",
     "rating": 3.9,
-    "reviewCount": 68
+    "reviewCount": 68,
+    "lat": 36.88899381258428,
+    "lng": 128.90400887204675
   },
   {
     "id": 168,
@@ -2349,7 +2683,9 @@ const courseData = [
     "phone": "060-4491-8838",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 70
+    "reviewCount": 70,
+    "lat": 36.962095348761466,
+    "lng": 128.4176428612375
   },
   {
     "id": 169,
@@ -2363,7 +2699,9 @@ const courseData = [
     "phone": "050-4335-9820",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 126
+    "reviewCount": 126,
+    "lat": 36.52898660477238,
+    "lng": 128.61469014249369
   },
   {
     "id": 170,
@@ -2377,7 +2715,9 @@ const courseData = [
     "phone": "050-7266-6499",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.7,
-    "reviewCount": 140
+    "reviewCount": 140,
+    "lat": 36.23845631243683,
+    "lng": 128.06512947288945
   },
   {
     "id": 171,
@@ -2391,7 +2731,9 @@ const courseData = [
     "phone": "030-302-7744",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 10
+    "reviewCount": 10,
+    "lat": 36.5025231496738,
+    "lng": 128.08839320996162
   },
   {
     "id": 172,
@@ -2405,7 +2747,9 @@ const courseData = [
     "phone": "060-2407-9115",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 53
+    "reviewCount": 53,
+    "lat": 36.314688713536356,
+    "lng": 128.71180336928106
   },
   {
     "id": 173,
@@ -2419,7 +2763,9 @@ const courseData = [
     "phone": "060-4363-6008",
     "parking": "무료주차",
     "rating": 4.0,
-    "reviewCount": 37
+    "reviewCount": 37,
+    "lat": 35.39472237153516,
+    "lng": 128.7840842918733
   },
   {
     "id": 174,
@@ -2433,7 +2779,9 @@ const courseData = [
     "phone": "050-1547-2420",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 136
+    "reviewCount": 136,
+    "lat": 36.7373968968308,
+    "lng": 128.6512706518644
   },
   {
     "id": 175,
@@ -2447,7 +2795,9 @@ const courseData = [
     "phone": "030-7608-8285",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 86
+    "reviewCount": 86,
+    "lat": 35.52221921316243,
+    "lng": 128.75577087180844
   },
   {
     "id": 176,
@@ -2461,7 +2811,9 @@ const courseData = [
     "phone": "040-9834-8315",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.4,
-    "reviewCount": 71
+    "reviewCount": 71,
+    "lat": 36.3686554962414,
+    "lng": 128.3513200928808
   },
   {
     "id": 177,
@@ -2475,7 +2827,9 @@ const courseData = [
     "phone": "040-4206-6079",
     "parking": "무료주차",
     "rating": 3.9,
-    "reviewCount": 139
+    "reviewCount": 139,
+    "lat": 35.400204125085864,
+    "lng": 129.29844785098922
   },
   {
     "id": 178,
@@ -2489,7 +2843,9 @@ const courseData = [
     "phone": "030-7539-9818",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 61
+    "reviewCount": 61,
+    "lat": 35.6675972330695,
+    "lng": 129.77609988929686
   },
   {
     "id": 179,
@@ -2503,7 +2859,9 @@ const courseData = [
     "phone": "040-6413-8941",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 146
+    "reviewCount": 146,
+    "lat": 36.34688027096827,
+    "lng": 128.57179074379926
   },
   {
     "id": 180,
@@ -2517,7 +2875,9 @@ const courseData = [
     "phone": "040-6816-4901",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 50
+    "reviewCount": 50,
+    "lat": 36.79549584832565,
+    "lng": 128.1729407633731
   },
   {
     "id": 181,
@@ -2531,7 +2891,9 @@ const courseData = [
     "phone": "020-1378-1381",
     "parking": "무료주차",
     "rating": 3.9,
-    "reviewCount": 43
+    "reviewCount": 43,
+    "lat": 36.38336805294929,
+    "lng": 128.42635431478155
   },
   {
     "id": 182,
@@ -2545,7 +2907,9 @@ const courseData = [
     "phone": "040-9661-9507",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 57
+    "reviewCount": 57,
+    "lat": 34.90771320164733,
+    "lng": 129.2539834162521
   },
   {
     "id": 183,
@@ -2559,7 +2923,9 @@ const courseData = [
     "phone": "030-734-5498",
     "parking": "무료주차",
     "rating": 3.8,
-    "reviewCount": 9
+    "reviewCount": 9,
+    "lat": 35.09610312600628,
+    "lng": 128.8654024408821
   },
   {
     "id": 184,
@@ -2573,7 +2939,9 @@ const courseData = [
     "phone": "060-3592-7306",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.3,
-    "reviewCount": 83
+    "reviewCount": 83,
+    "lat": 35.367013581762755,
+    "lng": 128.43409873085403
   },
   {
     "id": 185,
@@ -2587,7 +2955,9 @@ const courseData = [
     "phone": "030-1157-5843",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 103
+    "reviewCount": 103,
+    "lat": 36.0640140458603,
+    "lng": 128.46445465663354
   },
   {
     "id": 186,
@@ -2601,7 +2971,9 @@ const courseData = [
     "phone": "020-6710-7049",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 71
+    "reviewCount": 71,
+    "lat": 35.95679918347423,
+    "lng": 128.32396993054445
   },
   {
     "id": 187,
@@ -2615,7 +2987,9 @@ const courseData = [
     "phone": "060-9268-9909",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 123
+    "reviewCount": 123,
+    "lat": 36.61722518098485,
+    "lng": 128.129997777597
   },
   {
     "id": 188,
@@ -2629,7 +3003,9 @@ const courseData = [
     "phone": "050-9307-7125",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.0,
-    "reviewCount": 70
+    "reviewCount": 70,
+    "lat": 36.143135306547904,
+    "lng": 128.89400743391738
   },
   {
     "id": 189,
@@ -2643,7 +3019,9 @@ const courseData = [
     "phone": "040-1976-1189",
     "parking": "무료주차",
     "rating": 4.6,
-    "reviewCount": 69
+    "reviewCount": 69,
+    "lat": 37.036828648046615,
+    "lng": 128.17550196182842
   },
   {
     "id": 190,
@@ -2657,7 +3035,9 @@ const courseData = [
     "phone": "050-9082-8637",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 91
+    "reviewCount": 91,
+    "lat": 35.37806728232783,
+    "lng": 128.52690723771497
   },
   {
     "id": 191,
@@ -2671,7 +3051,9 @@ const courseData = [
     "phone": "050-7268-5111",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 30
+    "reviewCount": 30,
+    "lat": 36.275933280925095,
+    "lng": 127.02619395794726
   },
   {
     "id": 192,
@@ -2685,7 +3067,9 @@ const courseData = [
     "phone": "020-3488-4603",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.3,
-    "reviewCount": 93
+    "reviewCount": 93,
+    "lat": 35.808794072747915,
+    "lng": 128.32308765793547
   },
   {
     "id": 193,
@@ -2699,7 +3083,9 @@ const courseData = [
     "phone": "040-8216-1856",
     "parking": "무료주차",
     "rating": 3.5,
-    "reviewCount": 25
+    "reviewCount": 25,
+    "lat": 36.0412679418166,
+    "lng": 128.3389555716972
   },
   {
     "id": 194,
@@ -2713,7 +3099,9 @@ const courseData = [
     "phone": "020-9765-2675",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.1,
-    "reviewCount": 97
+    "reviewCount": 97,
+    "lat": 36.96270199074093,
+    "lng": 128.11329184393654
   },
   {
     "id": 195,
@@ -2727,7 +3115,9 @@ const courseData = [
     "phone": "030-5746-9525",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 23
+    "reviewCount": 23,
+    "lat": 35.30002923315675,
+    "lng": 128.55194155935078
   },
   {
     "id": 196,
@@ -2741,7 +3131,9 @@ const courseData = [
     "phone": "050-7381-6255",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 89
+    "reviewCount": 89,
+    "lat": 35.73606659569391,
+    "lng": 128.3895066481332
   },
   {
     "id": 197,
@@ -2755,7 +3147,9 @@ const courseData = [
     "phone": "020-6922-7775",
     "parking": "무료주차",
     "rating": 4.2,
-    "reviewCount": 147
+    "reviewCount": 147,
+    "lat": 35.65834277142592,
+    "lng": 128.53162452887966
   },
   {
     "id": 198,
@@ -2769,7 +3163,9 @@ const courseData = [
     "phone": "050-968-7704",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.9,
-    "reviewCount": 35
+    "reviewCount": 35,
+    "lat": 35.17794112409908,
+    "lng": 129.05201848950335
   },
   {
     "id": 199,
@@ -2783,7 +3179,9 @@ const courseData = [
     "phone": "050-4826-8907",
     "parking": "무료주차",
     "rating": 3.8,
-    "reviewCount": 122
+    "reviewCount": 122,
+    "lat": 35.26997169816876,
+    "lng": 129.41161324761438
   },
   {
     "id": 200,
@@ -2797,7 +3195,9 @@ const courseData = [
     "phone": "050-903-1610",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.3,
-    "reviewCount": 41
+    "reviewCount": 41,
+    "lat": 36.10166205098411,
+    "lng": 128.21210662225002
   },
   {
     "id": 201,
@@ -2811,7 +3211,9 @@ const courseData = [
     "phone": "050-3655-8252",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 44
+    "reviewCount": 44,
+    "lat": 36.53732408454028,
+    "lng": 128.45650884561113
   },
   {
     "id": 202,
@@ -2825,7 +3227,9 @@ const courseData = [
     "phone": "060-430-5176",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.9,
-    "reviewCount": 58
+    "reviewCount": 58,
+    "lat": 36.3156171352968,
+    "lng": 128.00912020513923
   },
   {
     "id": 203,
@@ -2839,7 +3243,9 @@ const courseData = [
     "phone": "060-8930-5221",
     "parking": "무료주차",
     "rating": 3.9,
-    "reviewCount": 142
+    "reviewCount": 142,
+    "lat": 35.16648689875471,
+    "lng": 129.1435236319255
   },
   {
     "id": 204,
@@ -2853,7 +3259,9 @@ const courseData = [
     "phone": "040-7193-4333",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.1,
-    "reviewCount": 58
+    "reviewCount": 58,
+    "lat": 35.78446135232648,
+    "lng": 129.0213874085445
   },
   {
     "id": 205,
@@ -2867,7 +3275,9 @@ const courseData = [
     "phone": "020-9806-6449",
     "parking": "무료주차",
     "rating": 5.0,
-    "reviewCount": 35
+    "reviewCount": 35,
+    "lat": 35.636317197769415,
+    "lng": 128.4266613419547
   },
   {
     "id": 206,
@@ -2881,7 +3291,9 @@ const courseData = [
     "phone": "020-1631-9177",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.1,
-    "reviewCount": 1
+    "reviewCount": 1,
+    "lat": 37.005842376662315,
+    "lng": 128.52777829595126
   },
   {
     "id": 207,
@@ -2895,7 +3307,9 @@ const courseData = [
     "phone": "030-258-3168",
     "parking": "무료주차",
     "rating": 4.0,
-    "reviewCount": 116
+    "reviewCount": 116,
+    "lat": 34.831939901079025,
+    "lng": 128.91230577073514
   },
   {
     "id": 208,
@@ -2909,7 +3323,9 @@ const courseData = [
     "phone": "030-3910-7416",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 101
+    "reviewCount": 101,
+    "lat": 35.315422859960094,
+    "lng": 128.64484845193988
   },
   {
     "id": 209,
@@ -2923,7 +3339,9 @@ const courseData = [
     "phone": "030-6473-4626",
     "parking": "무료주차",
     "rating": 4.2,
-    "reviewCount": 143
+    "reviewCount": 143,
+    "lat": 35.39362055212834,
+    "lng": 128.97696880473072
   },
   {
     "id": 210,
@@ -2937,7 +3355,9 @@ const courseData = [
     "phone": "060-7569-6964",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.0,
-    "reviewCount": 62
+    "reviewCount": 62,
+    "lat": 35.36677818840885,
+    "lng": 128.25389424278495
   },
   {
     "id": 211,
@@ -2951,7 +3371,9 @@ const courseData = [
     "phone": "020-2340-7758",
     "parking": "무료주차",
     "rating": 4.8,
-    "reviewCount": 125
+    "reviewCount": 125,
+    "lat": 35.19051749231541,
+    "lng": 128.20438018116138
   },
   {
     "id": 212,
@@ -2965,7 +3387,9 @@ const courseData = [
     "phone": "040-9856-3445",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 5.0,
-    "reviewCount": 128
+    "reviewCount": 128,
+    "lat": 36.134006841235184,
+    "lng": 128.3310818107284
   },
   {
     "id": 213,
@@ -2979,7 +3403,9 @@ const courseData = [
     "phone": "050-6192-1230",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 141
+    "reviewCount": 141,
+    "lat": 35.42928464772505,
+    "lng": 128.46930284562842
   },
   {
     "id": 214,
@@ -2993,7 +3419,9 @@ const courseData = [
     "phone": "050-7194-8360",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.4,
-    "reviewCount": 88
+    "reviewCount": 88,
+    "lat": 36.905789472326994,
+    "lng": 128.24137398306283
   },
   {
     "id": 215,
@@ -3007,7 +3435,9 @@ const courseData = [
     "phone": "060-6566-3500",
     "parking": "무료주차",
     "rating": 4.0,
-    "reviewCount": 112
+    "reviewCount": 112,
+    "lat": 35.66207811259382,
+    "lng": 129.000724370614
   },
   {
     "id": 216,
@@ -3021,7 +3451,9 @@ const courseData = [
     "phone": "020-124-1859",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 40
+    "reviewCount": 40,
+    "lat": 35.42271399690338,
+    "lng": 128.37942891888608
   },
   {
     "id": 217,
@@ -3035,7 +3467,9 @@ const courseData = [
     "phone": "050-2190-2111",
     "parking": "무료주차",
     "rating": 5.0,
-    "reviewCount": 96
+    "reviewCount": 96,
+    "lat": 36.093331665727725,
+    "lng": 128.9470360655727
   },
   {
     "id": 218,
@@ -3049,7 +3483,9 @@ const courseData = [
     "phone": "060-951-1878",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 147
+    "reviewCount": 147,
+    "lat": 36.104419030581866,
+    "lng": 128.66304626256925
   },
   {
     "id": 219,
@@ -3063,7 +3499,9 @@ const courseData = [
     "phone": "050-5437-9093",
     "parking": "무료주차",
     "rating": 4.5,
-    "reviewCount": 129
+    "reviewCount": 129,
+    "lat": 36.56002315589526,
+    "lng": 128.16604769658696
   },
   {
     "id": 220,
@@ -3077,7 +3515,9 @@ const courseData = [
     "phone": "060-783-5729",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.0,
-    "reviewCount": 61
+    "reviewCount": 61,
+    "lat": 35.04628629446159,
+    "lng": 129.0691239908254
   },
   {
     "id": 221,
@@ -3091,7 +3531,9 @@ const courseData = [
     "phone": "050-2381-4557",
     "parking": "무료주차",
     "rating": 4.8,
-    "reviewCount": 127
+    "reviewCount": 127,
+    "lat": 35.216033229624344,
+    "lng": 129.3029904387386
   },
   {
     "id": 222,
@@ -3105,7 +3547,9 @@ const courseData = [
     "phone": "050-6891-3825",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 113
+    "reviewCount": 113,
+    "lat": 35.05007388289325,
+    "lng": 128.93982173609086
   },
   {
     "id": 223,
@@ -3119,7 +3563,9 @@ const courseData = [
     "phone": "050-7267-6445",
     "parking": "무료주차",
     "rating": 4.2,
-    "reviewCount": 38
+    "reviewCount": 38,
+    "lat": 34.98840950465199,
+    "lng": 128.5765795696379
   },
   {
     "id": 224,
@@ -3133,7 +3579,9 @@ const courseData = [
     "phone": "050-6014-6045",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 127
+    "reviewCount": 127,
+    "lat": 36.75741887297536,
+    "lng": 128.58087386589835
   },
   {
     "id": 225,
@@ -3147,7 +3595,9 @@ const courseData = [
     "phone": "040-878-3084",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 88
+    "reviewCount": 88,
+    "lat": 36.87700287773354,
+    "lng": 128.26547400648855
   },
   {
     "id": 226,
@@ -3161,7 +3611,9 @@ const courseData = [
     "phone": "030-3721-1256",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 5.0,
-    "reviewCount": 0
+    "reviewCount": 0,
+    "lat": 36.58840715493182,
+    "lng": 128.39701616793582
   },
   {
     "id": 227,
@@ -3175,7 +3627,9 @@ const courseData = [
     "phone": "020-7919-6347",
     "parking": "무료주차",
     "rating": 4.2,
-    "reviewCount": 121
+    "reviewCount": 121,
+    "lat": 35.17143502620925,
+    "lng": 128.86798551208153
   },
   {
     "id": 228,
@@ -3189,7 +3643,9 @@ const courseData = [
     "phone": "060-622-6409",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 143
+    "reviewCount": 143,
+    "lat": 36.247002461385414,
+    "lng": 128.98688104867205
   },
   {
     "id": 229,
@@ -3203,7 +3659,9 @@ const courseData = [
     "phone": "020-7999-5011",
     "parking": "무료주차",
     "rating": 4.0,
-    "reviewCount": 127
+    "reviewCount": 127,
+    "lat": 35.39632891597027,
+    "lng": 128.63181809908735
   },
   {
     "id": 230,
@@ -3217,7 +3675,9 @@ const courseData = [
     "phone": "060-759-3942",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 131
+    "reviewCount": 131,
+    "lat": 35.58697272194553,
+    "lng": 128.64912145214424
   },
   {
     "id": 231,
@@ -3231,7 +3691,9 @@ const courseData = [
     "phone": "060-7805-2194",
     "parking": "무료주차",
     "rating": 3.8,
-    "reviewCount": 148
+    "reviewCount": 148,
+    "lat": 36.44043853777972,
+    "lng": 128.11842307269157
   },
   {
     "id": 232,
@@ -3245,7 +3707,9 @@ const courseData = [
     "phone": "020-7411-5976",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 60
+    "reviewCount": 60,
+    "lat": 35.563911412314575,
+    "lng": 128.32147434588114
   },
   {
     "id": 233,
@@ -3259,7 +3723,9 @@ const courseData = [
     "phone": "060-3672-1975",
     "parking": "무료주차",
     "rating": 4.3,
-    "reviewCount": 115
+    "reviewCount": 115,
+    "lat": 35.47433838903594,
+    "lng": 128.82391364995726
   },
   {
     "id": 234,
@@ -3273,7 +3739,9 @@ const courseData = [
     "phone": "040-5970-2627",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.2,
-    "reviewCount": 39
+    "reviewCount": 39,
+    "lat": 34.848737602038355,
+    "lng": 128.5207223942051
   },
   {
     "id": 235,
@@ -3287,7 +3755,9 @@ const courseData = [
     "phone": "020-2269-1470",
     "parking": "무료주차",
     "rating": 4.3,
-    "reviewCount": 112
+    "reviewCount": 112,
+    "lat": 35.327303481264984,
+    "lng": 128.59153844395638
   },
   {
     "id": 236,
@@ -3301,7 +3771,9 @@ const courseData = [
     "phone": "030-6006-9140",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.8,
-    "reviewCount": 147
+    "reviewCount": 147,
+    "lat": 37.07337782640707,
+    "lng": 128.2303517285448
   },
   {
     "id": 237,
@@ -3315,7 +3787,9 @@ const courseData = [
     "phone": "050-603-6947",
     "parking": "무료주차",
     "rating": 5.0,
-    "reviewCount": 44
+    "reviewCount": 44,
+    "lat": 35.54666484460443,
+    "lng": 128.36469610431732
   },
   {
     "id": 238,
@@ -3329,7 +3803,9 @@ const courseData = [
     "phone": "050-7479-2938",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 20
+    "reviewCount": 20,
+    "lat": 36.174386631955834,
+    "lng": 128.57321215849248
   },
   {
     "id": 239,
@@ -3343,7 +3819,9 @@ const courseData = [
     "phone": "040-7008-9286",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 139
+    "reviewCount": 139,
+    "lat": 35.60392646952609,
+    "lng": 128.36783689063904
   },
   {
     "id": 240,
@@ -3357,7 +3835,9 @@ const courseData = [
     "phone": "050-1246-1929",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 139
+    "reviewCount": 139,
+    "lat": 36.65197022507454,
+    "lng": 128.46193944103862
   },
   {
     "id": 241,
@@ -3371,7 +3851,9 @@ const courseData = [
     "phone": "020-291-4804",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 109
+    "reviewCount": 109,
+    "lat": 36.14766855574966,
+    "lng": 128.17084417672652
   },
   {
     "id": 242,
@@ -3385,7 +3867,9 @@ const courseData = [
     "phone": "060-8052-6250",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.3,
-    "reviewCount": 103
+    "reviewCount": 103,
+    "lat": 35.17240951414316,
+    "lng": 128.77989294820665
   },
   {
     "id": 243,
@@ -3399,7 +3883,9 @@ const courseData = [
     "phone": "050-4388-5205",
     "parking": "무료주차",
     "rating": 3.5,
-    "reviewCount": 111
+    "reviewCount": 111,
+    "lat": 36.38222386065517,
+    "lng": 128.206156400313
   },
   {
     "id": 244,
@@ -3413,7 +3899,9 @@ const courseData = [
     "phone": "040-6444-1459",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.3,
-    "reviewCount": 143
+    "reviewCount": 143,
+    "lat": 36.41082826060651,
+    "lng": 128.3758272312435
   },
   {
     "id": 245,
@@ -3427,7 +3915,9 @@ const courseData = [
     "phone": "020-5335-9832",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 148
+    "reviewCount": 148,
+    "lat": 35.56590834025897,
+    "lng": 128.96149134281328
   },
   {
     "id": 246,
@@ -3441,7 +3931,9 @@ const courseData = [
     "phone": "040-5626-6642",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.4,
-    "reviewCount": 115
+    "reviewCount": 115,
+    "lat": 35.4591168290142,
+    "lng": 128.96407831422954
   },
   {
     "id": 247,
@@ -3455,7 +3947,9 @@ const courseData = [
     "phone": "030-4707-9609",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 114
+    "reviewCount": 114,
+    "lat": 34.95940977068181,
+    "lng": 128.81107202536208
   },
   {
     "id": 248,
@@ -3469,7 +3963,9 @@ const courseData = [
     "phone": "050-5337-5493",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 90
+    "reviewCount": 90,
+    "lat": 35.56930908742157,
+    "lng": 129.52687544694817
   },
   {
     "id": 249,
@@ -3483,7 +3979,9 @@ const courseData = [
     "phone": "050-4998-3131",
     "parking": "무료주차",
     "rating": 4.9,
-    "reviewCount": 28
+    "reviewCount": 28,
+    "lat": 35.25672420867422,
+    "lng": 129.09908503868985
   },
   {
     "id": 250,
@@ -3497,7 +3995,9 @@ const courseData = [
     "phone": "040-9144-4513",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.4,
-    "reviewCount": 37
+    "reviewCount": 37,
+    "lat": 35.14711135667207,
+    "lng": 128.67596122153478
   },
   {
     "id": 251,
@@ -3511,7 +4011,9 @@ const courseData = [
     "phone": "020-6405-3680",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 126
+    "reviewCount": 126,
+    "lat": 35.418200466941386,
+    "lng": 128.48469620435284
   },
   {
     "id": 252,
@@ -3525,7 +4027,9 @@ const courseData = [
     "phone": "040-1362-7063",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 17
+    "reviewCount": 17,
+    "lat": 34.859879791774034,
+    "lng": 128.69312865142874
   },
   {
     "id": 253,
@@ -3539,7 +4043,9 @@ const courseData = [
     "phone": "030-7340-6539",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 93
+    "reviewCount": 93,
+    "lat": 35.449599556023315,
+    "lng": 129.0968736626732
   },
   {
     "id": 254,
@@ -3553,7 +4059,9 @@ const courseData = [
     "phone": "060-1696-9037",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 36
+    "reviewCount": 36,
+    "lat": 36.31437899689642,
+    "lng": 128.41781825400986
   },
   {
     "id": 255,
@@ -3567,7 +4075,9 @@ const courseData = [
     "phone": "060-8759-9503",
     "parking": "무료주차",
     "rating": 4.7,
-    "reviewCount": 66
+    "reviewCount": 66,
+    "lat": 35.260402763735264,
+    "lng": 128.21965210436778
   },
   {
     "id": 256,
@@ -3581,7 +4091,9 @@ const courseData = [
     "phone": "060-2152-6267",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.4,
-    "reviewCount": 89
+    "reviewCount": 89,
+    "lat": 35.09697247201693,
+    "lng": 128.44090004133585
   },
   {
     "id": 257,
@@ -3595,7 +4107,9 @@ const courseData = [
     "phone": "030-8069-9122",
     "parking": "무료주차",
     "rating": 4.2,
-    "reviewCount": 58
+    "reviewCount": 58,
+    "lat": 36.22246992717893,
+    "lng": 128.6654245161979
   },
   {
     "id": 258,
@@ -3609,7 +4123,9 @@ const courseData = [
     "phone": "060-1827-6489",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 11
+    "reviewCount": 11,
+    "lat": 36.3361132528603,
+    "lng": 129.04949267855676
   },
   {
     "id": 259,
@@ -3623,7 +4139,9 @@ const courseData = [
     "phone": "030-6599-7125",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 16
+    "reviewCount": 16,
+    "lat": 36.68484553356155,
+    "lng": 128.2881080508508
   },
   {
     "id": 260,
@@ -3637,7 +4155,9 @@ const courseData = [
     "phone": "020-5328-9533",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 114
+    "reviewCount": 114,
+    "lat": 36.3295970094493,
+    "lng": 128.50110370632623
   },
   {
     "id": 261,
@@ -3651,7 +4171,9 @@ const courseData = [
     "phone": "040-7388-9098",
     "parking": "무료주차",
     "rating": 4.5,
-    "reviewCount": 85
+    "reviewCount": 85,
+    "lat": 36.85920170218847,
+    "lng": 128.65445385929718
   },
   {
     "id": 262,
@@ -3665,7 +4187,9 @@ const courseData = [
     "phone": "060-2574-3492",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 16
+    "reviewCount": 16,
+    "lat": 35.752537446935094,
+    "lng": 129.07153497708885
   },
   {
     "id": 263,
@@ -3679,7 +4203,9 @@ const courseData = [
     "phone": "020-4267-5862",
     "parking": "무료주차",
     "rating": 3.8,
-    "reviewCount": 50
+    "reviewCount": 50,
+    "lat": 36.19247059257034,
+    "lng": 128.5539517245023
   },
   {
     "id": 264,
@@ -3693,7 +4219,9 @@ const courseData = [
     "phone": "060-4989-7673",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.3,
-    "reviewCount": 88
+    "reviewCount": 88,
+    "lat": 36.41331285044238,
+    "lng": 128.00737530041786
   },
   {
     "id": 265,
@@ -3707,7 +4235,9 @@ const courseData = [
     "phone": "030-4670-6772",
     "parking": "무료주차",
     "rating": 3.9,
-    "reviewCount": 55
+    "reviewCount": 55,
+    "lat": 36.13744146838408,
+    "lng": 128.928750691125
   },
   {
     "id": 266,
@@ -3721,7 +4251,9 @@ const courseData = [
     "phone": "050-8731-9120",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.9,
-    "reviewCount": 13
+    "reviewCount": 13,
+    "lat": 36.12341240358477,
+    "lng": 128.93921321904168
   },
   {
     "id": 267,
@@ -3735,7 +4267,9 @@ const courseData = [
     "phone": "020-2555-5956",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 88
+    "reviewCount": 88,
+    "lat": 35.960172572900575,
+    "lng": 128.5488041163921
   },
   {
     "id": 268,
@@ -3749,7 +4283,9 @@ const courseData = [
     "phone": "020-5069-8862",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 124
+    "reviewCount": 124,
+    "lat": 35.290445947179904,
+    "lng": 128.254715036396
   },
   {
     "id": 269,
@@ -3763,7 +4299,9 @@ const courseData = [
     "phone": "050-4686-9049",
     "parking": "무료주차",
     "rating": 4.6,
-    "reviewCount": 95
+    "reviewCount": 95,
+    "lat": 36.420577061421355,
+    "lng": 128.94828575534885
   },
   {
     "id": 270,
@@ -3777,7 +4315,9 @@ const courseData = [
     "phone": "050-6792-1837",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 18
+    "reviewCount": 18,
+    "lat": 34.84169775312918,
+    "lng": 128.3023552795207
   },
   {
     "id": 271,
@@ -3791,7 +4331,9 @@ const courseData = [
     "phone": "050-3445-4203",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 13
+    "reviewCount": 13,
+    "lat": 34.8388930812533,
+    "lng": 128.9004993602172
   },
   {
     "id": 272,
@@ -3805,7 +4347,9 @@ const courseData = [
     "phone": "040-7510-9656",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.5,
-    "reviewCount": 28
+    "reviewCount": 28,
+    "lat": 35.18742099195322,
+    "lng": 129.5995254553713
   },
   {
     "id": 273,
@@ -3819,7 +4363,9 @@ const courseData = [
     "phone": "030-1722-9908",
     "parking": "무료주차",
     "rating": 4.8,
-    "reviewCount": 49
+    "reviewCount": 49,
+    "lat": 35.22308340299694,
+    "lng": 128.7755146119274
   },
   {
     "id": 274,
@@ -3833,7 +4379,9 @@ const courseData = [
     "phone": "040-4705-3405",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.8,
-    "reviewCount": 127
+    "reviewCount": 127,
+    "lat": 36.50210947800549,
+    "lng": 128.09937008953972
   },
   {
     "id": 275,
@@ -3847,7 +4395,9 @@ const courseData = [
     "phone": "040-965-5846",
     "parking": "무료주차",
     "rating": 3.9,
-    "reviewCount": 20
+    "reviewCount": 20,
+    "lat": 35.54134808666608,
+    "lng": 128.3008513940232
   },
   {
     "id": 276,
@@ -3861,7 +4411,9 @@ const courseData = [
     "phone": "030-4460-2324",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.5,
-    "reviewCount": 143
+    "reviewCount": 143,
+    "lat": 35.66230004881113,
+    "lng": 128.54572891991725
   },
   {
     "id": 277,
@@ -3875,7 +4427,9 @@ const courseData = [
     "phone": "050-4644-2947",
     "parking": "무료주차",
     "rating": 3.5,
-    "reviewCount": 27
+    "reviewCount": 27,
+    "lat": 35.52942136285331,
+    "lng": 128.62491854013737
   },
   {
     "id": 278,
@@ -3889,7 +4443,9 @@ const courseData = [
     "phone": "020-5760-1941",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 96
+    "reviewCount": 96,
+    "lat": 35.547223660896684,
+    "lng": 128.92401419111283
   },
   {
     "id": 279,
@@ -3903,7 +4459,9 @@ const courseData = [
     "phone": "020-2629-3599",
     "parking": "무료주차",
     "rating": 4.7,
-    "reviewCount": 132
+    "reviewCount": 132,
+    "lat": 35.567318675542815,
+    "lng": 128.71721562271728
   },
   {
     "id": 280,
@@ -3917,7 +4475,9 @@ const courseData = [
     "phone": "040-4749-8972",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.9,
-    "reviewCount": 35
+    "reviewCount": 35,
+    "lat": 34.778028497055566,
+    "lng": 128.64526875803315
   },
   {
     "id": 281,
@@ -3931,7 +4491,9 @@ const courseData = [
     "phone": "050-5845-2770",
     "parking": "무료주차",
     "rating": 4.3,
-    "reviewCount": 38
+    "reviewCount": 38,
+    "lat": 35.0156515147463,
+    "lng": 128.50350571084036
   },
   {
     "id": 282,
@@ -3945,7 +4507,9 @@ const courseData = [
     "phone": "050-4187-8615",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.4,
-    "reviewCount": 41
+    "reviewCount": 41,
+    "lat": 35.52083737077141,
+    "lng": 128.7034482010415
   },
   {
     "id": 283,
@@ -3959,7 +4523,9 @@ const courseData = [
     "phone": "050-4011-9282",
     "parking": "무료주차",
     "rating": 4.3,
-    "reviewCount": 136
+    "reviewCount": 136,
+    "lat": 35.29524251196097,
+    "lng": 129.18231924279988
   },
   {
     "id": 284,
@@ -3973,7 +4539,9 @@ const courseData = [
     "phone": "030-8091-1116",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.0,
-    "reviewCount": 0
+    "reviewCount": 0,
+    "lat": 35.47938520434399,
+    "lng": 128.55462935378617
   },
   {
     "id": 285,
@@ -3987,7 +4555,9 @@ const courseData = [
     "phone": "030-1646-4698",
     "parking": "무료주차",
     "rating": 4.6,
-    "reviewCount": 30
+    "reviewCount": 30,
+    "lat": 35.10340942206537,
+    "lng": 128.4422797825694
   },
   {
     "id": 286,
@@ -4001,7 +4571,9 @@ const courseData = [
     "phone": "040-814-3416",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.7,
-    "reviewCount": 144
+    "reviewCount": 144,
+    "lat": 36.11862626105189,
+    "lng": 128.1655668094839
   },
   {
     "id": 287,
@@ -4015,7 +4587,9 @@ const courseData = [
     "phone": "060-9786-3971",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 113
+    "reviewCount": 113,
+    "lat": 36.480074968541764,
+    "lng": 128.18816000125955
   },
   {
     "id": 288,
@@ -4029,7 +4603,9 @@ const courseData = [
     "phone": "020-9040-4324",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 90
+    "reviewCount": 90,
+    "lat": 36.949016634240145,
+    "lng": 128.05214331973502
   },
   {
     "id": 289,
@@ -4043,7 +4619,9 @@ const courseData = [
     "phone": "060-7353-1009",
     "parking": "무료주차",
     "rating": 4.9,
-    "reviewCount": 18
+    "reviewCount": 18,
+    "lat": 36.612578156482336,
+    "lng": 128.43680581916811
   },
   {
     "id": 290,
@@ -4057,7 +4635,9 @@ const courseData = [
     "phone": "040-7211-3220",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.4,
-    "reviewCount": 97
+    "reviewCount": 97,
+    "lat": 34.71824806532353,
+    "lng": 128.61785389919285
   },
   {
     "id": 291,
@@ -4071,7 +4651,9 @@ const courseData = [
     "phone": "050-6839-1411",
     "parking": "무료주차",
     "rating": 4.0,
-    "reviewCount": 37
+    "reviewCount": 37,
+    "lat": 36.39377469455973,
+    "lng": 128.68384421029904
   },
   {
     "id": 292,
@@ -4085,7 +4667,9 @@ const courseData = [
     "phone": "040-3254-9304",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 122
+    "reviewCount": 122,
+    "lat": 36.587464714041104,
+    "lng": 128.36482116758827
   },
   {
     "id": 293,
@@ -4099,7 +4683,9 @@ const courseData = [
     "phone": "040-3280-7876",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 29
+    "reviewCount": 29,
+    "lat": 36.856823050713984,
+    "lng": 128.09970885455635
   },
   {
     "id": 294,
@@ -4113,7 +4699,9 @@ const courseData = [
     "phone": "050-3745-3218",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 76
+    "reviewCount": 76,
+    "lat": 36.96365583065855,
+    "lng": 128.4059457609892
   },
   {
     "id": 295,
@@ -4127,7 +4715,9 @@ const courseData = [
     "phone": "050-3717-7890",
     "parking": "무료주차",
     "rating": 4.7,
-    "reviewCount": 135
+    "reviewCount": 135,
+    "lat": 37.0320899569286,
+    "lng": 128.97663408975234
   },
   {
     "id": 296,
@@ -4141,7 +4731,9 @@ const courseData = [
     "phone": "030-2108-9407",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.1,
-    "reviewCount": 131
+    "reviewCount": 131,
+    "lat": 36.8796603319307,
+    "lng": 128.90011899470878
   },
   {
     "id": 297,
@@ -4155,7 +4747,9 @@ const courseData = [
     "phone": "030-3193-1542",
     "parking": "무료주차",
     "rating": 4.2,
-    "reviewCount": 18
+    "reviewCount": 18,
+    "lat": 35.02710661037926,
+    "lng": 128.7195550126135
   },
   {
     "id": 298,
@@ -4169,7 +4763,9 @@ const courseData = [
     "phone": "060-1968-1939",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.8,
-    "reviewCount": 127
+    "reviewCount": 127,
+    "lat": 35.0536397706474,
+    "lng": 128.95954397852225
   },
   {
     "id": 299,
@@ -4183,7 +4779,9 @@ const courseData = [
     "phone": "050-6298-6002",
     "parking": "무료주차",
     "rating": 4.9,
-    "reviewCount": 101
+    "reviewCount": 101,
+    "lat": 37.0607792582954,
+    "lng": 128.6911637161628
   },
   {
     "id": 300,
@@ -4197,7 +4795,9 @@ const courseData = [
     "phone": "030-8453-9380",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.9,
-    "reviewCount": 39
+    "reviewCount": 39,
+    "lat": 36.57809456787913,
+    "lng": 128.72888189492372
   },
   {
     "id": 301,
@@ -4211,7 +4811,9 @@ const courseData = [
     "phone": "020-8703-7697",
     "parking": "무료주차",
     "rating": 4.3,
-    "reviewCount": 32
+    "reviewCount": 32,
+    "lat": 36.34957084828231,
+    "lng": 128.9694998633884
   },
   {
     "id": 302,
@@ -4225,7 +4827,9 @@ const courseData = [
     "phone": "040-6800-9025",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 100
+    "reviewCount": 100,
+    "lat": 36.57717909498582,
+    "lng": 128.56774648584312
   },
   {
     "id": 303,
@@ -4239,7 +4843,9 @@ const courseData = [
     "phone": "050-879-4409",
     "parking": "무료주차",
     "rating": 4.3,
-    "reviewCount": 131
+    "reviewCount": 131,
+    "lat": 36.7193477479299,
+    "lng": 128.9676613260972
   },
   {
     "id": 304,
@@ -4253,7 +4859,9 @@ const courseData = [
     "phone": "020-2319-7297",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.1,
-    "reviewCount": 24
+    "reviewCount": 24,
+    "lat": 36.260531636545956,
+    "lng": 128.67710346987226
   },
   {
     "id": 305,
@@ -4267,7 +4875,9 @@ const courseData = [
     "phone": "050-7457-1884",
     "parking": "무료주차",
     "rating": 4.9,
-    "reviewCount": 28
+    "reviewCount": 28,
+    "lat": 34.906320226196485,
+    "lng": 128.70978839873686
   },
   {
     "id": 306,
@@ -4281,7 +4891,9 @@ const courseData = [
     "phone": "050-6359-4381",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 7
+    "reviewCount": 7,
+    "lat": 36.76229360028818,
+    "lng": 128.9599165093764
   },
   {
     "id": 307,
@@ -4295,7 +4907,9 @@ const courseData = [
     "phone": "040-1632-1824",
     "parking": "무료주차",
     "rating": 3.5,
-    "reviewCount": 118
+    "reviewCount": 118,
+    "lat": 36.187646948301435,
+    "lng": 128.37883728499088
   },
   {
     "id": 308,
@@ -4309,7 +4923,9 @@ const courseData = [
     "phone": "040-7594-8986",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 56
+    "reviewCount": 56,
+    "lat": 36.58542101576717,
+    "lng": 128.85999870748466
   },
   {
     "id": 309,
@@ -4323,7 +4939,9 @@ const courseData = [
     "phone": "040-3528-7041",
     "parking": "무료주차",
     "rating": 4.7,
-    "reviewCount": 143
+    "reviewCount": 143,
+    "lat": 36.961655173911744,
+    "lng": 128.72298622712728
   },
   {
     "id": 310,
@@ -4337,7 +4955,9 @@ const courseData = [
     "phone": "060-6374-7637",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 108
+    "reviewCount": 108,
+    "lat": 34.82925388030374,
+    "lng": 129.05504577066833
   },
   {
     "id": 311,
@@ -4351,7 +4971,9 @@ const courseData = [
     "phone": "020-105-6725",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 39
+    "reviewCount": 39,
+    "lat": 35.25868115910105,
+    "lng": 129.06681145025996
   },
   {
     "id": 312,
@@ -4365,7 +4987,9 @@ const courseData = [
     "phone": "040-1879-4402",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 116
+    "reviewCount": 116,
+    "lat": 36.29669898020345,
+    "lng": 128.47691144593986
   },
   {
     "id": 313,
@@ -4379,7 +5003,9 @@ const courseData = [
     "phone": "060-3573-7189",
     "parking": "무료주차",
     "rating": 4.5,
-    "reviewCount": 46
+    "reviewCount": 46,
+    "lat": 35.67665350439303,
+    "lng": 128.84390023617962
   },
   {
     "id": 314,
@@ -4393,7 +5019,9 @@ const courseData = [
     "phone": "030-542-8857",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 122
+    "reviewCount": 122,
+    "lat": 36.29741027214452,
+    "lng": 128.01011513999438
   },
   {
     "id": 315,
@@ -4407,7 +5035,9 @@ const courseData = [
     "phone": "020-4577-7737",
     "parking": "무료주차",
     "rating": 3.9,
-    "reviewCount": 128
+    "reviewCount": 128,
+    "lat": 35.11887921741869,
+    "lng": 129.79856008173758
   },
   {
     "id": 316,
@@ -4421,7 +5051,9 @@ const courseData = [
     "phone": "060-2467-6632",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 89
+    "reviewCount": 89,
+    "lat": 36.014731009205825,
+    "lng": 128.81975282984408
   },
   {
     "id": 317,
@@ -4435,7 +5067,9 @@ const courseData = [
     "phone": "040-7079-5405",
     "parking": "무료주차",
     "rating": 4.2,
-    "reviewCount": 75
+    "reviewCount": 75,
+    "lat": 36.871558384862865,
+    "lng": 128.7647726374233
   },
   {
     "id": 318,
@@ -4449,7 +5083,9 @@ const courseData = [
     "phone": "020-2073-7075",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 140
+    "reviewCount": 140,
+    "lat": 35.336863862102355,
+    "lng": 128.65477621594172
   },
   {
     "id": 319,
@@ -4463,7 +5099,9 @@ const courseData = [
     "phone": "060-4268-1999",
     "parking": "무료주차",
     "rating": 4.6,
-    "reviewCount": 112
+    "reviewCount": 112,
+    "lat": 35.59339868323118,
+    "lng": 128.67694493819698
   },
   {
     "id": 320,
@@ -4477,7 +5115,9 @@ const courseData = [
     "phone": "020-8820-2562",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 139
+    "reviewCount": 139,
+    "lat": 36.07733205895398,
+    "lng": 128.47196189231957
   },
   {
     "id": 321,
@@ -4491,7 +5131,9 @@ const courseData = [
     "phone": "040-2673-7092",
     "parking": "무료주차",
     "rating": 4.6,
-    "reviewCount": 143
+    "reviewCount": 143,
+    "lat": 36.781597499920004,
+    "lng": 128.406388665763
   },
   {
     "id": 322,
@@ -4505,7 +5147,9 @@ const courseData = [
     "phone": "060-2400-1693",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.7,
-    "reviewCount": 78
+    "reviewCount": 78,
+    "lat": 35.49363132733124,
+    "lng": 129.0498231387459
   },
   {
     "id": 323,
@@ -4519,7 +5163,9 @@ const courseData = [
     "phone": "030-5037-4446",
     "parking": "무료주차",
     "rating": 4.7,
-    "reviewCount": 26
+    "reviewCount": 26,
+    "lat": 36.06756970679764,
+    "lng": 129.04574642978693
   },
   {
     "id": 324,
@@ -4533,7 +5179,9 @@ const courseData = [
     "phone": "030-1015-3435",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 112
+    "reviewCount": 112,
+    "lat": 35.73533795336563,
+    "lng": 128.25270257287687
   },
   {
     "id": 325,
@@ -4547,7 +5195,9 @@ const courseData = [
     "phone": "030-6132-9642",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 132
+    "reviewCount": 132,
+    "lat": 35.68608075878269,
+    "lng": 128.73593776242967
   },
   {
     "id": 326,
@@ -4561,7 +5211,9 @@ const courseData = [
     "phone": "020-4630-3274",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.1,
-    "reviewCount": 62
+    "reviewCount": 62,
+    "lat": 35.6845307633762,
+    "lng": 129.01846175983815
   },
   {
     "id": 327,
@@ -4575,7 +5227,9 @@ const courseData = [
     "phone": "020-496-5418",
     "parking": "무료주차",
     "rating": 4.8,
-    "reviewCount": 66
+    "reviewCount": 66,
+    "lat": 35.10119636467481,
+    "lng": 128.6979178923588
   },
   {
     "id": 328,
@@ -4589,7 +5243,9 @@ const courseData = [
     "phone": "060-3145-8778",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.1,
-    "reviewCount": 57
+    "reviewCount": 57,
+    "lat": 36.931293332684035,
+    "lng": 128.46552675314982
   },
   {
     "id": 329,
@@ -4603,7 +5259,9 @@ const courseData = [
     "phone": "050-7443-5849",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 131
+    "reviewCount": 131,
+    "lat": 35.60726824054879,
+    "lng": 128.23414639380292
   },
   {
     "id": 330,
@@ -4617,7 +5275,9 @@ const courseData = [
     "phone": "020-8679-6088",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.4,
-    "reviewCount": 92
+    "reviewCount": 92,
+    "lat": 35.53978473773175,
+    "lng": 128.87304462836272
   },
   {
     "id": 331,
@@ -4631,7 +5291,9 @@ const courseData = [
     "phone": "040-5800-4930",
     "parking": "무료주차",
     "rating": 3.8,
-    "reviewCount": 23
+    "reviewCount": 23,
+    "lat": 36.44842850069155,
+    "lng": 128.23161106973177
   },
   {
     "id": 332,
@@ -4645,7 +5307,9 @@ const courseData = [
     "phone": "050-9304-2485",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.5,
-    "reviewCount": 28
+    "reviewCount": 28,
+    "lat": 35.26594900250549,
+    "lng": 129.1323317628063
   },
   {
     "id": 333,
@@ -4659,7 +5323,9 @@ const courseData = [
     "phone": "030-1059-5518",
     "parking": "무료주차",
     "rating": 3.8,
-    "reviewCount": 130
+    "reviewCount": 130,
+    "lat": 35.55938628353082,
+    "lng": 128.6509911277764
   },
   {
     "id": 334,
@@ -4673,7 +5339,9 @@ const courseData = [
     "phone": "050-5535-4901",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 12
+    "reviewCount": 12,
+    "lat": 35.26536297666846,
+    "lng": 128.94863961690788
   },
   {
     "id": 335,
@@ -4687,7 +5355,9 @@ const courseData = [
     "phone": "030-5491-6826",
     "parking": "무료주차",
     "rating": 4.3,
-    "reviewCount": 99
+    "reviewCount": 99,
+    "lat": 36.866585590678135,
+    "lng": 128.58871518618295
   },
   {
     "id": 336,
@@ -4701,7 +5371,9 @@ const courseData = [
     "phone": "050-2162-9005",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 70
+    "reviewCount": 70,
+    "lat": 35.28018357190065,
+    "lng": 129.0745802589142
   },
   {
     "id": 337,
@@ -4715,7 +5387,9 @@ const courseData = [
     "phone": "040-8889-7660",
     "parking": "무료주차",
     "rating": 4.9,
-    "reviewCount": 111
+    "reviewCount": 111,
+    "lat": 35.34505372455922,
+    "lng": 128.65888001137125
   },
   {
     "id": 338,
@@ -4729,7 +5403,9 @@ const courseData = [
     "phone": "050-730-9368",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.0,
-    "reviewCount": 147
+    "reviewCount": 147,
+    "lat": 35.502024743477065,
+    "lng": 128.50574018250194
   },
   {
     "id": 339,
@@ -4743,7 +5419,9 @@ const courseData = [
     "phone": "050-2983-6136",
     "parking": "무료주차",
     "rating": 4.7,
-    "reviewCount": 60
+    "reviewCount": 60,
+    "lat": 35.48695925242991,
+    "lng": 128.88580227920554
   },
   {
     "id": 340,
@@ -4757,7 +5435,9 @@ const courseData = [
     "phone": "040-7798-1110",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 77
+    "reviewCount": 77,
+    "lat": 35.0095393843811,
+    "lng": 129.0097104453293
   },
   {
     "id": 341,
@@ -4771,7 +5451,9 @@ const courseData = [
     "phone": "030-4282-7937",
     "parking": "무료주차",
     "rating": 3.5,
-    "reviewCount": 15
+    "reviewCount": 15,
+    "lat": 34.80241524182163,
+    "lng": 129.15393043849164
   },
   {
     "id": 342,
@@ -4785,7 +5467,9 @@ const courseData = [
     "phone": "040-4249-8139",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.1,
-    "reviewCount": 107
+    "reviewCount": 107,
+    "lat": 35.314654451317615,
+    "lng": 128.75937553991255
   },
   {
     "id": 343,
@@ -4799,7 +5483,9 @@ const courseData = [
     "phone": "060-515-8690",
     "parking": "무료주차",
     "rating": 4.9,
-    "reviewCount": 66
+    "reviewCount": 66,
+    "lat": 35.651184678679286,
+    "lng": 128.3181268030986
   },
   {
     "id": 344,
@@ -4813,7 +5499,9 @@ const courseData = [
     "phone": "050-9344-9391",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.0,
-    "reviewCount": 55
+    "reviewCount": 55,
+    "lat": 36.83975829215217,
+    "lng": 128.63833240702945
   },
   {
     "id": 345,
@@ -4827,7 +5515,9 @@ const courseData = [
     "phone": "020-1892-3150",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 27
+    "reviewCount": 27,
+    "lat": 35.23004588642183,
+    "lng": 128.78327420382183
   },
   {
     "id": 346,
@@ -4841,7 +5531,9 @@ const courseData = [
     "phone": "020-5020-4102",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 96
+    "reviewCount": 96,
+    "lat": 34.975214854171796,
+    "lng": 129.09651573444978
   },
   {
     "id": 347,
@@ -4855,7 +5547,9 @@ const courseData = [
     "phone": "040-8804-7038",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 75
+    "reviewCount": 75,
+    "lat": 35.27648186920615,
+    "lng": 129.17899935623421
   },
   {
     "id": 348,
@@ -4869,7 +5563,9 @@ const courseData = [
     "phone": "020-8381-8579",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.2,
-    "reviewCount": 57
+    "reviewCount": 57,
+    "lat": 34.74985674953198,
+    "lng": 128.23842781408226
   },
   {
     "id": 349,
@@ -4883,7 +5579,9 @@ const courseData = [
     "phone": "050-2419-9244",
     "parking": "무료주차",
     "rating": 4.0,
-    "reviewCount": 37
+    "reviewCount": 37,
+    "lat": 36.20242260690933,
+    "lng": 128.25394046903048
   },
   {
     "id": 350,
@@ -4897,7 +5595,9 @@ const courseData = [
     "phone": "040-9488-3856",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.9,
-    "reviewCount": 25
+    "reviewCount": 25,
+    "lat": 35.580786590731584,
+    "lng": 128.58590690615634
   },
   {
     "id": 351,
@@ -4911,7 +5611,9 @@ const courseData = [
     "phone": "040-9663-6254",
     "parking": "무료주차",
     "rating": 5.0,
-    "reviewCount": 94
+    "reviewCount": 94,
+    "lat": 34.83320004790317,
+    "lng": 129.13302488920155
   },
   {
     "id": 352,
@@ -4925,7 +5627,9 @@ const courseData = [
     "phone": "050-672-6491",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.0,
-    "reviewCount": 93
+    "reviewCount": 93,
+    "lat": 35.2757868142476,
+    "lng": 128.7575581602782
   },
   {
     "id": 353,
@@ -4939,7 +5643,9 @@ const courseData = [
     "phone": "030-9372-7641",
     "parking": "무료주차",
     "rating": 4.5,
-    "reviewCount": 102
+    "reviewCount": 102,
+    "lat": 36.700285317888806,
+    "lng": 128.14266039779045
   },
   {
     "id": 354,
@@ -4953,7 +5659,9 @@ const courseData = [
     "phone": "040-947-3505",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 48
+    "reviewCount": 48,
+    "lat": 36.24311840173578,
+    "lng": 128.5129700958763
   },
   {
     "id": 355,
@@ -4967,7 +5675,9 @@ const courseData = [
     "phone": "020-5631-9237",
     "parking": "무료주차",
     "rating": 4.5,
-    "reviewCount": 13
+    "reviewCount": 13,
+    "lat": 35.70718208339186,
+    "lng": 128.732334657454
   },
   {
     "id": 356,
@@ -4981,7 +5691,9 @@ const courseData = [
     "phone": "050-6091-5477",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 66
+    "reviewCount": 66,
+    "lat": 36.938916042933364,
+    "lng": 128.51129687880285
   },
   {
     "id": 357,
@@ -4995,7 +5707,9 @@ const courseData = [
     "phone": "040-7214-1086",
     "parking": "무료주차",
     "rating": 4.8,
-    "reviewCount": 9
+    "reviewCount": 9,
+    "lat": 36.89292957312551,
+    "lng": 128.83607444852
   },
   {
     "id": 358,
@@ -5009,7 +5723,9 @@ const courseData = [
     "phone": "050-704-8328",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.5,
-    "reviewCount": 121
+    "reviewCount": 121,
+    "lat": 37.0314880877016,
+    "lng": 128.81538400327062
   },
   {
     "id": 359,
@@ -5023,7 +5739,9 @@ const courseData = [
     "phone": "050-3965-4575",
     "parking": "무료주차",
     "rating": 4.9,
-    "reviewCount": 108
+    "reviewCount": 108,
+    "lat": 35.730412150610064,
+    "lng": 128.66406462166447
   },
   {
     "id": 360,
@@ -5037,7 +5755,9 @@ const courseData = [
     "phone": "030-2176-8682",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.1,
-    "reviewCount": 79
+    "reviewCount": 79,
+    "lat": 35.20332281415271,
+    "lng": 128.3730988812766
   },
   {
     "id": 361,
@@ -5051,7 +5771,9 @@ const courseData = [
     "phone": "060-4480-6866",
     "parking": "무료주차",
     "rating": 4.5,
-    "reviewCount": 52
+    "reviewCount": 52,
+    "lat": 35.67434082132541,
+    "lng": 128.78684850413833
   },
   {
     "id": 362,
@@ -5065,7 +5787,9 @@ const courseData = [
     "phone": "020-4826-5917",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.3,
-    "reviewCount": 115
+    "reviewCount": 115,
+    "lat": 34.93229714660901,
+    "lng": 129.08706635119663
   },
   {
     "id": 363,
@@ -5079,7 +5803,9 @@ const courseData = [
     "phone": "030-4634-5748",
     "parking": "무료주차",
     "rating": 3.5,
-    "reviewCount": 7
+    "reviewCount": 7,
+    "lat": 34.901928027680775,
+    "lng": 128.62057689404722
   },
   {
     "id": 364,
@@ -5093,7 +5819,9 @@ const courseData = [
     "phone": "050-1554-1582",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.5,
-    "reviewCount": 26
+    "reviewCount": 26,
+    "lat": 35.596110307235506,
+    "lng": 129.22095990313807
   },
   {
     "id": 365,
@@ -5107,7 +5835,9 @@ const courseData = [
     "phone": "040-4167-6977",
     "parking": "무료주차",
     "rating": 4.6,
-    "reviewCount": 15
+    "reviewCount": 15,
+    "lat": 35.43165680373489,
+    "lng": 128.13417029102243
   },
   {
     "id": 366,
@@ -5121,7 +5851,9 @@ const courseData = [
     "phone": "040-8549-5585",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 100
+    "reviewCount": 100,
+    "lat": 36.10239453542301,
+    "lng": 128.1931387433469
   },
   {
     "id": 367,
@@ -5135,7 +5867,9 @@ const courseData = [
     "phone": "040-6393-5933",
     "parking": "무료주차",
     "rating": 4.7,
-    "reviewCount": 11
+    "reviewCount": 11,
+    "lat": 35.427577224038856,
+    "lng": 128.223729540137
   },
   {
     "id": 368,
@@ -5149,7 +5883,9 @@ const courseData = [
     "phone": "020-9556-9040",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 58
+    "reviewCount": 58,
+    "lat": 36.63026332129954,
+    "lng": 128.6296775256429
   },
   {
     "id": 369,
@@ -5163,7 +5899,9 @@ const courseData = [
     "phone": "040-8966-8205",
     "parking": "무료주차",
     "rating": 3.9,
-    "reviewCount": 58
+    "reviewCount": 58,
+    "lat": 35.39425603069676,
+    "lng": 128.3533265412168
   },
   {
     "id": 370,
@@ -5177,7 +5915,9 @@ const courseData = [
     "phone": "060-2521-8851",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 70
+    "reviewCount": 70,
+    "lat": 36.50688045215617,
+    "lng": 128.9881267856173
   },
   {
     "id": 371,
@@ -5191,7 +5931,9 @@ const courseData = [
     "phone": "040-6634-1341",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 86
+    "reviewCount": 86,
+    "lat": 36.53732313019593,
+    "lng": 128.06387233663511
   },
   {
     "id": 372,
@@ -5205,7 +5947,9 @@ const courseData = [
     "phone": "040-8094-2677",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.3,
-    "reviewCount": 101
+    "reviewCount": 101,
+    "lat": 35.2888740109424,
+    "lng": 129.15828638790725
   },
   {
     "id": 373,
@@ -5219,7 +5963,9 @@ const courseData = [
     "phone": "030-7720-4473",
     "parking": "무료주차",
     "rating": 4.9,
-    "reviewCount": 17
+    "reviewCount": 17,
+    "lat": 34.802651708491574,
+    "lng": 129.1491070162037
   },
   {
     "id": 374,
@@ -5233,7 +5979,9 @@ const courseData = [
     "phone": "020-7422-4176",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 5
+    "reviewCount": 5,
+    "lat": 34.77486808150148,
+    "lng": 128.40249717784425
   },
   {
     "id": 375,
@@ -5247,7 +5995,9 @@ const courseData = [
     "phone": "020-2691-6425",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 19
+    "reviewCount": 19,
+    "lat": 35.77289718254548,
+    "lng": 128.98693008252562
   },
   {
     "id": 376,
@@ -5261,7 +6011,9 @@ const courseData = [
     "phone": "060-8360-4248",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.3,
-    "reviewCount": 109
+    "reviewCount": 109,
+    "lat": 36.3384979636336,
+    "lng": 128.24864815818285
   },
   {
     "id": 377,
@@ -5275,7 +6027,9 @@ const courseData = [
     "phone": "060-9357-6930",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 34
+    "reviewCount": 34,
+    "lat": 34.78647289966148,
+    "lng": 129.06216812110253
   },
   {
     "id": 378,
@@ -5289,7 +6043,9 @@ const courseData = [
     "phone": "020-6662-7425",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 71
+    "reviewCount": 71,
+    "lat": 35.55758630522567,
+    "lng": 128.25195820208634
   },
   {
     "id": 379,
@@ -5303,7 +6059,9 @@ const courseData = [
     "phone": "050-6501-6903",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 67
+    "reviewCount": 67,
+    "lat": 34.74154700131692,
+    "lng": 128.23713377449832
   },
   {
     "id": 380,
@@ -5317,7 +6075,9 @@ const courseData = [
     "phone": "060-9831-6632",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 25
+    "reviewCount": 25,
+    "lat": 35.388505403332815,
+    "lng": 128.30666739541024
   },
   {
     "id": 381,
@@ -5331,7 +6091,9 @@ const courseData = [
     "phone": "020-7343-2649",
     "parking": "무료주차",
     "rating": 4.8,
-    "reviewCount": 24
+    "reviewCount": 24,
+    "lat": 36.87587528748975,
+    "lng": 128.32176427216467
   },
   {
     "id": 382,
@@ -5345,7 +6107,9 @@ const courseData = [
     "phone": "050-1650-3672",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 135
+    "reviewCount": 135,
+    "lat": 35.316986157727214,
+    "lng": 129.51874689018587
   },
   {
     "id": 1,
@@ -5359,7 +6123,9 @@ const courseData = [
     "phone": "040-6779-2866",
     "parking": "무료주차",
     "rating": 4.9,
-    "reviewCount": 97
+    "reviewCount": 97,
+    "lat": 36.814635510218025,
+    "lng": 127.44653769574083
   },
   {
     "id": 383,
@@ -5373,7 +6139,9 @@ const courseData = [
     "phone": "060-8429-1214",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.1,
-    "reviewCount": 22
+    "reviewCount": 22,
+    "lat": 36.08596502755672,
+    "lng": 128.55803714932668
   },
   {
     "id": 384,
@@ -5387,7 +6155,9 @@ const courseData = [
     "phone": "040-6647-2291",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 89
+    "reviewCount": 89,
+    "lat": 36.464611950330806,
+    "lng": 128.98209345323758
   },
   {
     "id": 385,
@@ -5401,7 +6171,9 @@ const courseData = [
     "phone": "050-7457-1184",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 82
+    "reviewCount": 82,
+    "lat": 36.90598590735868,
+    "lng": 128.7825923897048
   },
   {
     "id": 386,
@@ -5415,7 +6187,9 @@ const courseData = [
     "phone": "030-4177-8137",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 119
+    "reviewCount": 119,
+    "lat": 35.64632712109974,
+    "lng": 128.73828451058048
   },
   {
     "id": 387,
@@ -5429,7 +6203,9 @@ const courseData = [
     "phone": "040-6482-9928",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.3,
-    "reviewCount": 9
+    "reviewCount": 9,
+    "lat": 35.065436018056396,
+    "lng": 129.0339130754093
   },
   {
     "id": 388,
@@ -5443,7 +6219,9 @@ const courseData = [
     "phone": "060-2974-8056",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 27
+    "reviewCount": 27,
+    "lat": 35.013631562729415,
+    "lng": 129.51199485969576
   },
   {
     "id": 389,
@@ -5457,7 +6235,9 @@ const courseData = [
     "phone": "050-2383-2264",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 2
+    "reviewCount": 2,
+    "lat": 35.436288541402675,
+    "lng": 129.0565434366927
   },
   {
     "id": 390,
@@ -5471,7 +6251,9 @@ const courseData = [
     "phone": "030-7069-1843",
     "parking": "무료주차",
     "rating": 4.6,
-    "reviewCount": 45
+    "reviewCount": 45,
+    "lat": 35.46933014231422,
+    "lng": 128.9428227698797
   },
   {
     "id": 391,
@@ -5485,7 +6267,9 @@ const courseData = [
     "phone": "030-2979-2030",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.7,
-    "reviewCount": 130
+    "reviewCount": 130,
+    "lat": 37.060178931458374,
+    "lng": 128.4360339449754
   },
   {
     "id": 392,
@@ -5499,7 +6283,9 @@ const courseData = [
     "phone": "050-2433-6566",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 48
+    "reviewCount": 48,
+    "lat": 35.050791996883824,
+    "lng": 128.947827001786
   },
   {
     "id": 393,
@@ -5513,7 +6299,9 @@ const courseData = [
     "phone": "060-3149-4634",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.2,
-    "reviewCount": 127
+    "reviewCount": 127,
+    "lat": 35.10315021072806,
+    "lng": 128.29652818932772
   },
   {
     "id": 394,
@@ -5527,7 +6315,9 @@ const courseData = [
     "phone": "030-8965-6075",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 63
+    "reviewCount": 63,
+    "lat": 35.90074280249899,
+    "lng": 128.1297537641175
   },
   {
     "id": 395,
@@ -5541,7 +6331,9 @@ const courseData = [
     "phone": "020-4277-9839",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.5,
-    "reviewCount": 64
+    "reviewCount": 64,
+    "lat": 35.41967639201045,
+    "lng": 128.4224556415324
   },
   {
     "id": 396,
@@ -5555,7 +6347,9 @@ const courseData = [
     "phone": "040-9041-9971",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 37
+    "reviewCount": 37,
+    "lat": 35.387080908548285,
+    "lng": 128.22535778014975
   },
   {
     "id": 397,
@@ -5569,7 +6363,9 @@ const courseData = [
     "phone": "050-9903-9846",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 114
+    "reviewCount": 114,
+    "lat": 34.89826979415213,
+    "lng": 126.60195102491824
   },
   {
     "id": 398,
@@ -5583,7 +6379,9 @@ const courseData = [
     "phone": "050-1726-3499",
     "parking": "무료주차",
     "rating": 3.9,
-    "reviewCount": 122
+    "reviewCount": 122,
+    "lat": 34.36562752149436,
+    "lng": 126.54617032273441
   },
   {
     "id": 399,
@@ -5597,7 +6395,9 @@ const courseData = [
     "phone": "050-382-2744",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 46
+    "reviewCount": 46,
+    "lat": 35.22673489453505,
+    "lng": 126.6505775614457
   },
   {
     "id": 400,
@@ -5611,7 +6411,9 @@ const courseData = [
     "phone": "030-5460-9346",
     "parking": "무료주차",
     "rating": 4.2,
-    "reviewCount": 120
+    "reviewCount": 120,
+    "lat": 35.443823106279034,
+    "lng": 127.1685026790347
   },
   {
     "id": 902,
@@ -5625,7 +6427,9 @@ const courseData = [
     "phone": "050-7936-4052",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 54
+    "reviewCount": 54,
+    "lat": 37.483792619347064,
+    "lng": 127.33586057869138
   },
   {
     "id": 401,
@@ -5639,7 +6443,9 @@ const courseData = [
     "phone": "030-106-4086",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 38
+    "reviewCount": 38,
+    "lat": 35.49536869015056,
+    "lng": 127.02122867947037
   },
   {
     "id": 402,
@@ -5653,7 +6459,9 @@ const courseData = [
     "phone": "020-7191-3648",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 86
+    "reviewCount": 86,
+    "lat": 34.436532120039736,
+    "lng": 126.30999972930282
   },
   {
     "id": 403,
@@ -5667,7 +6475,9 @@ const courseData = [
     "phone": "040-9906-1976",
     "parking": "무료주차",
     "rating": 5.0,
-    "reviewCount": 108
+    "reviewCount": 108,
+    "lat": 35.030593690512134,
+    "lng": 127.21315064127548
   },
   {
     "id": 404,
@@ -5681,7 +6491,9 @@ const courseData = [
     "phone": "020-9481-5396",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.3,
-    "reviewCount": 55
+    "reviewCount": 55,
+    "lat": 34.3396666093649,
+    "lng": 126.68197300717037
   },
   {
     "id": 405,
@@ -5695,7 +6507,9 @@ const courseData = [
     "phone": "020-4685-5807",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 147
+    "reviewCount": 147,
+    "lat": 34.50864882231274,
+    "lng": 126.88233570954459
   },
   {
     "id": 406,
@@ -5709,7 +6523,9 @@ const courseData = [
     "phone": "030-5041-5388",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.9,
-    "reviewCount": 38
+    "reviewCount": 38,
+    "lat": 36.26765233840152,
+    "lng": 127.05780482957867
   },
   {
     "id": 407,
@@ -5723,7 +6539,9 @@ const courseData = [
     "phone": "050-6604-2556",
     "parking": "무료주차",
     "rating": 4.0,
-    "reviewCount": 77
+    "reviewCount": 77,
+    "lat": 35.44724583045338,
+    "lng": 126.98547748655976
   },
   {
     "id": 408,
@@ -5737,7 +6555,9 @@ const courseData = [
     "phone": "030-9384-8503",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.3,
-    "reviewCount": 139
+    "reviewCount": 139,
+    "lat": 35.09840503149095,
+    "lng": 126.54118896825757
   },
   {
     "id": 409,
@@ -5751,7 +6571,9 @@ const courseData = [
     "phone": "040-6543-1042",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 123
+    "reviewCount": 123,
+    "lat": 36.306148828404105,
+    "lng": 126.94245015840391
   },
   {
     "id": 410,
@@ -5765,7 +6587,9 @@ const courseData = [
     "phone": "020-4598-5763",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.2,
-    "reviewCount": 67
+    "reviewCount": 67,
+    "lat": 34.88053295550228,
+    "lng": 126.78863561618056
   },
   {
     "id": 411,
@@ -5779,7 +6603,9 @@ const courseData = [
     "phone": "040-6276-2488",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 88
+    "reviewCount": 88,
+    "lat": 35.64810696485863,
+    "lng": 127.57201600454309
   },
   {
     "id": 412,
@@ -5793,7 +6619,9 @@ const courseData = [
     "phone": "030-732-9461",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 20
+    "reviewCount": 20,
+    "lat": 34.35212674341958,
+    "lng": 126.90059026757122
   },
   {
     "id": 413,
@@ -5807,7 +6635,9 @@ const courseData = [
     "phone": "030-9870-4495",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 52
+    "reviewCount": 52,
+    "lat": 34.85965196209891,
+    "lng": 126.86533924475555
   },
   {
     "id": 414,
@@ -5821,7 +6651,9 @@ const courseData = [
     "phone": "060-731-9861",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 26
+    "reviewCount": 26,
+    "lat": 34.70993523270263,
+    "lng": 126.68410890109243
   },
   {
     "id": 415,
@@ -5835,7 +6667,9 @@ const courseData = [
     "phone": "060-3241-3427",
     "parking": "무료주차",
     "rating": 4.7,
-    "reviewCount": 8
+    "reviewCount": 8,
+    "lat": 35.39612984185615,
+    "lng": 127.25554728202981
   },
   {
     "id": 416,
@@ -5849,7 +6683,9 @@ const courseData = [
     "phone": "020-5578-6116",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.9,
-    "reviewCount": 56
+    "reviewCount": 56,
+    "lat": 35.657754188296984,
+    "lng": 127.34913849633675
   },
   {
     "id": 417,
@@ -5863,7 +6699,9 @@ const courseData = [
     "phone": "020-8246-4097",
     "parking": "무료주차",
     "rating": 4.2,
-    "reviewCount": 104
+    "reviewCount": 104,
+    "lat": 36.0653215558829,
+    "lng": 127.64097337885768
   },
   {
     "id": 418,
@@ -5877,7 +6715,9 @@ const courseData = [
     "phone": "060-1853-5293",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.2,
-    "reviewCount": 13
+    "reviewCount": 13,
+    "lat": 34.986478770155664,
+    "lng": 126.94617468423296
   },
   {
     "id": 419,
@@ -5891,7 +6731,9 @@ const courseData = [
     "phone": "030-718-9412",
     "parking": "무료주차",
     "rating": 4.6,
-    "reviewCount": 53
+    "reviewCount": 53,
+    "lat": 35.043270372713096,
+    "lng": 126.64187349862127
   },
   {
     "id": 420,
@@ -5905,7 +6747,9 @@ const courseData = [
     "phone": "020-7331-4811",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 9
+    "reviewCount": 9,
+    "lat": 34.83114607501463,
+    "lng": 126.43241172923061
   },
   {
     "id": 421,
@@ -5919,7 +6763,9 @@ const courseData = [
     "phone": "030-9793-8773",
     "parking": "무료주차",
     "rating": 4.8,
-    "reviewCount": 148
+    "reviewCount": 148,
+    "lat": 36.26450974387538,
+    "lng": 127.283571903303
   },
   {
     "id": 20,
@@ -5933,7 +6779,9 @@ const courseData = [
     "phone": "060-2502-6574",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 66
+    "reviewCount": 66,
+    "lat": 37.4720777954268,
+    "lng": 127.38595228485805
   },
   {
     "id": 422,
@@ -5947,7 +6795,9 @@ const courseData = [
     "phone": "020-2166-6629",
     "parking": "무료주차",
     "rating": 4.2,
-    "reviewCount": 134
+    "reviewCount": 134,
+    "lat": 34.880405359512245,
+    "lng": 126.03927774550128
   },
   {
     "id": 423,
@@ -5961,7 +6811,9 @@ const courseData = [
     "phone": "020-5941-4621",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.4,
-    "reviewCount": 143
+    "reviewCount": 143,
+    "lat": 35.19114674154,
+    "lng": 126.8850974007942
   },
   {
     "id": 424,
@@ -5975,7 +6827,9 @@ const courseData = [
     "phone": "060-3467-1344",
     "parking": "무료주차",
     "rating": 5.0,
-    "reviewCount": 133
+    "reviewCount": 133,
+    "lat": 34.761518376286865,
+    "lng": 126.22485182574617
   },
   {
     "id": 425,
@@ -5989,7 +6843,9 @@ const courseData = [
     "phone": "030-1875-5400",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 59
+    "reviewCount": 59,
+    "lat": 35.570160668733386,
+    "lng": 127.47436042876137
   },
   {
     "id": 426,
@@ -6003,7 +6859,9 @@ const courseData = [
     "phone": "050-3699-5392",
     "parking": "무료주차",
     "rating": 3.8,
-    "reviewCount": 26
+    "reviewCount": 26,
+    "lat": 34.62748441991152,
+    "lng": 126.47054031931638
   },
   {
     "id": 427,
@@ -6017,7 +6875,9 @@ const courseData = [
     "phone": "060-7712-7938",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.8,
-    "reviewCount": 67
+    "reviewCount": 67,
+    "lat": 34.936779961400596,
+    "lng": 126.82845991253082
   },
   {
     "id": 428,
@@ -6031,7 +6891,9 @@ const courseData = [
     "phone": "050-7452-1673",
     "parking": "무료주차",
     "rating": 4.9,
-    "reviewCount": 108
+    "reviewCount": 108,
+    "lat": 35.655591568259034,
+    "lng": 126.79494966170034
   },
   {
     "id": 429,
@@ -6045,7 +6907,9 @@ const courseData = [
     "phone": "040-4454-2994",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.4,
-    "reviewCount": 102
+    "reviewCount": 102,
+    "lat": 34.34286739768064,
+    "lng": 126.0144144101299
   },
   {
     "id": 430,
@@ -6059,7 +6923,9 @@ const courseData = [
     "phone": "060-7145-9933",
     "parking": "무료주차",
     "rating": 4.0,
-    "reviewCount": 147
+    "reviewCount": 147,
+    "lat": 34.73624888354715,
+    "lng": 126.54716717124548
   },
   {
     "id": 431,
@@ -6073,7 +6939,9 @@ const courseData = [
     "phone": "030-5829-4407",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 140
+    "reviewCount": 140,
+    "lat": 34.850108801226106,
+    "lng": 126.13816033032357
   },
   {
     "id": 432,
@@ -6087,7 +6955,9 @@ const courseData = [
     "phone": "040-2385-3034",
     "parking": "무료주차",
     "rating": 4.9,
-    "reviewCount": 21
+    "reviewCount": 21,
+    "lat": 36.112932115423185,
+    "lng": 127.05160069951786
   },
   {
     "id": 433,
@@ -6101,7 +6971,9 @@ const courseData = [
     "phone": "040-9173-5928",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 17
+    "reviewCount": 17,
+    "lat": 36.18070207571755,
+    "lng": 126.77498576361137
   },
   {
     "id": 434,
@@ -6115,7 +6987,9 @@ const courseData = [
     "phone": "020-3750-3600",
     "parking": "무료주차",
     "rating": 4.6,
-    "reviewCount": 37
+    "reviewCount": 37,
+    "lat": 34.33512911647907,
+    "lng": 126.87002429165527
   },
   {
     "id": 435,
@@ -6129,7 +7003,9 @@ const courseData = [
     "phone": "020-2645-8887",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.9,
-    "reviewCount": 139
+    "reviewCount": 139,
+    "lat": 34.554553550051935,
+    "lng": 126.84328445644576
   },
   {
     "id": 436,
@@ -6143,7 +7019,9 @@ const courseData = [
     "phone": "040-5536-4628",
     "parking": "무료주차",
     "rating": 4.2,
-    "reviewCount": 45
+    "reviewCount": 45,
+    "lat": 35.20980902513575,
+    "lng": 126.43634986878735
   },
   {
     "id": 437,
@@ -6157,7 +7035,9 @@ const courseData = [
     "phone": "050-307-1784",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.8,
-    "reviewCount": 31
+    "reviewCount": 31,
+    "lat": 36.142891552085494,
+    "lng": 127.26042592273312
   },
   {
     "id": 438,
@@ -6171,7 +7051,9 @@ const courseData = [
     "phone": "030-5761-1020",
     "parking": "무료주차",
     "rating": 3.5,
-    "reviewCount": 143
+    "reviewCount": 143,
+    "lat": 34.59423822338518,
+    "lng": 126.1476142125504
   },
   {
     "id": 439,
@@ -6185,7 +7067,9 @@ const courseData = [
     "phone": "020-7816-6106",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 1
+    "reviewCount": 1,
+    "lat": 34.95562647346247,
+    "lng": 126.81916316564677
   },
   {
     "id": 440,
@@ -6199,7 +7083,9 @@ const courseData = [
     "phone": "020-6338-2974",
     "parking": "무료주차",
     "rating": 4.2,
-    "reviewCount": 3
+    "reviewCount": 3,
+    "lat": 35.774234855645666,
+    "lng": 127.25646107809989
   },
   {
     "id": 441,
@@ -6213,7 +7099,9 @@ const courseData = [
     "phone": "060-2076-6245",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.1,
-    "reviewCount": 124
+    "reviewCount": 124,
+    "lat": 35.279485587126125,
+    "lng": 126.23511399505425
   },
   {
     "id": 442,
@@ -6227,7 +7115,9 @@ const courseData = [
     "phone": "020-1814-9199",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 71
+    "reviewCount": 71,
+    "lat": 34.425877042416964,
+    "lng": 126.81793123520654
   },
   {
     "id": 443,
@@ -6241,7 +7131,9 @@ const courseData = [
     "phone": "030-9397-2662",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 147
+    "reviewCount": 147,
+    "lat": 34.57543690912239,
+    "lng": 126.34938828992844
   },
   {
     "id": 444,
@@ -6255,7 +7147,9 @@ const courseData = [
     "phone": "040-6840-3918",
     "parking": "무료주차",
     "rating": 4.0,
-    "reviewCount": 79
+    "reviewCount": 79,
+    "lat": 36.22702332395544,
+    "lng": 126.71014999280656
   },
   {
     "id": 445,
@@ -6269,7 +7163,9 @@ const courseData = [
     "phone": "030-4081-7221",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.1,
-    "reviewCount": 90
+    "reviewCount": 90,
+    "lat": 35.97431293350864,
+    "lng": 127.40156110674734
   },
   {
     "id": 446,
@@ -6283,7 +7179,9 @@ const courseData = [
     "phone": "030-5308-1387",
     "parking": "무료주차",
     "rating": 4.0,
-    "reviewCount": 124
+    "reviewCount": 124,
+    "lat": 35.21373694893315,
+    "lng": 127.3425844430986
   },
   {
     "id": 447,
@@ -6297,7 +7195,9 @@ const courseData = [
     "phone": "030-1794-4872",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.9,
-    "reviewCount": 95
+    "reviewCount": 95,
+    "lat": 34.97413885061283,
+    "lng": 126.22950273328054
   },
   {
     "id": 448,
@@ -6311,7 +7211,9 @@ const courseData = [
     "phone": "020-9444-5487",
     "parking": "무료주차",
     "rating": 4.0,
-    "reviewCount": 74
+    "reviewCount": 74,
+    "lat": 36.13261429744512,
+    "lng": 127.3369681762759
   },
   {
     "id": 449,
@@ -6325,7 +7227,9 @@ const courseData = [
     "phone": "060-9995-9731",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 104
+    "reviewCount": 104,
+    "lat": 34.44754733307999,
+    "lng": 126.57947313361844
   },
   {
     "id": 450,
@@ -6339,7 +7243,9 @@ const courseData = [
     "phone": "030-5723-6290",
     "parking": "무료주차",
     "rating": 4.8,
-    "reviewCount": 55
+    "reviewCount": 55,
+    "lat": 36.16521812384392,
+    "lng": 127.0328312838095
   },
   {
     "id": 451,
@@ -6353,7 +7259,9 @@ const courseData = [
     "phone": "020-5282-1533",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.9,
-    "reviewCount": 120
+    "reviewCount": 120,
+    "lat": 35.57369588536034,
+    "lng": 126.60945973635712
   },
   {
     "id": 452,
@@ -6367,7 +7275,9 @@ const courseData = [
     "phone": "030-9105-5156",
     "parking": "무료주차",
     "rating": 4.0,
-    "reviewCount": 125
+    "reviewCount": 125,
+    "lat": 35.03368774213788,
+    "lng": 126.90675673107822
   },
   {
     "id": 453,
@@ -6381,7 +7291,9 @@ const courseData = [
     "phone": "040-9358-3921",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.5,
-    "reviewCount": 46
+    "reviewCount": 46,
+    "lat": 34.893178601758756,
+    "lng": 126.4794906852704
   },
   {
     "id": 454,
@@ -6395,7 +7307,9 @@ const courseData = [
     "phone": "020-1252-5790",
     "parking": "무료주차",
     "rating": 4.6,
-    "reviewCount": 27
+    "reviewCount": 27,
+    "lat": 35.25938797512105,
+    "lng": 125.98209986036397
   },
   {
     "id": 455,
@@ -6409,7 +7323,9 @@ const courseData = [
     "phone": "030-8869-1704",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.3,
-    "reviewCount": 3
+    "reviewCount": 3,
+    "lat": 35.37701324183207,
+    "lng": 127.5200440408604
   },
   {
     "id": 456,
@@ -6423,7 +7339,9 @@ const courseData = [
     "phone": "020-5059-3807",
     "parking": "무료주차",
     "rating": 5.0,
-    "reviewCount": 26
+    "reviewCount": 26,
+    "lat": 34.83703629683047,
+    "lng": 126.74440913547474
   },
   {
     "id": 457,
@@ -6437,7 +7355,9 @@ const courseData = [
     "phone": "020-2053-3828",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 99
+    "reviewCount": 99,
+    "lat": 35.82010843233766,
+    "lng": 126.88292987280366
   },
   {
     "id": 458,
@@ -6451,7 +7371,9 @@ const courseData = [
     "phone": "060-1778-3813",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 36
+    "reviewCount": 36,
+    "lat": 34.88788891747782,
+    "lng": 126.9177471155086
   },
   {
     "id": 459,
@@ -6465,7 +7387,9 @@ const courseData = [
     "phone": "050-1565-8570",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.1,
-    "reviewCount": 118
+    "reviewCount": 118,
+    "lat": 35.334852684792445,
+    "lng": 127.54183153896986
   },
   {
     "id": 460,
@@ -6479,7 +7403,9 @@ const courseData = [
     "phone": "030-9744-6507",
     "parking": "무료주차",
     "rating": 4.2,
-    "reviewCount": 1
+    "reviewCount": 1,
+    "lat": 35.54958569309959,
+    "lng": 126.90521251665923
   },
   {
     "id": 461,
@@ -6493,7 +7419,9 @@ const courseData = [
     "phone": "050-6293-4555",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.4,
-    "reviewCount": 31
+    "reviewCount": 31,
+    "lat": 36.19274890917802,
+    "lng": 127.12421894714996
   },
   {
     "id": 462,
@@ -6507,7 +7435,9 @@ const courseData = [
     "phone": "050-1141-1744",
     "parking": "무료주차",
     "rating": 3.9,
-    "reviewCount": 82
+    "reviewCount": 82,
+    "lat": 35.016436555714925,
+    "lng": 127.2506622201475
   },
   {
     "id": 463,
@@ -6521,7 +7451,9 @@ const courseData = [
     "phone": "040-2550-8027",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.1,
-    "reviewCount": 132
+    "reviewCount": 132,
+    "lat": 35.349329546192614,
+    "lng": 127.64578567051102
   },
   {
     "id": 464,
@@ -6535,7 +7467,9 @@ const courseData = [
     "phone": "050-6499-5283",
     "parking": "무료주차",
     "rating": 4.5,
-    "reviewCount": 56
+    "reviewCount": 56,
+    "lat": 35.92772379842512,
+    "lng": 127.49741955051469
   },
   {
     "id": 465,
@@ -6549,7 +7483,9 @@ const courseData = [
     "phone": "040-663-9398",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 70
+    "reviewCount": 70,
+    "lat": 34.44492749939935,
+    "lng": 126.4776740327514
   },
   {
     "id": 466,
@@ -6563,7 +7499,9 @@ const courseData = [
     "phone": "060-600-8637",
     "parking": "무료주차",
     "rating": 4.0,
-    "reviewCount": 129
+    "reviewCount": 129,
+    "lat": 35.15885997809432,
+    "lng": 126.77704340555167
   },
   {
     "id": 467,
@@ -6577,7 +7515,9 @@ const courseData = [
     "phone": "050-719-5393",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 0
+    "reviewCount": 0,
+    "lat": 34.73872167759408,
+    "lng": 126.13595447794559
   },
   {
     "id": 468,
@@ -6591,7 +7531,9 @@ const courseData = [
     "phone": "060-2464-1068",
     "parking": "무료주차",
     "rating": 3.8,
-    "reviewCount": 133
+    "reviewCount": 133,
+    "lat": 35.070412499462584,
+    "lng": 126.9081048111652
   },
   {
     "id": 469,
@@ -6605,7 +7547,9 @@ const courseData = [
     "phone": "030-1910-8498",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.5,
-    "reviewCount": 14
+    "reviewCount": 14,
+    "lat": 34.43440168328456,
+    "lng": 126.96260247794449
   },
   {
     "id": 470,
@@ -6619,7 +7563,9 @@ const courseData = [
     "phone": "060-1380-7681",
     "parking": "무료주차",
     "rating": 3.8,
-    "reviewCount": 133
+    "reviewCount": 133,
+    "lat": 35.63761542603499,
+    "lng": 127.44027458636668
   },
   {
     "id": 471,
@@ -6633,7 +7579,9 @@ const courseData = [
     "phone": "060-4925-3067",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 33
+    "reviewCount": 33,
+    "lat": 35.93755806339534,
+    "lng": 127.63401643116892
   },
   {
     "id": 472,
@@ -6647,7 +7595,9 @@ const courseData = [
     "phone": "050-649-2904",
     "parking": "무료주차",
     "rating": 4.3,
-    "reviewCount": 34
+    "reviewCount": 34,
+    "lat": 35.79166085374253,
+    "lng": 127.27901248608542
   },
   {
     "id": 473,
@@ -6661,7 +7611,9 @@ const courseData = [
     "phone": "030-4157-3069",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.3,
-    "reviewCount": 126
+    "reviewCount": 126,
+    "lat": 34.803012460250606,
+    "lng": 126.74352774100711
   },
   {
     "id": 474,
@@ -6675,7 +7627,9 @@ const courseData = [
     "phone": "030-1799-6761",
     "parking": "무료주차",
     "rating": 4.3,
-    "reviewCount": 101
+    "reviewCount": 101,
+    "lat": 36.14577873525353,
+    "lng": 127.49807523977461
   },
   {
     "id": 475,
@@ -6689,7 +7643,9 @@ const courseData = [
     "phone": "060-7129-4785",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.0,
-    "reviewCount": 142
+    "reviewCount": 142,
+    "lat": 34.75201979045177,
+    "lng": 126.82541821203858
   },
   {
     "id": 476,
@@ -6703,7 +7659,9 @@ const courseData = [
     "phone": "060-5487-8046",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 2
+    "reviewCount": 2,
+    "lat": 35.39412395106341,
+    "lng": 126.93655416679978
   },
   {
     "id": 477,
@@ -6717,7 +7675,9 @@ const courseData = [
     "phone": "030-4376-6579",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 119
+    "reviewCount": 119,
+    "lat": 34.610565158864674,
+    "lng": 126.32862419357863
   },
   {
     "id": 478,
@@ -6731,7 +7691,9 @@ const courseData = [
     "phone": "030-7664-1370",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 79
+    "reviewCount": 79,
+    "lat": 34.63643534815283,
+    "lng": 126.40690381861226
   },
   {
     "id": 479,
@@ -6745,7 +7707,9 @@ const courseData = [
     "phone": "030-4365-7974",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.7,
-    "reviewCount": 121
+    "reviewCount": 121,
+    "lat": 35.13319525860512,
+    "lng": 126.93873338809695
   },
   {
     "id": 480,
@@ -6759,7 +7723,9 @@ const courseData = [
     "phone": "040-1285-8712",
     "parking": "무료주차",
     "rating": 4.5,
-    "reviewCount": 65
+    "reviewCount": 65,
+    "lat": 34.86702571633299,
+    "lng": 126.24691487885303
   },
   {
     "id": 481,
@@ -6773,7 +7739,9 @@ const courseData = [
     "phone": "040-8687-6990",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 132
+    "reviewCount": 132,
+    "lat": 35.00735732342337,
+    "lng": 126.75694286541025
   },
   {
     "id": 482,
@@ -6787,7 +7755,9 @@ const courseData = [
     "phone": "040-9205-4654",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 23
+    "reviewCount": 23,
+    "lat": 34.6678917003795,
+    "lng": 126.20242529320996
   },
   {
     "id": 483,
@@ -6801,7 +7771,9 @@ const courseData = [
     "phone": "050-1207-3795",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 52
+    "reviewCount": 52,
+    "lat": 34.378518085994365,
+    "lng": 126.34478100162325
   },
   {
     "id": 484,
@@ -6815,7 +7787,9 @@ const courseData = [
     "phone": "050-3880-3980",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 9
+    "reviewCount": 9,
+    "lat": 35.16974682255061,
+    "lng": 126.89152347616695
   },
   {
     "id": 485,
@@ -6829,7 +7803,9 @@ const courseData = [
     "phone": "030-7461-6864",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 134
+    "reviewCount": 134,
+    "lat": 34.88906909443843,
+    "lng": 127.2171287269632
   },
   {
     "id": 486,
@@ -6843,7 +7819,9 @@ const courseData = [
     "phone": "050-9989-3182",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 19
+    "reviewCount": 19,
+    "lat": 37.025456017333305,
+    "lng": 126.94200425225439
   },
   {
     "id": 487,
@@ -6857,7 +7835,9 @@ const courseData = [
     "phone": "060-2341-3346",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 107
+    "reviewCount": 107,
+    "lat": 36.78845960752383,
+    "lng": 126.36401613470439
   },
   {
     "id": 488,
@@ -6871,7 +7851,9 @@ const courseData = [
     "phone": "030-5235-6718",
     "parking": "무료주차",
     "rating": 3.9,
-    "reviewCount": 146
+    "reviewCount": 146,
+    "lat": 36.83274018349919,
+    "lng": 126.4864642090033
   },
   {
     "id": 489,
@@ -6885,7 +7867,9 @@ const courseData = [
     "phone": "060-9788-3635",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 91
+    "reviewCount": 91,
+    "lat": 36.80833734870823,
+    "lng": 126.69565340565406
   },
   {
     "id": 490,
@@ -6899,7 +7883,9 @@ const courseData = [
     "phone": "030-2720-9809",
     "parking": "무료주차",
     "rating": 4.5,
-    "reviewCount": 83
+    "reviewCount": 83,
+    "lat": 36.16222507263138,
+    "lng": 127.08469220588994
   },
   {
     "id": 491,
@@ -6913,7 +7899,9 @@ const courseData = [
     "phone": "060-3323-9928",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 145
+    "reviewCount": 145,
+    "lat": 36.58804129264819,
+    "lng": 127.57516999253224
   },
   {
     "id": 492,
@@ -6927,7 +7915,9 @@ const courseData = [
     "phone": "030-6000-2793",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 38
+    "reviewCount": 38,
+    "lat": 36.464750330831585,
+    "lng": 126.88131130661306
   },
   {
     "id": 493,
@@ -6941,7 +7931,9 @@ const courseData = [
     "phone": "050-9505-1573",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 28
+    "reviewCount": 28,
+    "lat": 37.00595383854461,
+    "lng": 126.2695475897399
   },
   {
     "id": 494,
@@ -6955,7 +7947,9 @@ const courseData = [
     "phone": "020-8229-9159",
     "parking": "무료주차",
     "rating": 4.8,
-    "reviewCount": 127
+    "reviewCount": 127,
+    "lat": 36.943883623303044,
+    "lng": 126.9835242250684
   },
   {
     "id": 495,
@@ -6969,7 +7963,9 @@ const courseData = [
     "phone": "050-2601-6170",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 62
+    "reviewCount": 62,
+    "lat": 36.5316210860197,
+    "lng": 126.37909836367653
   },
   {
     "id": 496,
@@ -6983,7 +7979,9 @@ const courseData = [
     "phone": "030-4700-2675",
     "parking": "무료주차",
     "rating": 4.8,
-    "reviewCount": 0
+    "reviewCount": 0,
+    "lat": 36.212180626198595,
+    "lng": 127.10602190348186
   },
   {
     "id": 497,
@@ -6997,7 +7995,9 @@ const courseData = [
     "phone": "050-7496-9916",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.4,
-    "reviewCount": 69
+    "reviewCount": 69,
+    "lat": 36.514048279711695,
+    "lng": 127.67925365535874
   },
   {
     "id": 498,
@@ -7011,7 +8011,9 @@ const courseData = [
     "phone": "020-8429-5784",
     "parking": "무료주차",
     "rating": 4.8,
-    "reviewCount": 141
+    "reviewCount": 141,
+    "lat": 36.36848472150559,
+    "lng": 126.46150523373544
   },
   {
     "id": 499,
@@ -7025,7 +8027,9 @@ const courseData = [
     "phone": "040-2228-5316",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 90
+    "reviewCount": 90,
+    "lat": 36.895635091148804,
+    "lng": 126.60996579962095
   },
   {
     "id": 500,
@@ -7039,7 +8043,9 @@ const courseData = [
     "phone": "040-4168-6040",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 15
+    "reviewCount": 15,
+    "lat": 36.39338309249185,
+    "lng": 127.88506328331935
   },
   {
     "id": 501,
@@ -7053,7 +8059,9 @@ const courseData = [
     "phone": "020-3440-2665",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 39
+    "reviewCount": 39,
+    "lat": 36.92430039465991,
+    "lng": 127.55282469386296
   },
   {
     "id": 502,
@@ -7067,7 +8075,9 @@ const courseData = [
     "phone": "020-726-2649",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 62
+    "reviewCount": 62,
+    "lat": 37.11764867387634,
+    "lng": 126.31087780540072
   },
   {
     "id": 503,
@@ -7081,7 +8091,9 @@ const courseData = [
     "phone": "060-4700-8621",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.5,
-    "reviewCount": 58
+    "reviewCount": 58,
+    "lat": 36.23272123264499,
+    "lng": 126.42438621904313
   },
   {
     "id": 504,
@@ -7095,7 +8107,9 @@ const courseData = [
     "phone": "040-7683-6155",
     "parking": "무료주차",
     "rating": 4.3,
-    "reviewCount": 131
+    "reviewCount": 131,
+    "lat": 36.7706979209389,
+    "lng": 126.17771267673379
   },
   {
     "id": 505,
@@ -7109,7 +8123,9 @@ const courseData = [
     "phone": "020-4399-7142",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.4,
-    "reviewCount": 83
+    "reviewCount": 83,
+    "lat": 36.61389877153033,
+    "lng": 127.40693057289752
   },
   {
     "id": 506,
@@ -7123,7 +8139,9 @@ const courseData = [
     "phone": "030-2720-8557",
     "parking": "무료주차",
     "rating": 4.3,
-    "reviewCount": 6
+    "reviewCount": 6,
+    "lat": 36.60075597467735,
+    "lng": 126.8142098065786
   },
   {
     "id": 507,
@@ -7137,7 +8155,9 @@ const courseData = [
     "phone": "030-5184-1933",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 48
+    "reviewCount": 48,
+    "lat": 36.3060236347853,
+    "lng": 126.50868274265189
   },
   {
     "id": 508,
@@ -7151,7 +8171,9 @@ const courseData = [
     "phone": "030-1075-7063",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 88
+    "reviewCount": 88,
+    "lat": 36.99996402198483,
+    "lng": 127.78440936329353
   },
   {
     "id": 509,
@@ -7165,7 +8187,9 @@ const courseData = [
     "phone": "050-1369-2435",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 61
+    "reviewCount": 61,
+    "lat": 36.95479173034161,
+    "lng": 127.58821981886378
   },
   {
     "id": 510,
@@ -7179,7 +8203,9 @@ const courseData = [
     "phone": "030-999-8483",
     "parking": "무료주차",
     "rating": 4.7,
-    "reviewCount": 150
+    "reviewCount": 150,
+    "lat": 36.567217325115294,
+    "lng": 127.78064167247148
   },
   {
     "id": 511,
@@ -7193,7 +8219,9 @@ const courseData = [
     "phone": "040-9830-7955",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 83
+    "reviewCount": 83,
+    "lat": 36.23217977664356,
+    "lng": 126.84724662570123
   },
   {
     "id": 512,
@@ -7207,7 +8235,9 @@ const courseData = [
     "phone": "020-6533-3846",
     "parking": "무료주차",
     "rating": 4.7,
-    "reviewCount": 143
+    "reviewCount": 143,
+    "lat": 36.59295368444628,
+    "lng": 127.13915837256137
   },
   {
     "id": 513,
@@ -7221,7 +8251,9 @@ const courseData = [
     "phone": "030-264-2735",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.7,
-    "reviewCount": 136
+    "reviewCount": 136,
+    "lat": 36.55932579656003,
+    "lng": 127.00877408081764
   },
   {
     "id": 514,
@@ -7235,7 +8267,9 @@ const courseData = [
     "phone": "050-8233-3322",
     "parking": "무료주차",
     "rating": 4.7,
-    "reviewCount": 107
+    "reviewCount": 107,
+    "lat": 36.3605056972781,
+    "lng": 126.48824638305163
   },
   {
     "id": 515,
@@ -7249,7 +8283,9 @@ const courseData = [
     "phone": "020-944-7024",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 125
+    "reviewCount": 125,
+    "lat": 36.884848352160766,
+    "lng": 126.65615363584338
   },
   {
     "id": 516,
@@ -7263,7 +8299,9 @@ const courseData = [
     "phone": "060-1672-9068",
     "parking": "무료주차",
     "rating": 4.3,
-    "reviewCount": 111
+    "reviewCount": 111,
+    "lat": 36.58452415665582,
+    "lng": 126.73432545715977
   },
   {
     "id": 517,
@@ -7277,7 +8315,9 @@ const courseData = [
     "phone": "060-5074-1591",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 119
+    "reviewCount": 119,
+    "lat": 36.93718408411362,
+    "lng": 127.31522953543067
   },
   {
     "id": 518,
@@ -7291,7 +8331,9 @@ const courseData = [
     "phone": "030-2568-8800",
     "parking": "무료주차",
     "rating": 5.0,
-    "reviewCount": 121
+    "reviewCount": 121,
+    "lat": 36.59173608850161,
+    "lng": 127.79963634163937
   },
   {
     "id": 519,
@@ -7305,7 +8347,9 @@ const courseData = [
     "phone": "040-5212-6390",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.6,
-    "reviewCount": 77
+    "reviewCount": 77,
+    "lat": 36.586538467393055,
+    "lng": 126.38167464270188
   },
   {
     "id": 520,
@@ -7319,7 +8363,9 @@ const courseData = [
     "phone": "060-5902-2834",
     "parking": "무료주차",
     "rating": 4.6,
-    "reviewCount": 38
+    "reviewCount": 38,
+    "lat": 36.29951896723182,
+    "lng": 126.40169123763489
   },
   {
     "id": 521,
@@ -7333,7 +8379,9 @@ const courseData = [
     "phone": "060-856-5498",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.7,
-    "reviewCount": 24
+    "reviewCount": 24,
+    "lat": 36.53133728803947,
+    "lng": 127.64516855302232
   },
   {
     "id": 522,
@@ -7347,7 +8395,9 @@ const courseData = [
     "phone": "060-7991-2068",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 122
+    "reviewCount": 122,
+    "lat": 36.56440048423635,
+    "lng": 126.41008993119515
   },
   {
     "id": 523,
@@ -7361,7 +8411,9 @@ const courseData = [
     "phone": "030-5831-9981",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 50
+    "reviewCount": 50,
+    "lat": 36.38376837450111,
+    "lng": 127.10311716362962
   },
   {
     "id": 524,
@@ -7375,7 +8427,9 @@ const courseData = [
     "phone": "040-4128-3117",
     "parking": "무료주차",
     "rating": 4.2,
-    "reviewCount": 41
+    "reviewCount": 41,
+    "lat": 37.1264588036987,
+    "lng": 127.03769614923684
   },
   {
     "id": 525,
@@ -7389,7 +8443,9 @@ const courseData = [
     "phone": "020-8332-8474",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.7,
-    "reviewCount": 0
+    "reviewCount": 0,
+    "lat": 36.3466799436665,
+    "lng": 127.55094057982723
   },
   {
     "id": 526,
@@ -7403,7 +8459,9 @@ const courseData = [
     "phone": "030-1622-2048",
     "parking": "무료주차",
     "rating": 3.9,
-    "reviewCount": 16
+    "reviewCount": 16,
+    "lat": 36.220462740135716,
+    "lng": 127.13238442234348
   },
   {
     "id": 527,
@@ -7417,7 +8475,9 @@ const courseData = [
     "phone": "040-4819-3869",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.9,
-    "reviewCount": 131
+    "reviewCount": 131,
+    "lat": 36.770678766837094,
+    "lng": 127.63367400382423
   },
   {
     "id": 528,
@@ -7431,7 +8491,9 @@ const courseData = [
     "phone": "060-4308-2253",
     "parking": "무료주차",
     "rating": 4.9,
-    "reviewCount": 30
+    "reviewCount": 30,
+    "lat": 36.56559878509579,
+    "lng": 127.8479053085618
   },
   {
     "id": 529,
@@ -7445,7 +8507,9 @@ const courseData = [
     "phone": "030-7068-8161",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 24
+    "reviewCount": 24,
+    "lat": 36.824578653868244,
+    "lng": 127.29055333752478
   },
   {
     "id": 530,
@@ -7459,7 +8523,9 @@ const courseData = [
     "phone": "020-139-2927",
     "parking": "무료주차",
     "rating": 4.7,
-    "reviewCount": 101
+    "reviewCount": 101,
+    "lat": 36.6514230016066,
+    "lng": 127.75032954497817
   },
   {
     "id": 120,
@@ -7473,7 +8539,9 @@ const courseData = [
     "phone": "030-8940-1472",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 110
+    "reviewCount": 110,
+    "lat": 36.95466824051688,
+    "lng": 127.1089506887276
   },
   {
     "id": 531,
@@ -7487,7 +8555,9 @@ const courseData = [
     "phone": "030-9870-7602",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 104
+    "reviewCount": 104,
+    "lat": 36.246267825920484,
+    "lng": 127.44673005606067
   },
   {
     "id": 532,
@@ -7501,7 +8571,9 @@ const courseData = [
     "phone": "040-1682-5841",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.2,
-    "reviewCount": 48
+    "reviewCount": 48,
+    "lat": 36.61453406050333,
+    "lng": 127.3085113366094
   },
   {
     "id": 533,
@@ -7515,7 +8587,9 @@ const courseData = [
     "phone": "060-1299-7764",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 19
+    "reviewCount": 19,
+    "lat": 36.20447242873652,
+    "lng": 127.74590720727329
   },
   {
     "id": 534,
@@ -7529,7 +8603,9 @@ const courseData = [
     "phone": "020-9813-6625",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 63
+    "reviewCount": 63,
+    "lat": 36.87332359290959,
+    "lng": 127.74946391576086
   },
   {
     "id": 535,
@@ -7543,7 +8619,9 @@ const courseData = [
     "phone": "020-477-7065",
     "parking": "무료주차",
     "rating": 3.8,
-    "reviewCount": 40
+    "reviewCount": 40,
+    "lat": 36.44884145591291,
+    "lng": 126.24951890414529
   },
   {
     "id": 536,
@@ -7557,7 +8635,9 @@ const courseData = [
     "phone": "060-7700-7402",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.0,
-    "reviewCount": 111
+    "reviewCount": 111,
+    "lat": 36.808707356722564,
+    "lng": 127.09227195566356
   },
   {
     "id": 537,
@@ -7571,7 +8651,9 @@ const courseData = [
     "phone": "020-2058-5917",
     "parking": "무료주차",
     "rating": 4.6,
-    "reviewCount": 42
+    "reviewCount": 42,
+    "lat": 37.08274296501748,
+    "lng": 127.95735352657522
   },
   {
     "id": 538,
@@ -7585,7 +8667,9 @@ const courseData = [
     "phone": "030-5558-2821",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.4,
-    "reviewCount": 133
+    "reviewCount": 133,
+    "lat": 36.56749158278527,
+    "lng": 127.16729566754032
   },
   {
     "id": 539,
@@ -7599,7 +8683,9 @@ const courseData = [
     "phone": "060-7494-3628",
     "parking": "무료주차",
     "rating": 4.3,
-    "reviewCount": 100
+    "reviewCount": 100,
+    "lat": 36.3116339882383,
+    "lng": 127.66295788714962
   },
   {
     "id": 540,
@@ -7613,7 +8699,9 @@ const courseData = [
     "phone": "060-3750-8633",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.0,
-    "reviewCount": 58
+    "reviewCount": 58,
+    "lat": 36.880072363164,
+    "lng": 127.06531445029037
   },
   {
     "id": 541,
@@ -7627,7 +8715,9 @@ const courseData = [
     "phone": "030-4107-5563",
     "parking": "무료주차",
     "rating": 4.8,
-    "reviewCount": 62
+    "reviewCount": 62,
+    "lat": 36.48656805204805,
+    "lng": 127.42727715576196
   },
   {
     "id": 542,
@@ -7641,7 +8731,9 @@ const courseData = [
     "phone": "020-2245-3738",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 66
+    "reviewCount": 66,
+    "lat": 36.13660383545066,
+    "lng": 127.81456325901046
   },
   {
     "id": 543,
@@ -7655,7 +8747,9 @@ const courseData = [
     "phone": "060-4343-1170",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 94
+    "reviewCount": 94,
+    "lat": 37.10656663928195,
+    "lng": 127.76836613657139
   },
   {
     "id": 544,
@@ -7669,7 +8763,9 @@ const courseData = [
     "phone": "020-5605-6910",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.5,
-    "reviewCount": 113
+    "reviewCount": 113,
+    "lat": 36.62066962256659,
+    "lng": 126.49578871692655
   },
   {
     "id": 545,
@@ -7683,7 +8779,9 @@ const courseData = [
     "phone": "030-2024-8233",
     "parking": "무료주차",
     "rating": 4.5,
-    "reviewCount": 9
+    "reviewCount": 9,
+    "lat": 36.48785938449565,
+    "lng": 126.9204551764584
   },
   {
     "id": 546,
@@ -7697,7 +8795,9 @@ const courseData = [
     "phone": "060-7077-3664",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.8,
-    "reviewCount": 130
+    "reviewCount": 130,
+    "lat": 36.8589911758477,
+    "lng": 126.9814466132087
   },
   {
     "id": 547,
@@ -7711,7 +8811,9 @@ const courseData = [
     "phone": "030-7953-6600",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 125
+    "reviewCount": 125,
+    "lat": 36.30288176072557,
+    "lng": 126.3312501548303
   },
   {
     "id": 548,
@@ -7725,7 +8827,9 @@ const courseData = [
     "phone": "040-8133-8261",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.5,
-    "reviewCount": 44
+    "reviewCount": 44,
+    "lat": 36.35427381143917,
+    "lng": 126.63362793661487
   },
   {
     "id": 971,
@@ -7739,7 +8843,9 @@ const courseData = [
     "phone": "030-5000-2859",
     "parking": "무료주차",
     "rating": 3.9,
-    "reviewCount": 145
+    "reviewCount": 145,
+    "lat": 37.0282093136596,
+    "lng": 127.00505068042938
   },
   {
     "id": 549,
@@ -7753,7 +8859,9 @@ const courseData = [
     "phone": "020-7621-3011",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.4,
-    "reviewCount": 88
+    "reviewCount": 88,
+    "lat": 36.841402203967114,
+    "lng": 126.41093587952038
   },
   {
     "id": 550,
@@ -7767,7 +8875,9 @@ const courseData = [
     "phone": "020-8247-3434",
     "parking": "무료주차",
     "rating": 3.5,
-    "reviewCount": 3
+    "reviewCount": 3,
+    "lat": 36.34789156102336,
+    "lng": 126.45118140179436
   },
   {
     "id": 551,
@@ -7781,7 +8891,9 @@ const courseData = [
     "phone": "060-8209-1358",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.8,
-    "reviewCount": 47
+    "reviewCount": 47,
+    "lat": 36.336264694718594,
+    "lng": 127.58398685578486
   },
   {
     "id": 552,
@@ -7795,7 +8907,9 @@ const courseData = [
     "phone": "040-1813-2812",
     "parking": "무료주차",
     "rating": 3.6,
-    "reviewCount": 68
+    "reviewCount": 68,
+    "lat": 36.302377160373595,
+    "lng": 127.57555177503312
   },
   {
     "id": 553,
@@ -7809,7 +8923,9 @@ const courseData = [
     "phone": "060-5065-7538",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.5,
-    "reviewCount": 16
+    "reviewCount": 16,
+    "lat": 36.85168689846967,
+    "lng": 127.95944805406107
   },
   {
     "id": 554,
@@ -7823,7 +8939,9 @@ const courseData = [
     "phone": "050-9345-1479",
     "parking": "무료주차",
     "rating": 4.9,
-    "reviewCount": 69
+    "reviewCount": 69,
+    "lat": 36.725589998600974,
+    "lng": 127.68125320074637
   },
   {
     "id": 555,
@@ -7837,7 +8955,9 @@ const courseData = [
     "phone": "050-8728-2390",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.1,
-    "reviewCount": 84
+    "reviewCount": 84,
+    "lat": 36.218775458821966,
+    "lng": 127.3319017943001
   },
   {
     "id": 556,
@@ -7851,7 +8971,9 @@ const courseData = [
     "phone": "030-1830-7301",
     "parking": "무료주차",
     "rating": 4.0,
-    "reviewCount": 53
+    "reviewCount": 53,
+    "lat": 36.80693832446197,
+    "lng": 127.74993682624388
   },
   {
     "id": 557,
@@ -7865,7 +8987,9 @@ const courseData = [
     "phone": "030-5463-2872",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 3.9,
-    "reviewCount": 37
+    "reviewCount": 37,
+    "lat": 36.5968599942158,
+    "lng": 127.75611674325025
   },
   {
     "id": 558,
@@ -7879,7 +9003,9 @@ const courseData = [
     "phone": "050-9089-3571",
     "parking": "무료주차",
     "rating": 3.7,
-    "reviewCount": 127
+    "reviewCount": 127,
+    "lat": 36.62379826809776,
+    "lng": 127.47278349795097
   },
   {
     "id": 559,
@@ -7893,7 +9019,9 @@ const courseData = [
     "phone": "030-943-8580",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.6,
-    "reviewCount": 141
+    "reviewCount": 141,
+    "lat": 36.7241001469761,
+    "lng": 127.67071673313193
   },
   {
     "id": 560,
@@ -7907,7 +9035,9 @@ const courseData = [
     "phone": "060-6195-9605",
     "parking": "무료주차",
     "rating": 4.7,
-    "reviewCount": 110
+    "reviewCount": 110,
+    "lat": 36.48514337662376,
+    "lng": 127.1678867137629
   },
   {
     "id": 561,
@@ -7921,7 +9051,9 @@ const courseData = [
     "phone": "060-7392-3717",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.2,
-    "reviewCount": 33
+    "reviewCount": 33,
+    "lat": 36.24185393296243,
+    "lng": 127.90807527645882
   },
   {
     "id": 562,
@@ -7935,7 +9067,9 @@ const courseData = [
     "phone": "040-6546-2735",
     "parking": "무료주차",
     "rating": 4.1,
-    "reviewCount": 99
+    "reviewCount": 99,
+    "lat": 36.861233286059935,
+    "lng": 127.10379095520535
   },
   {
     "id": 563,
@@ -7949,7 +9083,9 @@ const courseData = [
     "phone": "060-1731-3089",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.3,
-    "reviewCount": 23
+    "reviewCount": 23,
+    "lat": 36.582660613751116,
+    "lng": 127.15146583916788
   },
   {
     "id": 564,
@@ -7963,7 +9099,9 @@ const courseData = [
     "phone": "060-8575-5262",
     "parking": "무료주차",
     "rating": 4.3,
-    "reviewCount": 127
+    "reviewCount": 127,
+    "lat": 37.05732999081254,
+    "lng": 126.29157650964918
   },
   {
     "id": 565,
@@ -7977,7 +9115,9 @@ const courseData = [
     "phone": "040-4086-3474",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.9,
-    "reviewCount": 79
+    "reviewCount": 79,
+    "lat": 36.5368944693764,
+    "lng": 127.15696190102372
   },
   {
     "id": 566,
@@ -7991,7 +9131,9 @@ const courseData = [
     "phone": "060-1140-6019",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 33
+    "reviewCount": 33,
+    "lat": 36.80515575098273,
+    "lng": 127.49146029973618
   },
   {
     "id": 567,
@@ -8005,7 +9147,9 @@ const courseData = [
     "phone": "040-3366-5708",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.0,
-    "reviewCount": 44
+    "reviewCount": 44,
+    "lat": 36.66966009313352,
+    "lng": 127.54407721102066
   },
   {
     "id": 568,
@@ -8019,7 +9163,9 @@ const courseData = [
     "phone": "060-5782-7111",
     "parking": "무료주차",
     "rating": 4.4,
-    "reviewCount": 100
+    "reviewCount": 100,
+    "lat": 36.965840198916254,
+    "lng": 126.31828535754877
   },
   {
     "id": 569,
@@ -8033,7 +9179,9 @@ const courseData = [
     "phone": "040-2805-5968",
     "parking": "유료주차 (최초 1시간 무료)",
     "rating": 4.9,
-    "reviewCount": 124
+    "reviewCount": 124,
+    "lat": 36.16779639177993,
+    "lng": 127.11436196329593
   },
   {
     "id": 570,
@@ -8047,6 +9195,8 @@ const courseData = [
     "phone": "050-6728-5203",
     "parking": "무료주차",
     "rating": 4.9,
-    "reviewCount": 26
+    "reviewCount": 26,
+    "lat": 36.344259223166105,
+    "lng": 126.72074686518813
   }
 ];
