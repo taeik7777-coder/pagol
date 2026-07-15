@@ -73,25 +73,38 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ----------------------------------------
-    // 4. Search Tab Logic & Data Rendering
+    // 4. Search & Map Logic & Data Rendering
     // ----------------------------------------
     const courseListContainer = document.getElementById('course-list');
+    const homeCourseListContainer = document.getElementById('home-course-list');
     const searchInput = document.getElementById('course-search-input');
     const courseCount = document.getElementById('course-count');
-    const pillBtns = document.querySelectorAll('.pill-btn');
+    const homeCourseCount = document.getElementById('home-course-count');
+    
+    const pillBtns = document.querySelectorAll('.pill-btn'); // For both tags and region tiles
     const searchTabBtn = document.getElementById('voice-search-btn-2');
     const mapPaths = document.querySelectorAll('.map-svg-path');
     
-    // Create a floating label for the map
-    const mapContainer = document.querySelector('.korea-map-container');
-    const floatingLabel = document.createElement('div');
-    floatingLabel.className = 'region-label-overlay';
-    if(mapContainer) mapContainer.appendChild(floatingLabel);
+    // View All Button
+    document.getElementById('btn-view-all').addEventListener('click', () => {
+        switchTab('tab-search');
+    });
+
+    // Create a floating label for both maps
+    const mapContainers = document.querySelectorAll('.korea-map-container');
+    const floatingLabels = [];
+    mapContainers.forEach(container => {
+        const label = document.createElement('div');
+        label.className = 'region-label-overlay';
+        container.appendChild(label);
+        floatingLabels.push(label);
+    });
 
     let courses = typeof courseData !== 'undefined' ? courseData : [];
 
     function renderCourseList(query = '') {
         courseListContainer.innerHTML = '';
+        homeCourseListContainer.innerHTML = '';
         
         let filteredCourses = courses;
         
@@ -110,29 +123,36 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         courseCount.textContent = filteredCourses.length;
+        homeCourseCount.textContent = filteredCourses.length;
 
         if (filteredCourses.length === 0) {
-            courseListContainer.innerHTML = `
+            const noDataHtml = `
                 <div style="text-align:center; padding: 60px 20px; color: #9ca3af;">
                     <i class="fas fa-exclamation-circle" style="font-size: 40px; margin-bottom: 16px; color:#d1d5db;"></i>
                     <p style="font-size: 18px;">검색 결과가 없습니다.</p>
                 </div>
             `;
+            courseListContainer.innerHTML = noDataHtml;
+            homeCourseListContainer.innerHTML = noDataHtml;
             return;
         }
 
-        const fragment = document.createDocumentFragment();
-        const limit = query ? filteredCourses.length : Math.min(filteredCourses.length, 100);
+        const fragmentSearch = document.createDocumentFragment();
+        const fragmentHome = document.createDocumentFragment();
+        
+        const limitSearch = query ? filteredCourses.length : Math.min(filteredCourses.length, 100);
+        const limitHome = Math.min(filteredCourses.length, 4); // Max 4 for Home
 
-        for (let i = 0; i < limit; i++) {
+        for (let i = 0; i < limitSearch; i++) {
             const course = filteredCourses[i];
+            
             const div = document.createElement('div');
             div.className = 'list-item-card';
-            // Click to open detail
             div.addEventListener('click', () => openDetailModal(course));
             
             const holesText = course.holes ? `${course.holes}홀` : '정보없음';
-            const imgUrl = course.image || 'https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=400&auto=format&fit=crop';
+            // Provide a fallback if image is somehow missing
+            const imgUrl = course.image || 'https://picsum.photos/seed/fallback/400/300';
             
             div.innerHTML = `
                 <img class="list-item-img" src="${imgUrl}" alt="${course.name}" loading="lazy">
@@ -147,10 +167,19 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
             `;
-            fragment.appendChild(div);
+            
+            fragmentSearch.appendChild(div);
+            
+            if (i < limitHome) {
+                // Clone for home to avoid reference issues
+                const divClone = div.cloneNode(true);
+                divClone.addEventListener('click', () => openDetailModal(course));
+                fragmentHome.appendChild(divClone);
+            }
         }
 
-        courseListContainer.appendChild(fragment);
+        courseListContainer.appendChild(fragmentSearch);
+        homeCourseListContainer.appendChild(fragmentHome);
     }
 
     function updatePillTags(activeTag) {
@@ -171,18 +200,19 @@ document.addEventListener('DOMContentLoaded', () => {
             if(dataRegion && dataRegion === region) {
                 path.classList.add('active');
                 regionFound = true;
-                
-                // Show floating label
-                floatingLabel.textContent = dataRegion;
-                floatingLabel.classList.add('show');
             } else {
                 path.classList.remove('active');
             }
         });
         
-        if(!regionFound) {
-            floatingLabel.classList.remove('show');
-        }
+        floatingLabels.forEach(label => {
+            if (regionFound && region) {
+                label.textContent = region;
+                label.classList.add('show');
+            } else {
+                label.classList.remove('show');
+            }
+        });
     }
 
     searchInput.addEventListener('input', (e) => {
@@ -197,13 +227,34 @@ document.addEventListener('DOMContentLoaded', () => {
         renderCourseList(searchInput.value.trim());
     });
 
+    function updateRegionTiles(region) {
+        document.querySelectorAll('#search-region-tiles .pill-btn').forEach(btn => {
+            if(btn.getAttribute('data-region') === (region || '')) {
+                btn.classList.add('active');
+            } else {
+                btn.classList.remove('active');
+            }
+        });
+    }
+
     pillBtns.forEach(btn => {
         btn.addEventListener('click', (e) => {
             const tagText = e.target.getAttribute('data-tag');
-            updatePillTags(tagText);
-            updateMapActive(null); // Map selection off
-            searchInput.value = tagText;
-            renderCourseList(tagText);
+            const regionText = e.target.getAttribute('data-region');
+            
+            if (tagText !== null) {
+                updatePillTags(tagText);
+                updateMapActive(null);
+                updateRegionTiles(null);
+                searchInput.value = tagText;
+                renderCourseList(tagText);
+            } else if (regionText !== null) {
+                updateRegionTiles(regionText);
+                updateMapActive(regionText);
+                updatePillTags(null);
+                searchInput.value = regionText;
+                renderCourseList(regionText);
+            }
         });
     });
 
@@ -218,6 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             
             updateMapActive(region);
+            updateRegionTiles(region);
             updatePillTags(null);
             searchInput.value = region;
             renderCourseList(region);
