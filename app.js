@@ -80,7 +80,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const courseCount = document.getElementById('course-count');
     const pillBtns = document.querySelectorAll('.pill-btn');
     const searchTabBtn = document.getElementById('voice-search-btn-2');
-    const mapBtns = document.querySelectorAll('.map-btn');
+    const mapPaths = document.querySelectorAll('.map-svg-path');
+    
+    // Create a floating label for the map
+    const mapContainer = document.querySelector('.korea-map-container');
+    const floatingLabel = document.createElement('div');
+    floatingLabel.className = 'region-label-overlay';
+    if(mapContainer) mapContainer.appendChild(floatingLabel);
 
     let courses = typeof courseData !== 'undefined' ? courseData : [];
 
@@ -159,13 +165,24 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function updateMapActive(region) {
-        mapBtns.forEach(btn => {
-            if(btn.getAttribute('data-region') === region) {
-                btn.classList.add('active');
+        let regionFound = false;
+        mapPaths.forEach(path => {
+            const dataRegion = path.getAttribute('data-region');
+            if(dataRegion && dataRegion === region) {
+                path.classList.add('active');
+                regionFound = true;
+                
+                // Show floating label
+                floatingLabel.textContent = dataRegion;
+                floatingLabel.classList.add('show');
             } else {
-                btn.classList.remove('active');
+                path.classList.remove('active');
             }
         });
+        
+        if(!regionFound) {
+            floatingLabel.classList.remove('show');
+        }
     }
 
     searchInput.addEventListener('input', (e) => {
@@ -190,9 +207,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    mapBtns.forEach(btn => {
-        btn.addEventListener('click', (e) => {
-            const region = e.target.getAttribute('data-region');
+    mapPaths.forEach(path => {
+        path.addEventListener('click', (e) => {
+            let region = e.target.getAttribute('data-region');
+            if(!region) return;
+            
+            // Toggle off if already active
+            if(e.target.classList.contains('active')) {
+                region = '';
+            }
+            
             updateMapActive(region);
             updatePillTags(null);
             searchInput.value = region;
