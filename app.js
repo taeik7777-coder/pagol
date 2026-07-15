@@ -13,7 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
         navItems.forEach(nav => nav.classList.remove('active'));
 
         // Show target tab
-        document.getElementById(targetId).classList.add('active');
+        const targetTab = document.getElementById(targetId);
+        if (targetTab) targetTab.classList.add('active');
+        
         // Activate target nav item
         const targetNav = document.querySelector(`.nav-item[data-target="${targetId}"]`);
         if(targetNav) targetNav.classList.add('active');
@@ -38,54 +40,57 @@ document.addEventListener('DOMContentLoaded', () => {
         switchTab('tab-home');
     });
 
-    // Header search icon goes to search tab
-    document.querySelector('.search-trigger').addEventListener('click', () => {
-        switchTab('tab-search');
-        document.getElementById('course-search-input').focus();
-    });
-
-    // ----------------------------------------
-    // 2. Home Tab Logic
-    // ----------------------------------------
-    const homeSearchBtn = document.querySelector('.search-btn');
-    const homeSearchInput = document.getElementById('main-search');
-    const tagButtons = document.querySelectorAll('.tag-btn');
-
-    tagButtons.forEach(btn => {
-        btn.addEventListener('click', (e) => {
-            const tagText = e.target.getAttribute('data-tag').replace('#', '');
-            homeSearchInput.value = tagText;
-            
-            // Switch to search tab and perform search
-            switchTab('tab-search');
-            searchInput.value = tagText;
-            renderCourseList(tagText);
+    // Dashboard Grid routing
+    const gridCards = document.querySelectorAll('.grid-card');
+    gridCards.forEach(card => {
+        card.addEventListener('click', () => {
+            const target = card.getAttribute('data-tab');
+            if(target) switchTab(target);
         });
     });
 
-    homeSearchBtn.addEventListener('click', () => {
-        const query = homeSearchInput.value.trim();
-        switchTab('tab-search');
-        searchInput.value = query;
-        renderCourseList(query);
+    // Notification Mock
+    document.getElementById('noti-btn').addEventListener('click', () => {
+        alert("새로운 알림이 없습니다.");
     });
 
+    // ----------------------------------------
+    // 2. Voice Search Mocks
+    // ----------------------------------------
+    const voiceBtns = document.querySelectorAll('.mic-btn');
+    voiceBtns.forEach(btn => {
+        // The one in the search tab acts as a normal search if it's the magnifying glass,
+        // but let's handle the home mic specifically.
+        if(btn.id === 'voice-search-btn') {
+            btn.addEventListener('click', () => {
+                alert("🎤 마이크 권한을 허용해주세요! (음성 검색 기능은 추후 지원 예정입니다.)");
+            });
+        }
+    });
+
+    // ----------------------------------------
+    // 3. Home Search Logic
+    // ----------------------------------------
+    const homeSearchInput = document.getElementById('home-search-input');
+    
     homeSearchInput.addEventListener('keydown', (e) => {
         if(e.key === 'Enter') {
             const query = homeSearchInput.value.trim();
             switchTab('tab-search');
             searchInput.value = query;
             renderCourseList(query);
+            updatePillTags(query);
         }
     });
 
     // ----------------------------------------
-    // 3. Search Tab Logic (Course Data Rendering)
+    // 4. Search Tab Logic (Course Data Rendering)
     // ----------------------------------------
     const courseListContainer = document.getElementById('course-list');
     const searchInput = document.getElementById('course-search-input');
-    const clearBtn = document.getElementById('clear-search');
     const courseCount = document.getElementById('course-count');
+    const pillBtns = document.querySelectorAll('.pill-btn');
+    const searchTabBtn = document.getElementById('voice-search-btn-2');
 
     // Data from data.js (courseData array)
     let courses = typeof courseData !== 'undefined' ? courseData : [];
@@ -100,6 +105,11 @@ document.addEventListener('DOMContentLoaded', () => {
             filteredCourses = courses.filter(course => {
                 const nameMatch = course.name.toLowerCase().replace(/\s+/g, '').includes(q);
                 const addressMatch = course.address.toLowerCase().replace(/\s+/g, '').includes(q);
+                
+                // Specific hole logic
+                if (q === '36홀') return course.holes >= 36;
+                if (q === '18홀') return course.holes === 18;
+                
                 return nameMatch || addressMatch;
             });
         }
@@ -108,9 +118,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (filteredCourses.length === 0) {
             courseListContainer.innerHTML = `
-                <div style="text-align:center; padding: 40px 20px; color: #9ca3af;">
-                    <i class="fas fa-exclamation-circle" style="font-size: 32px; margin-bottom: 12px; color:#d1d5db;"></i>
-                    <p>검색 결과가 없습니다.</p>
+                <div style="text-align:center; padding: 60px 20px; color: #9ca3af;">
+                    <i class="fas fa-exclamation-circle" style="font-size: 40px; margin-bottom: 16px; color:#d1d5db;"></i>
+                    <p style="font-size: 18px;">검색 결과가 없습니다.</p>
                 </div>
             `;
             return;
@@ -144,45 +154,46 @@ document.addEventListener('DOMContentLoaded', () => {
         courseListContainer.appendChild(fragment);
     }
 
+    function updatePillTags(activeTag) {
+        pillBtns.forEach(btn => {
+            if(btn.getAttribute('data-tag') === activeTag) {
+                btn.classList.add('active');
+            } else {
+                btn.classList.remove('active');
+            }
+        });
+        
+        // If not matching any tag, but string is empty, activate "전체보기"
+        if (activeTag === '') {
+            pillBtns[0].classList.add('active');
+        }
+    }
+
     searchInput.addEventListener('input', (e) => {
         const query = e.target.value;
-        if(query.length > 0) {
-            clearBtn.style.display = 'block';
-        } else {
-            clearBtn.style.display = 'none';
+        // Turn off all pills if user is typing custom text
+        updatePillTags(null); 
+        if (query === '') {
+            updatePillTags('');
         }
-        // Debounce render if necessary, but array filter is fast enough for <1000 items
         renderCourseList(query);
     });
 
-    clearBtn.addEventListener('click', () => {
-        searchInput.value = '';
-        clearBtn.style.display = 'none';
-        searchInput.focus();
-        renderCourseList('');
+    searchTabBtn.addEventListener('click', () => {
+        renderCourseList(searchInput.value.trim());
     });
 
-    // ----------------------------------------
-    // 4. Utilities
-    // ----------------------------------------
-    const bookmarkBtns = document.querySelectorAll('.bookmark-btn');
-    bookmarkBtns.forEach(btn => {
+    pillBtns.forEach(btn => {
         btn.addEventListener('click', (e) => {
-            e.preventDefault(); 
-            e.stopPropagation();
-            const icon = btn.querySelector('i');
+            const tagText = e.target.getAttribute('data-tag');
+            updatePillTags(tagText);
             
-            if (btn.classList.contains('active')) {
-                btn.classList.remove('active');
-                icon.classList.remove('fas');
-                icon.classList.add('far');
+            if (tagText === "") {
+                searchInput.value = "";
             } else {
-                btn.classList.add('active');
-                icon.classList.remove('far');
-                icon.classList.add('fas');
-                btn.style.transform = 'scale(1.2)';
-                setTimeout(() => { btn.style.transform = ''; }, 200);
+                searchInput.value = tagText;
             }
+            renderCourseList(tagText);
         });
     });
 
